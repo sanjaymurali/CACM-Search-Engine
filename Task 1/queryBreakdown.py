@@ -41,7 +41,7 @@ for i in range(len(query_text)):
 
     query_IDS[i] = int(query_IDS[i].split()[1])
     print query_IDS[i]
-    result = str(query_IDS[i]) + "." + text
+    result = str(query_IDS[i]) + "" + text
     file.write(result)
     file.write("\n")
 
