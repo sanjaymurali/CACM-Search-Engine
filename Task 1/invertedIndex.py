@@ -190,20 +190,6 @@ def retrieve_corpus():
         #file_names = sorted(file_names, key=lambda x: int(os.path.splitext(x.split('_')[0])[0]))  # to sort based on file name
         FILENAMES_IN_CORPUS = file_names
 
-
-# this function helps me create the mapping between DOC_IDs I have used and article name
-def docid_to_article_name():
-    pattern = '[0-9]*_'
-    builder = ""
-    for name in FILENAMES_IN_CORPUS:
-        builder += (name + " => ")
-        name = re.split(pattern, name)
-        name[1] = name[1].strip('.txt')
-        builder += (name[1] + "\n")
-        DOCID_MAPPINGS.append(name[1])
-    file_to_write = open(DOCID_MAPPINGS_FILE, "w")
-    file_to_write.write(builder)
-
 # write inverted index on to a disk
 def write_inverted_index(inverted_index, ngram):
     # find the type of ngram
@@ -246,7 +232,6 @@ def start():
         retrieve_corpus()  # creates an array with file names from the corpus directory
         print "Generating..."
         process_corpus()  # creates the ngrams and writes the
-        docid_to_article_name()
     else:
         print "Please enter the correct n-gram value!"
 
