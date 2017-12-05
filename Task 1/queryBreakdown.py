@@ -35,12 +35,21 @@ file = open("queriesRedefined.txt","w")
 for i in range(len(query_text)):
     list =  query_text[i].splitlines()
     text = ''
-    for x in range(len(list)):
+    for x in xrange(len(list)):
+        text = text.lstrip()
         text = text + list[x]
-
+        text= text + ' '
+    thelist = ["_", ":", "/", "!", "?", "#", "^", "*", "~", "&", "(", ")", "[", "]", "{", "}", "'", ";", '"', "$",
+               "%", "|", ]
+    for punctuation in thelist:
+        text = text.replace(punctuation, '')
+    text = text.lower()
+    text = text.replace('\t', '')
+    text = text.replace(',','')
+    text = text.replace('.','')
     query_IDS[i] = int(query_IDS[i].split()[1])
-    print query_IDS[i]
-    result = str(query_IDS[i]) + "" + text
+    #print query_IDS[i]
+    result = str(query_IDS[i])  +' ' + text
     file.write(result)
     file.write("\n")
 

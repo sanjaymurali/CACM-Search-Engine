@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup
 from os import listdir
 
 #using Sanjay's code
-
 # handling punctuations before a word, such as -1.0 shouldnt be removed while: ".hello" should be removed
 def handle_prefixed_punctuations(word):
     # dont remove punctuations in a negative and positive, decimal or float number
@@ -32,6 +31,10 @@ for file in listdir(myPath):
             each_word = each_word[:(length - 1)]  # removing the punctuation
         # removing pre-fixed punctuations
         each_word = handle_prefixed_punctuations(each_word)
+        thelist = ["_", ":", "/", "!", "?", "#", "^", "*", "~", "&", "(", ")", "[", "]", "{", "}", "'", ";", '"', "$",
+                   "%", "|", ]
+        for punctuation in thelist:
+            each_word = each_word.replace(punctuation, '')
         temp_array.append(each_word)
     content_as_array = temp_array
     line = ' '.join(content_as_array)
@@ -41,7 +44,7 @@ for file in listdir(myPath):
 
 
 
-        #soup = BeautifulSoup(fp)
-        #print soup
+    #soup = BeautifulSoup(fp)
+    #print soup
     #all_text = ''.join(soup.findAll(text=True))
     #print all_text
