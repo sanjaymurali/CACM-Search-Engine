@@ -1,0 +1,10 @@
+### OS Related ###
+.DS_Store
+.DS_Store?
+Thumbs.db
+
+### IDE Related ###
+.idea
+*.iws
+*.iml
+*.ipr
