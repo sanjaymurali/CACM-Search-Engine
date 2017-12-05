@@ -1,19 +1,7 @@
-import os
-
-import shutil
-import urllib2
-
-import re
 from bs4 import BeautifulSoup
 from os import listdir
-from os.path import isfile, join
-import os
 
-DOWNLOADED_HTML_DIR = "../Project Input/cacm/"
-GENERATED_CORPUS_DIR = "Corpus"
-FILENAME_LIST = []
-CASE_FOLDING = 1 # initially we do case_folding
-PUNCTUATION_HANDLING = 1 # initially we handle punctuations
+
 
 myPath =  "../Project Input/cacm/"
 for file in listdir(myPath):
