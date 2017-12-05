@@ -14,7 +14,6 @@ def splitMe(temp):
         someText = someText+temp[i]
         print someText.strip(" ")
 
-
 with open('cacm.query.txt') as rawfile:
     for line in rawfile:
         if '</DOC>' in line:
