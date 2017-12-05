@@ -39,19 +39,21 @@ for i in range(len(query_text)):
         text = text.lstrip()
         text = text + list[x]
         text= text + ' '
-    thelist = ["_", ":", "/", "!", "?", "#", "^", "*", "~", "&", "(", ")", "[", "]", "{", "}", "'", ";", '"', "$",
+    thelist = ["_", ":", "/", "!", "?", "#", "^", "+", "*", "~", "&", "(", ")", "[", "]", "{", "}", "'", ";", '"', "$",
                "%", "|", ]
     for punctuation in thelist:
         text = text.replace(punctuation, '')
     text = text.lower()
-    text = text.replace('\t', '')
+    text = text.replace('\t', ' ')
     text = text.replace(',','')
     text = text.replace('.','')
     query_IDS[i] = int(query_IDS[i].split()[1])
     #print query_IDS[i]
-    result = str(query_IDS[i])  +' ' + text
+    result = text
+    result = result.rstrip()
     file.write(result)
-    file.write("\n")
+    if i != (len(query_text)-1):
+        file.write("\n")
 
 
 
