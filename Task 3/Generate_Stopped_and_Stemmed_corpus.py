@@ -4,6 +4,7 @@ from os import listdir
 CORPUS_DIRECTORY_PATH = "D:\IR_Project_CS6200\IR_Project\Task 1\Corpus"
 PROCESSED_CORPUS_DIRECTORY_PATH = "D:\IR_Project_CS6200\IR_Project\Task 3\Processed_corpus"
 PROCESSED__STEM_CORPUS_DIRECTORY_PATH = "D:\IR_Project_CS6200\IR_Project\Task 3\Processed_stem_corpus"
+STEMMED_CORPUS_FILE= "cacm_stem.txt"
 STOP_WORDS_FILENAME = "common_words"
 
 
@@ -13,7 +14,6 @@ def remove_trailing_zeros(temp_text):
     integers = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
     first_int_index = 0
     for x in range(len(temp_text) - 1, -1, -1):
-        print("temp_text[x]", temp_text[x])
         if temp_text[x][0] in integers:
             continue
         else:
@@ -106,5 +106,5 @@ def create_stemmed_corpus(stemmed_common_corpus_file , processed_stem_corpus_dir
 
 
 
-# process_corpus_stopping(CORPUS_DIRECTORY_PATH, PROCESSED_CORPUS_DIRECTORY_PATH, STOP_WORDS_FILENAME)
-create_stemmed_corpus("cacm_stem.txt", PROCESSED__STEM_CORPUS_DIRECTORY_PATH)
+process_corpus_stopping(CORPUS_DIRECTORY_PATH, PROCESSED_CORPUS_DIRECTORY_PATH, STOP_WORDS_FILENAME)
+create_stemmed_corpus(STEMMED_CORPUS_FILE, PROCESSED__STEM_CORPUS_DIRECTORY_PATH)
