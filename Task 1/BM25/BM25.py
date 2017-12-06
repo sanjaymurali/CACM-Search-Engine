@@ -34,7 +34,6 @@ def BM25_Formula(n, qf, f, dl, R, r):
     k1 = 1.2
     k2 = 100
     b = 0.75
-
     K = k1*((1-b) + b*(float(dl)/float(AVERAGE_LENGTH_OF_DOC)))
     first_part = math.log(((r + 0.5)/(R - r + 0.5))/((n - r + 0.5)/(N - n - R + r + 0.5)))
     second_part = ((k1 + 1)*f)/(K + f)
@@ -71,7 +70,7 @@ def calculate_BM25(query_words, query_id):
                     dl = LENGTH_OF_DOC[doc_id] # length of the document, given the docid
                 if REL_INFO.has_key(str(query_id)):
                     R = len(REL_INFO[str(query_id)])
-                    r = reverse_doc_search(term)
+                    r = reverse_doc_search(term, query_id)
                 else:
                     R = 0
                     r = 0
@@ -156,23 +155,24 @@ def write_score(score, query_id):
 
 def relevance_info():
     global REL_INFO
-    rel_file = open("cacm.rel.txt", "r").read()
+    rel_file = open(CACM_REL, "r").read()
     lines = rel_file.split("\n")
     for line in lines:
         if len(line) != 0:
             words = line.split() # word[0] => query_id, word[2] => document_id
-            #print words
             if REL_INFO.has_key(words[0]):
                 REL_INFO[words[0]].append(words[2])
             else:
                 REL_INFO[words[0]] = [words[2]]
 
-def reverse_doc_search(term):
+def reverse_doc_search(term, query_id):
     documents = INVERTED_INDEX[term]
     sum = 0
-    for document in documents:
-        if REL_INFO.has_key(document):
-            sum += 1
+    for document in REL_INFO[str(query_id)]:
+        document = document + ".txt"
+        for inverted_document in documents:
+            if inverted_document == document:
+                sum = sum + 1
     return sum
 
 
@@ -183,7 +183,7 @@ def delete_files():
 
 # starter program
 def start():
-    global CORPUS_DIR, QUERY_FILE
+    global CORPUS_DIR, QUERY_FILE, CACM_REL
 
     input_corpus = raw_input("Enter path to the Corpus directory generated from HW3-Task1 (Skip for Default): ")
     if input_corpus:
@@ -193,13 +193,16 @@ def start():
     if input_query:
         QUERY_FILE = input_query
 
+    input_cacm = raw_input("Enter path to the REL file (Skip for Default): ")
+    if input_cacm:
+        CACM_REL = input_cacm
+
     delete_files()
 
     process_corpus() # this function generates the inverted index for unigram for the given corpus
     get_average_length_of_doc() # this function helps in calculating "AVDL", average document length in the corpus
     relevance_info()
-    reverse_doc_search("articles")
     BM25()
-
+    print "BM25 Scores Generated!"
 
 start()
