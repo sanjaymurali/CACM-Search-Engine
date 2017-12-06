@@ -67,6 +67,7 @@ def calculate_tfidf(query_words):
                     doc_score.update({doc: score})
 
     doc_score = sorted(doc_score.items(), key=operator.itemgetter(1),reverse=True)  # sort them in descending order of score
+    doc_score = doc_score[0:100]  # the assignment asks only top 100
     return doc_score
 
 
