@@ -3,13 +3,15 @@ import math
 import operator
 import shutil
 
-CORPUS_DIR = "HW3-TASK2/Corpus"
-QUERY_FILE = "QueryList.txt"
+CORPUS_DIR = "../Corpus"
+QUERY_FILE = "../queriesRedefined.txt"
 BM25_SCORE_DIR = "BM25 Scores"
+CACM_REL = "cacm.rel.txt"
 
 # for creating inverted index
 FILENAMES_IN_CORPUS = []
 INVERTED_INDEX = dict()
+REL_INFO = dict()
 
 # part of calculating BM25 score
 LENGTH_OF_DOC = dict() # contains the length of each document in the corpus
@@ -21,19 +23,18 @@ def BM25():
     query = queries.readline()
     query_id = 1
     while query != "":
-        score = calculate_BM25(query.split())
+        score = calculate_BM25(query.split(), query_id)
         write_score(score, query_id)
         query_id += 1
         query = queries.readline()
 
 # The actual BM25 formula.
-def BM25_Formula(n, qf, f, dl):
+def BM25_Formula(n, qf, f, dl, R, r):
     N = len(LENGTH_OF_DOC) # total number of documents
     k1 = 1.2
     k2 = 100
     b = 0.75
-    R = 0.0
-    r = 0.0 # since we have to calculate BM25 score for every document
+
     K = k1*((1-b) + b*(float(dl)/float(AVERAGE_LENGTH_OF_DOC)))
     first_part = math.log(((r + 0.5)/(R - r + 0.5))/((n - r + 0.5)/(N - n - R + r + 0.5)))
     second_part = ((k1 + 1)*f)/(K + f)
@@ -42,7 +43,7 @@ def BM25_Formula(n, qf, f, dl):
     return total
 
 # given a array of Strings, it calculates the BM25 score for the given query
-def calculate_BM25(query_words):
+def calculate_BM25(query_words, query_id):
     doc_score = dict()
     query_term_frequency = dict()
     # term frequencies for each word in the given query
@@ -68,7 +69,13 @@ def calculate_BM25(query_words):
                 f = INVERTED_INDEX[term][doc_id] # frequency of the term in the given document
                 if LENGTH_OF_DOC.has_key(doc_id):
                     dl = LENGTH_OF_DOC[doc_id] # length of the document, given the docid
-                score = BM25_Formula(n, qf, f, dl) # the actual BM25 score for the given term
+                if REL_INFO.has_key(str(query_id)):
+                    R = len(REL_INFO[str(query_id)])
+                    r = reverse_doc_search(term)
+                else:
+                    R = 0
+                    r = 0
+                score = BM25_Formula(n, qf, f, dl, R, r) # the actual BM25 score for the given term
                 if doc_id in doc_score:
                     total_score = doc_score[doc_id] + score # query consists of several words, so total needs to be found
                     doc_score.update({doc_id: total_score})
@@ -147,6 +154,28 @@ def write_score(score, query_id):
     builder = builder[0: len(builder)-1] # delete the trailing "\n"
     score_file.write(builder)
 
+def relevance_info():
+    global REL_INFO
+    rel_file = open("cacm.rel.txt", "r").read()
+    lines = rel_file.split("\n")
+    for line in lines:
+        if len(line) != 0:
+            words = line.split() # word[0] => query_id, word[2] => document_id
+            #print words
+            if REL_INFO.has_key(words[0]):
+                REL_INFO[words[0]].append(words[2])
+            else:
+                REL_INFO[words[0]] = [words[2]]
+
+def reverse_doc_search(term):
+    documents = INVERTED_INDEX[term]
+    sum = 0
+    for document in documents:
+        if REL_INFO.has_key(document):
+            sum += 1
+    return sum
+
+
 def delete_files():
     if os.path.exists(BM25_SCORE_DIR):
         shutil.rmtree(BM25_SCORE_DIR)
@@ -165,8 +194,12 @@ def start():
         QUERY_FILE = input_query
 
     delete_files()
+
     process_corpus() # this function generates the inverted index for unigram for the given corpus
     get_average_length_of_doc() # this function helps in calculating "AVDL", average document length in the corpus
+    relevance_info()
+    reverse_doc_search("articles")
     BM25()
+
 
 start()
