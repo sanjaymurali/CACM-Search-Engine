@@ -5,8 +5,10 @@ import shutil
 
 CORPUS_DIR = "../Corpus"
 QUERY_FILE = "../queriesRedefined.txt"
-TFIDF_SCORE_DIR = "TF-IDF Scores"
+TFIDF_SCORE_DIR = "Jelinker Scores"
 NUMBER_OF_DOCS = 0
+LAMBDAVAL = 0.35
+
 
 # for creating inverted index
 FILENAMES_IN_CORPUS = []
@@ -20,13 +22,14 @@ def tf_idf():
     query = queries.readline()
     query_id = 1
     while query != "":
-        score = calculate_tfidf(query.split())
+        score = calculate_jelinker(query.split())
         write_score(score, query_id)
         query_id += 1
         query = queries.readline()
 
-def calculate_tfidf(query_words):
+def calculate_jelinker(query_words):
     global NK
+    TOTAL_WORDS_IN_COLLECTION= 374418
     nk = dict() #local
     reduced_inverted_index = dict() #local
     doc_score = dict()
@@ -56,10 +59,11 @@ def calculate_tfidf(query_words):
     for doc in FILENAMES_IN_CORPUS:
         length_of_doc = total_words(doc)
         for term in query_words:
-            if term in INVERTED_INDEX and doc in reduced_inverted_index[term]:
-                tf = float(reduced_inverted_index[term][doc])/float(length_of_doc)
-                idf = 1.0 + math.log(NUMBER_OF_DOCS/nk[term]) # full normalization
-                score = tf*idf
+            if term in INVERTED_INDEX and doc in INVERTED_INDEX[term]:
+                firstTerm = float(1.0-LAMBDAVAL)*(float(reduced_inverted_index[term][doc])/float(length_of_doc))
+                #idf = math.log(NUMBER_OF_DOCS/nk[term])
+                secondTerm = LAMBDAVAL*(calculate_cqi(reduced_inverted_index,term)/TOTAL_WORDS_IN_COLLECTION)
+                score = firstTerm + secondTerm
                 if doc in doc_score:
                     total_score = doc_score[doc] + score  # query consists of several words, so total needs to be found
                     doc_score.update({doc: total_score})
@@ -68,6 +72,24 @@ def calculate_tfidf(query_words):
 
     doc_score = sorted(doc_score.items(), key=operator.itemgetter(1),reverse=True)  # sort them in descending order of score
     return doc_score
+
+def calculate_cqi(reduced_inverted_index, term):
+    count = 0
+    list = reduced_inverted_index[term]
+    for key,value in list.items():
+        count+= list[key]
+    return count
+
+
+def total_words_in_collection():
+    count = 0
+    for file in os.listdir(CORPUS_DIR):
+        output = open(CORPUS_DIR +"/" + file)
+        words = output.read().split()
+        count = count + len(words)
+        print file
+    print count
+    return count
 
 
 def total_words(doc):
@@ -141,7 +163,7 @@ def write_score(score, query_id):
     builder = ""
     rank = 1 # from top to bottom
     for docid, score in score:
-        builder += str(query_id) + "\tQ0\t" + docid + "\t" + str(rank) + "\t" + str(score) + "\tTFIDF\n"
+        builder += str(query_id) + "\tQ0\t" + docid + "\t" + str(rank) + "\t" + str(score) + "\tJELINKER\n"
         rank += 1
     builder = builder[0: len(builder)-1] # delete the trailing "\n"
     score_file.write(builder)
