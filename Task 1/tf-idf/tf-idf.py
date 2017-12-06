@@ -56,9 +56,9 @@ def calculate_tfidf(query_words):
     for doc in FILENAMES_IN_CORPUS:
         length_of_doc = total_words(doc)
         for term in query_words:
-            if term in INVERTED_INDEX and doc in INVERTED_INDEX[term]:
+            if term in INVERTED_INDEX and doc in reduced_inverted_index[term]:
                 tf = float(reduced_inverted_index[term][doc])/float(length_of_doc)
-                idf = math.log(NUMBER_OF_DOCS/nk[term])
+                idf = 1.0 + math.log(NUMBER_OF_DOCS/nk[term]) # full normaliation
                 score = tf*idf
                 if doc in doc_score:
                     total_score = doc_score[doc] + score  # query consists of several words, so total needs to be found
