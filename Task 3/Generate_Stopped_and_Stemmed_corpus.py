@@ -2,7 +2,7 @@ import os
 from os import listdir
 
 CORPUS_DIRECTORY_PATH = "D:\IR_Project_CS6200\IR_Project\Task 1\Corpus"
-PROCESSED_CORPUS_DIRECTORY_PATH = "D:\IR_Project_CS6200\IR_Project\Task 3\Processed_corpus"
+PROCESSED_CORPUS_DIRECTORY_PATH = "D:\IR_Project_CS6200\IR_Project\Task 3\Processed_stopped_corpus"
 PROCESSED__STEM_CORPUS_DIRECTORY_PATH = "D:\IR_Project_CS6200\IR_Project\Task 3\Processed_stem_corpus"
 STEMMED_CORPUS_FILE= "cacm_stem.txt"
 STOP_WORDS_FILENAME = "common_words"
