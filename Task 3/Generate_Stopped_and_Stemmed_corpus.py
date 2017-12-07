@@ -89,6 +89,8 @@ def create_stemmed_corpus(stemmed_common_corpus_file , processed_stem_corpus_dir
             if line[0] == "#":
                 split_line = line.strip().split(" ")
                 file_num = split_line[1].strip().split("\n")[0]
+                int_file_num = "%04d" % (int(file_num),)
+                file_num = str(int_file_num)
             else:
                 file_name = "CACM-" + file_num + ".txt"
                 filePath = processed_stem_corpus_dir + "\\" + file_name
