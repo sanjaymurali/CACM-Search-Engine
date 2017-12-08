@@ -29,7 +29,7 @@ def tf_idf():
 
 def calculate_jelinker(query_words):
     global NK
-    TOTAL_WORDS_IN_COLLECTION= 374418
+    TOTAL_WORDS_IN_COLLECTION = 374418
     nk = dict() #local
     reduced_inverted_index = dict() #local
     doc_score = dict()
@@ -60,23 +60,25 @@ def calculate_jelinker(query_words):
         length_of_doc = total_words(doc)
         for term in query_words:
             if term in INVERTED_INDEX and doc in INVERTED_INDEX[term]:
+                if term == "el1":
+                    print "in here!"
                 firstTerm = float(1.0-LAMBDAVAL)*(float(reduced_inverted_index[term][doc])/float(length_of_doc))
-                #idf = math.log(NUMBER_OF_DOCS/nk[term])
-                secondTerm = LAMBDAVAL*(calculate_cqi(reduced_inverted_index,term)/TOTAL_WORDS_IN_COLLECTION)
+                secondTerm = LAMBDAVAL*(calculate_cqi(term)/TOTAL_WORDS_IN_COLLECTION)
                 score = firstTerm + secondTerm
                 if doc in doc_score:
-                    total_score = doc_score[doc] + score  # query consists of several words, so total needs to be found
-                    doc_score.update({doc: total_score})
+                    total_score = doc_score[doc] + math.log(score + 1.0) # query consists of several words, so total needs to be found
+                    doc_score.update({doc: (total_score)})
                 else:
-                    doc_score.update({doc: score})
+                    score = math.log(score + 1.0)
+                    doc_score.update({doc: (score)})
 
     doc_score = sorted(doc_score.items(), key=operator.itemgetter(1),reverse=True)  # sort them in descending order of score
-    doc_score = doc_score[0:100]  # the assignment asks only top 100
+    #doc_score = doc_score[0:100]  # the assignment asks only top 100
     return doc_score
 
-def calculate_cqi(reduced_inverted_index, term):
+def calculate_cqi(term):
     count = 0
-    list = reduced_inverted_index[term]
+    list = INVERTED_INDEX[term]
     for key,value in list.items():
         count+= list[key]
     return count
@@ -102,8 +104,6 @@ def calculate_nk():
     global NK
     for key in INVERTED_INDEX:
         NK[key] = len(INVERTED_INDEX[key])
-
-
 
 # Used in inverted index creation. Create inverted index from corpus
 def process_corpus():

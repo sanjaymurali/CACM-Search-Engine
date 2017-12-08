@@ -103,12 +103,13 @@ def BM25_pseudo():
         query = queries.readline()
 
 def calculate_pseudorelevance(query_words, query_id):
-    alpha = 1.0
-    beta = 0.75
-    gamma = 0.15
+    alpha = 8.0
+    beta = 16.0
+    gamma = 4.0
     query_vector = form_query_vector(query_words)
     new_query_vector = dict()
-    for term in query_words:
+
+    for term in INVERTED_INDEX:
 
         first_part = alpha * query_vector[term]
 
@@ -133,11 +134,16 @@ def calculate_pseudorelevance(query_words, query_id):
         new_query_vector.update({term: score})
 
     new_query_list = sorted(new_query_vector.items(), key=operator.itemgetter(1), reverse=True)
+    #print new_query_list
     new_query = ""
-    for term in new_query_list:
-        new_query += term[0] + " "
+    for i in range(0, 20):
+        term = new_query_list[i]
+        if term not in query_words:
+            new_query += term[0] + " "
     new_query = new_query.rstrip()
-    new_query_words = new_query.split()
+    #print new_query
+    new_query_words = query_words + new_query.split()
+    print new_query_words
     return calculate_BM25(new_query_words, query_id)
 
 def form_query_vector(query_words):
@@ -148,8 +154,10 @@ def form_query_vector(query_words):
             query_vector.update({term: count})
         else:
             query_vector[term] = 1
-        if not INVERTED_INDEX.has_key(term):
-            query_vector.update({term: 0})
+
+    for term in INVERTED_INDEX:
+        if not query_vector.has_key(term):
+            query_vector.update({term : 0})
     return query_vector
 
 
