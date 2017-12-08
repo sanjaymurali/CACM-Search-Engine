@@ -15,7 +15,7 @@ FILENAMES_IN_CORPUS = []
 INVERTED_INDEX = dict()
 NK = dict()
 
-def tf_idf():
+def smoothed_query():
     calculate_nk()
 
     queries = open(QUERY_FILE, "r")
@@ -58,22 +58,18 @@ def calculate_jelinker(query_words):
 
     for doc in FILENAMES_IN_CORPUS:
         length_of_doc = total_words(doc)
+        score = 0
         for term in query_words:
             if term in INVERTED_INDEX and doc in INVERTED_INDEX[term]:
-                if term == "el1":
-                    print "in here!"
                 firstTerm = float(1.0-LAMBDAVAL)*(float(reduced_inverted_index[term][doc])/float(length_of_doc))
-                secondTerm = LAMBDAVAL*(calculate_cqi(term)/TOTAL_WORDS_IN_COLLECTION)
-                score = firstTerm + secondTerm
-                if doc in doc_score:
-                    total_score = doc_score[doc] + math.log(score + 1.0) # query consists of several words, so total needs to be found
-                    doc_score.update({doc: (total_score)})
-                else:
-                    score = math.log(score + 1.0)
-                    doc_score.update({doc: (score)})
+                secondTerm = ((LAMBDAVAL*(calculate_cqi(term)))/TOTAL_WORDS_IN_COLLECTION)
+                score += math.log(firstTerm + secondTerm + 1.0)
+        total_score = math.log(score + 1.0)
+        total_score = math.log(total_score + 1.0)
+        doc_score.update({doc: total_score})
 
     doc_score = sorted(doc_score.items(), key=operator.itemgetter(1),reverse=True)  # sort them in descending order of score
-    #doc_score = doc_score[0:100]  # the assignment asks only top 100
+    doc_score = doc_score[0:100]  # the assignment asks only top 100
     return doc_score
 
 def calculate_cqi(term):
@@ -188,7 +184,8 @@ def start():
 
     delete_files()
     process_corpus()  # this function generates the inverted index for unigram for the given corpus
-    tf_idf()
+    smoothed_query()
+
     print NUMBER_OF_DOCS
 
 
