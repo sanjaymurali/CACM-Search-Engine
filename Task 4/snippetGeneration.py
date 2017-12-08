@@ -67,6 +67,7 @@ def returnSignificanceScore(sentence, query):
 def returnSummary(queryId, queryDocumentResult, queryDict):
     query = queryDict[int(queryId)]
     resultFileForQuery = queryDocumentResult[queryId]
+    output_file = open("Snippets/" +"Q"+queryId+".txt","w")
     for file in resultFileForQuery:
         file = open(UPDATED_CORPUS+file, "r")
         sentences = file.read().split("\n")
@@ -80,7 +81,21 @@ def returnSummary(queryId, queryDocumentResult, queryDict):
             if count < 6:
                 summary.append(str(i))
                 count += 1
-        print summary
+        output_file.write(file.name.split("/")[1])
+        output_file.write("\n")
+        for snip in summary:
+            list = snip.split(" ")
+            for word in list:
+                if termQueryMatch(query, word):
+                    list[list.index(word)] = word.upper()
+                    output_file.write(word.upper())
+                    output_file.write(" ")
+                output_file.write(word+" ")
+            output_file.write("\n")
+        output_file.write("---------------------------------------------------------------")
+        output_file.write("\n\n")
+    output_file.close()
+        #print summary
 
 
 
