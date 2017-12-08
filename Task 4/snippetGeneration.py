@@ -5,17 +5,97 @@ import shutil
 
 import re
 
-CORPUS_DIR = "../Corpus"
+from bs4 import BeautifulSoup
+
+CORPUS_DIR = "../Project Input/cacm/"
+UPDATED_CORPUS = "Corpus/"
 QUERY_FILE = "queriesRedefined.txt"
 BM25_SCORE_DIR = "BM25 Scores"
 CACM_REL = "cacm.rel.txt"
 STOP_WORD_FILE = "common_words.txt"
 
+
+def regenerate_corpus():
+    for file in os.listdir(CORPUS_DIR):
+        output = open(CORPUS_DIR +file)
+        fName = file.split(".html")[0]
+        soup = BeautifulSoup(output, "html.parser")
+        all_text = ''.join(soup.findAll(text=True))
+        all_text = all_text.lower()
+        all_text = all_text.rstrip()
+        all_text = all_text.lstrip()
+        outputf = open("Corpus/" + fName + ".txt", "w")
+        outputf.write(all_text)
+        outputf.close()
+
+
+def termQueryMatch(query, word):
+    query = query.split()
+    for i in query:
+        if i==word:
+            return True
+    return False
+
+def returnSignificanceScore(sentence, query):
+    sentence = sentence.split()
+    #print sentence
+    min = 0
+    max = 0
+    count = 0
+    #print stopWordList
+    result = 0.0
+    for word in sentence:
+        if termQueryMatch(query, word) and word not in stopWordList:
+            min = sentence.index(word)
+            #print "first i"
+            break
+    for i in range(len(sentence)-1, 0, -1):
+        if termQueryMatch(query, sentence[i]) and i not in stopWordList:
+            max = i
+            break
+    for i in sentence[min: (max+1)]:
+        if termQueryMatch(query, i) and i not in stopWordList:
+            count+=1
+    if(len(sentence[min:(max+1)])==0):
+        result = 0
+    else:
+        result =  math.pow(count,2)/len(sentence[min:(max+1)])
+    #print result
+    return result
+
+
 def returnSummary(queryId, queryDocumentResult, queryDict):
-    query = queryDict[queryId]
+    query = queryDict[int(queryId)]
     resultFileForQuery = queryDocumentResult[queryId]
+    output_file = open("Snippets/" +"Q"+queryId+".txt","w")
     for file in resultFileForQuery:
-        file = open(file, "r")
+        file = open(UPDATED_CORPUS+file, "r")
+        sentences = file.read().split("\n")
+        count = 1
+        snippets = {}
+        summary = []
+        for sentence in sentences:
+            snippets[sentence] = returnSignificanceScore(sentence, query)
+            #print returnSignificanceScore(sentence, query)
+        for i in sorted(snippets, key=snippets.get, reverse=True):
+            if count < 6:
+                summary.append(str(i))
+                count += 1
+        output_file.write(file.name.split("/")[1])
+        output_file.write("\n")
+        for snip in summary:
+            list = snip.split(" ")
+            for word in list:
+                if termQueryMatch(query, word):
+                    list[list.index(word)] = word.upper()
+                    output_file.write(word.upper())
+                    output_file.write(" ")
+                output_file.write(word+" ")
+            output_file.write("\n")
+        output_file.write("---------------------------------------------------------------")
+        output_file.write("\n\n")
+    output_file.close()
+        #print summary
 
 
 
@@ -53,7 +133,8 @@ for resultLine in firstQueryResult.readlines():
     else:
         queryDocumentResult[queryId] = [documentId]
 
-print queryDocumentResult
+#print queryDocumentResult
+#regenerate_corpus()
 returnSummary("1",queryDocumentResult, queryDict)
 #something like {'1': ['CACM-1605.txt', 'CACM-1410.txt', 'CACM-1506.txt',
 

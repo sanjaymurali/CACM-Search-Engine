@@ -1,0 +1,800 @@
+CACM-1605.txt
+AN an experimental comparison of TIME time SHARING sharing and batch processing 
+SYSTEM system by means of a statistically designed  
+variance techniques were employed to estimate SYSTEM system  
+of the mit compatible time-sharing SYSTEM system (ctss)  
+was compared WITH with that of the IBM ibm ibsys batch-processing 
+---------------------------------------------------------------
+
+CACM-1410.txt
+interarrival statistics FOR for TIME time SHARING sharing systems 
+time-sharing SYSTEM system (tss).  the input process  
+the optimization of time-shared SYSTEM system performance 
+interarrival TIME time distribution.  the data obtained  
+ 
+---------------------------------------------------------------
+
+CACM-1506.txt
+computer (an IBM ibm SYSTEM system 360/30).  therefore techniques 
+the laconiq monitor: TIME time SHARING sharing FOR for online dialogues 
+SYSTEM system user and a retrieval application.  the monitor 
+feature of the SYSTEM system is that it is event-driven rather 
+ 
+---------------------------------------------------------------
+
+CACM-1519.txt
+george 3-a general purpose TIME time SHARING sharing and OPERATING operating SYSTEM system 
+off line (background) jobs.  the SYSTEM system is not oriented 
+users while at the same TIME time running several  
+a common command language.  the SYSTEM system includes  
+or gecos), or a multiaccess SYSTEM system (resembling,  
+---------------------------------------------------------------
+
+CACM-1033.txt
+OPERATING operating SYSTEM system includes display and entry of  
+experimental personalized array translator SYSTEM system 
+on operands WHICH which can be entire arrays.  the SYSTEM system also 
+environment is experimentally operational.  the SYSTEM system 
+stored program sequencing, the SYSTEM system provides  
+---------------------------------------------------------------
+
+CACM-0585.txt
+to the automatic TIME time SHARING sharing of independently coded 
+initial experience WITH with AN an OPERATING operating multiprogramming SYSTEM system 
+multiprogramming SYSTEM system at lewis research center. 
+SYSTEM system modifications were necessary to accomplish this 
+and hardware SYSTEM system WHICH which has developed into the present 
+---------------------------------------------------------------
+
+CACM-1938.txt
+of the SYSTEM system while SHARING sharing its TIME time WITH with other  
+some criteria FOR for time-sharing SYSTEM system performance 
+to utilize the full resources of the SYSTEM system that  
+SYSTEM system operation, time-sharing performance analysis 
+quantitative time-sharing SYSTEM system performance  
+---------------------------------------------------------------
+
+CACM-1523.txt
+a TIME time SHARING sharing SYSTEM system embedded within the 
+sharer, a TIME time SHARING sharing SYSTEM system FOR for the cdc 6600 
+is described.  the SYSTEM system is general purpose and file-based, 
+standard batch processing SYSTEM system FOR for the cdc 6600  
+ it uses a simple scheme FOR for SYSTEM system extension FOR for  
+---------------------------------------------------------------
+
+CACM-2054.txt
+that at this TIME time it is both economically and logically feasible to handle at  
+AN an on-line computer processing SYSTEM system 
+least 40 users at a TIME time WITH with AN an IBM ibm 360/65 computer. 
+SYSTEM system WITH with a fortran-like algebraic compiler as the object processor is  
+AN an on-line digital computer processing SYSTEM system is considered in WHICH which AN an  
+---------------------------------------------------------------
+
+CACM-2621.txt
+OPERATING operating systems, TIME time SHARING sharing systems, security, cryptography 
+the protection of TIME time SHARING sharing systems from 
+ 
+cacm august, 1974 
+of a suitable one-way cipher and suggest that  
+---------------------------------------------------------------
+
+CACM-1544.txt
+tele-cupl: a telephone TIME time SHARING sharing SYSTEM system 
+to the telephone terminals, but the SYSTEM system  
+high speed printing devices.  the SYSTEM system is  
+a general purpose, remote access, computing SYSTEM system 
+system.  a significant element of the SYSTEM system is  
+---------------------------------------------------------------
+
+CACM-1591.txt
+full resources of the OPERATING operating SYSTEM system (language processors, 
+OPERATING operating SYSTEM system to execute functions other than  
+into AN an OPERATING operating SYSTEM system of a large computer  
+written to run under the OPERATING operating SYSTEM system (ibsys) FOR for 
+written in any language processed by the OPERATING operating system. 
+---------------------------------------------------------------
+
+CACM-1161.txt
+SYSTEM system required tedious conversion as incompatible new 
+machines came into use.  the IBM ibm system/360 has  
+1401 compatibility feature on the IBM ibm system/360 model 30 
+of WHICH which IBM ibm 1400 series was a part, brought  
+edp into the mass market FOR for the first TIME time on a large 
+---------------------------------------------------------------
+
+CACM-2380.txt
+tenex is a new TIME time SHARING sharing SYSTEM system implemented 
+tenex, a paged TIME time SHARING sharing SYSTEM system FOR for the pdp-10 
+tenex, paging, virtual machines, TIME time SHARING sharing 
+WHICH which are important FOR for any TIME time SHARING sharing system.  
+SYSTEM system structure.  although the implementation  
+---------------------------------------------------------------
+
+CACM-2947.txt
+sitar: AN an interactive text processing SYSTEM system FOR for small COMPUTERS computers 
+SYSTEM system much more powerful than the sum of its parts. 
+and text analysis SYSTEM system FOR for nontechnical users,  
+ 
+watts, r. m. 
+---------------------------------------------------------------
+
+CACM-2379.txt
+to define the OPERATING operating SYSTEM system as simply as possible. 
+the design of the venus OPERATING operating SYSTEM system 
+OPERATING operating systems, SYSTEM system design, levels of abstraction, 
+ in this paper the development of the SYSTEM system is  
+on complexity of software.  the SYSTEM system is defined by 
+---------------------------------------------------------------
+
+CACM-2371.txt
+in a resource SHARING sharing computer network 
+computer networks, resource SHARING sharing 
+a SYSTEM system of communication between processes in a 
+time-sharing SYSTEM system is described and the communication  
+SYSTEM system is extended so that it may be used between processes 
+---------------------------------------------------------------
+
+CACM-2950.txt
+OPERATING operating systems,processor sharing, implementation  
+in real OPERATING operating systems.  the policy-driven scheduler 
+of a scheduling SYSTEM system WHICH which formalizes the notion of 
+ 
+a framework FOR for implementing flexible schedulers  
+---------------------------------------------------------------
+
+CACM-1264.txt
+blnsys-a 1401 OPERATING operating SYSTEM system WITH with braille capabilities 
+batch output, and update or duplicate the SYSTEM system tape 
+attached tape drives.  printed output of this SYSTEM system 
+blnsys is AN an OPERATING operating SYSTEM system designed FOR for 
+processing TIME time is at a minimum.  this SYSTEM system will  
+---------------------------------------------------------------
+
+CACM-0637.txt
+completed in may, 1961 in WHICH which the neliac SYSTEM system  
+was used to generate a compiler FOR for the IBM ibm 1401.  the 
+of the SYSTEM system were very significant. 
+SYSTEM system developed at the naval electronics laboratory, 
+in programming TIME time and the improvement in documentation 
+---------------------------------------------------------------
+
+CACM-1642.txt
+techniques to make TIME time SHARING sharing attractive on 
+TIME time SHARING sharing on a computer WITH with a small memory 
+ 
+1642	5	1642 
+shepard, c. d. 
+---------------------------------------------------------------
+
+CACM-2946.txt
+streams SHARING sharing a finite buffer pool. 
+monitor, OPERATING operating system, mutual exclusion, synchronization, 
+ 
+2898	5	2946 
+concept 
+---------------------------------------------------------------
+
+CACM-1341.txt
+WITH with regard to such trends as TIME time sharing, parallel 
+ 
+our problems down correspondingly.  the continued  
+levels of computer systems 
+cacm december, 1966 
+---------------------------------------------------------------
+
+CACM-1827.txt
+OPERATING operating SYSTEM system and user program behavior  
+the dcf.  events in the SYSTEM system are identified and recorded 
+SYSTEM system evaluation, software monitor, software  
+a general purpose time-sharing SYSTEM system is described.  
+performance monitoring in a time-sharing SYSTEM system 
+---------------------------------------------------------------
+
+CACM-2535.txt
+no change in the computer-communications SYSTEM system  
+scheduling algorithms, OPERATING operating systems 
+concluded that while, FOR for certain values of SYSTEM system  
+TIME time division multiplexing changes the stochastic  
+the effects of multiplexing on a computer-communications SYSTEM system 
+---------------------------------------------------------------
+
+CACM-1226.txt
+be critical to the system's OPERATING operating efficiency.  
+ 
+of AN an organization FOR for the data within the file can 
+1226	4	1226 
+758	4	1226 
+---------------------------------------------------------------
+
+CACM-1805.txt
+monitor, OPERATING operating system, SYSTEM system software, supervisors, 
+performance, TIME time sharing, TIME time slicing  
+ 
+ca691207 jb february 15, 1978  2:47 pm 
+cacm december, 1969 
+---------------------------------------------------------------
+
+CACM-0971.txt
+TIME time SHARING sharing in a traffic control program 
+the toronto traffic signal control SYSTEM system consists 
+ 
+of a variety of logically distinct computer  
+these demands, a time-sharing program has been  
+---------------------------------------------------------------
+
+CACM-2288.txt
+retrieval SYSTEM system based on the consecutive  
+tapes, storage space, minimum access TIME time 
+retrieval SYSTEM system WITH with a minimal search TIME time  
+ 
+2801	6	2288 
+---------------------------------------------------------------
+
+CACM-3025.txt
+the evolution of the dec SYSTEM system 10 
+computer structures, architecture, OPERATING operating system, timesharing 
+accelerating the transition from batch oriented to TIME time 
+the dec SYSTEM system 10, also known as the pdp-10, evolved 
+SHARING sharing computing systems; transferring hardware  
+---------------------------------------------------------------
+
+CACM-3127.txt
+thoth, a portable real-time OPERATING operating SYSTEM system  
+thoth isa real-time OPERATING operating SYSTEM system WHICH which is designed to be portable 
+because the SYSTEM system is implemented by the same software on different 
+portability, real time, OPERATING operating systems, minicomputer 
+WITH with quite different architectures.  both the SYSTEM system and application 
+---------------------------------------------------------------
+
+CACM-2319.txt
+WITH with respect to OPERATING operating SYSTEM system performance  
+OPERATING operating SYSTEM system performance 
+and design the performance aspects of AN an OPERATING operating SYSTEM system 
+is given.  while a great DEAL deal of information and a large 
+computer system, OPERATING operating system, performance 
+---------------------------------------------------------------
+
+CACM-2003.txt
+AN an interactive software SYSTEM system FOR for computers-aided 
+languages, OPERATING operating at different levels, on WHICH which the interaction 
+ 
+3.24 3.25 4.13 4.22 4.3 
+the functions needed in computer-aided circuit design.  the second one is  
+---------------------------------------------------------------
+
+CACM-2357.txt
+AN an on-line SYSTEM system OPERATING operating as part of a normal 
+user reactions, remote terminals, OPERATING operating SYSTEM system 
+multiplexer, implementation effort, OPERATING operating overhead, 
+and fabrication.  all aspects of the SYSTEM system are  
+batch SYSTEM system FOR for the cdc 6600 computer is described.  
+---------------------------------------------------------------
+
+CACM-1680.txt
+to it, and surrendering control to the OPERATING operating  
+SYSTEM system to perform other jobs.  it expands the power 
+a general-purpose display processing and tutorial SYSTEM system 
+programs) of the OPERATING operating system.  language processors 
+retrieval OPERATING operating systems, graphics, displays, man-machine 
+---------------------------------------------------------------
+
+CACM-1885.txt
+SYSTEM system as a whole, first discussing the general attitudes underlying 
+outlining the SYSTEM system and discussing its more important 
+WHICH which consider some particular aspect of the SYSTEM system in detail. 
+IBM ibm 360/67 computer.  the SYSTEM system deals WITH with the transformational 
+a computer SYSTEM system FOR for transformational grammar 
+---------------------------------------------------------------
+
+CACM-2764.txt
+based on WHAT what we call "semantic density."  the SYSTEM system 
+paragraph length input.  its core is a SYSTEM system of preferential 
+ 
+3.36 3.42 3.63 
+wilks, y. 
+---------------------------------------------------------------
+
+CACM-2201.txt
+ at the user's request, this record is sent to the IBM ibm 
+animator: AN an on-line two-dimensional film animation SYSTEM system 
+mode.  during all stages on the SYSTEM system input elements 
+animator is a computer animation SYSTEM system WHICH which 
+ 
+---------------------------------------------------------------
+
+CACM-0698.txt
+COMPUTERS computers from ordinary dial telephones 
+AN an OPERATING operating SYSTEM system is described WHICH which allows 
+ 
+ input to the computer is through the telephone dial;output 
+marill, t. 
+---------------------------------------------------------------
+
+CACM-3069.txt
+programs and to DEAL deal WITH with the SHARING sharing of variables  
+ the algorithm is asymptotically optimal in TIME time complexity. 
+compute calling relationships or SHARING sharing patterns.  
+ 
+989	4	3069 
+---------------------------------------------------------------
+
+CACM-1753.txt
+of the multics OPERATING operating SYSTEM system are introduced.  
+virtual memory, processes, and SHARING sharing in multics 
+ 
+described in detail. 
+2358	4	1753 
+---------------------------------------------------------------
+
+CACM-2358.txt
+sharing.  usually, SHARING sharing is accomplished by allowing 
+OPERATING operating system, multics, virtual memory, segmentation, 
+considerations of segmentation and SHARING sharing in multics 
+among SYSTEM system users has become increasingly apparent. 
+as experience WITH with use of on-line OPERATING operating 
+---------------------------------------------------------------
+
+CACM-1735.txt
+computer scheduling, auction, TIME time allocation, OPERATING operating efficiency 
+a futures market in computer TIME time 
+WITH with monthly TIME time allocation schemes. 
+computer TIME time that allows the price of computer  
+TIME time to fluctuate WITH with the demand and the relative priority 
+---------------------------------------------------------------
+
+CACM-1647.txt
+WHICH which has been implemented within the IBM ibm 7040/44  
+OPERATING operating system.  fortran iv was selected as the source 
+this feature makes the SYSTEM system attractive to 
+resides core there is virtually no SYSTEM system overhead,  
+in particular the IBM ibm 7040/44 fortran iv system.  
+---------------------------------------------------------------
+
+CACM-1844.txt
+a modular computer SHARING sharing SYSTEM system 
+process terminal jobs as they arrive.  one of the COMPUTERS computers 
+ this SYSTEM system organization is inherently a simpler  
+SYSTEM system at relatively low cost.  economic configurations 
+be run on a dedicated batch SYSTEM system if compatible COMPUTERS computers are used. 
+---------------------------------------------------------------
+
+CACM-1750.txt
+COMPUTERS computers without extended core storage.  
+and functions of such a SYSTEM system are based on a  
+multiprogrammed OPERATING operating systems, multiprocessor  
+OPERATING operating systems, control data corporation 6600, OPERATING operating SYSTEM system WITH with ecs 
+heighten the multiprogramming performance of a multicomputer SYSTEM system 
+---------------------------------------------------------------
+
+CACM-1173.txt
+execution time.  the logic of this SYSTEM system is  
+described. the performance of the SYSTEM system is discussed, 
+SYSTEM system FOR for handling the transfers of program  
+the performance of a SYSTEM system FOR for automatic segmentation 
+ 
+---------------------------------------------------------------
+
+CACM-2188.txt
+model, optimum SYSTEM system design, queueing  
+are in turn used to find general display SYSTEM system  
+on considerations such as SYSTEM system response time, SYSTEM system 
+WITH with AN an optimization, the best graphics SYSTEM system configuration, 
+response TIME time prediction.  by combining the model  
+---------------------------------------------------------------
+
+CACM-2951.txt
+measure of SYSTEM system activity or load level. 
+network, anlytic modeling, simulation, benchmark jobs, SYSTEM system measurement 
+response TIME time monitor, computer networks, time-sharing 
+the feasibility of a dynamic response TIME time monitor 
+to describe and predict the response TIME time FOR for  
+---------------------------------------------------------------
+
+CACM-1315.txt
+automation of the radioisotope accountability SYSTEM system 
+regulations specify that records be kept.  this SYSTEM system 
+amount of bookkeeping is required by the reactor OPERATING operating 
+radioisotopes is written in format fortran FOR for the IBM ibm 
+SYSTEM system of radioisotope accountability FOR for three years.  the 
+---------------------------------------------------------------
+
+CACM-1113.txt
+three to eight minutes of IBM ibm 7090 TIME time per  
+ 
+a computer.  the programming of such a movie is  
+it is easy to program the basic transformation 
+possible perspective movies as the direct output from 
+---------------------------------------------------------------
+
+CACM-2560.txt
+computer WITH with a two-level storage SYSTEM system 
+SYSTEM system WITH with a two-level storage SYSTEM system in WHICH which there 
+ 
+the results are presented of AN an analysis of 
+devices are busy.  some numerical results are given WHICH which 
+---------------------------------------------------------------
+
+CACM-1811.txt
+solution TIME time when n processors are applied approaches 
+the solution TIME time of a computational problem. the  
+of solution TIME time WITH with the number of processors.  
+1/n times the solution TIME time FOR for a single processor,  
+execution TIME time FOR for useful problems.  parallel-processor  
+---------------------------------------------------------------
+
+CACM-1225.txt
+now operational at harvard on and IBM ibm 7094, are delineated. 
+analyzer, a SYSTEM system of syntactic analysis  
+now claim efficiency both in processing TIME time and  
+SYSTEM system are discussed in comparison to those of AN an immediate 
+ 
+---------------------------------------------------------------
+
+CACM-0699.txt
+the IBM ibm 7090 SYSTEM system and AN an x, y-plotter to produce  
+ 
+a contour map.  a matrix of points evenly spaced in 
+each dimension is contoured.  scale factors along  
+ca631026 jb march 13, 1978  5:26 pm 
+---------------------------------------------------------------
+
+CACM-1657.txt
+OPERATING operating system, memory protection, time-sharing, 
+SYSTEM system 
+implementation of the sharer2 time-sharing SYSTEM system 
+sharer time-sharing SYSTEM system using this feature is described. 
+ 
+---------------------------------------------------------------
+
+CACM-1526.txt
+from AN an interactive TIME time SHARING sharing environment.  
+computer SYSTEM system using a page on demand strategy  
+ 
+smith, j. l. 
+cacm october, 1967 
+---------------------------------------------------------------
+
+CACM-2767.txt
+simulation, TIME time flow mechanisms, event  
+simulation, TIME time flow mechanisms, event list algorithm, 
+routine, discrete SYSTEM system simulation, sorting 
+ 
+2936	6	2767 
+---------------------------------------------------------------
+
+CACM-0414.txt
+the IBM ibm 1440 data processing system, announced 
+IBM ibm 1440 data processing SYSTEM system features five new units 
+ 
+drive WITH with interchangeable disk packs but four other  
+cacm december, 1961 
+---------------------------------------------------------------
+
+CACM-2424.txt
+dynamic verification of OPERATING operating SYSTEM system decisions 
+construction of AN an OPERATING operating SYSTEM system WHICH which does not make certain 
+OPERATING operating systems, data security, fault tolerance, 
+that every TIME time the decision is made there is a  
+of OPERATING operating SYSTEM system decisions is used on the prime SYSTEM system 
+---------------------------------------------------------------
+
+CACM-0972.txt
+the 473l command and control SYSTEM system used by 
+AN an executive SYSTEM system implemented as a finite-state automaton 
+ these priorities permit the SYSTEM system to be most sensitive 
+SYSTEM system components. the major emphasis of the  
+at all the consoles to TIME time share the central processor. 
+---------------------------------------------------------------
+
+CACM-2632.txt
+hydra: the kernel of a multiprocessor OPERATING operating SYSTEM system 
+hydra-the kernel of AN an OPERATING operating SYSTEM system FOR for c.mmp,  
+OPERATING operating system, kernel, nucleus, protection, security 
+basis FOR for extension of the SYSTEM system in two directions: the 
+ 
+---------------------------------------------------------------
+
+CACM-2500.txt
+been incorporated in the running SYSTEM system due 
+OPERATING operating system, keeps resources relatively  
+WITH with regard to TIME time and space in multiprogramming  
+ 
+2280	4	2500 
+---------------------------------------------------------------
+
+CACM-0397.txt
+processing.  AN an 80-column IBM ibm card is divided into two 
+ 
+material includes basically AN an index, title, source,  
+397	6	397 
+machine systems, abbreviations, etc., it  
+---------------------------------------------------------------
+
+CACM-1685.txt
+is designed to save TIME time in the preparation  
+gan, a SYSTEM system FOR for generating activity networks, 
+gan, a SYSTEM system FOR for generating and analyzing activity networks 
+of activity networks and to DEAL deal conveniently WITH with network 
+ 
+---------------------------------------------------------------
+
+CACM-2153.txt
+a computer SYSTEM system was developed at purdue 
+the SYSTEM system independent of instructor intervention.  
+the SYSTEM system is designed as a classroom-independent course 
+experiments WITH with AN an automated instructional SYSTEM system FOR for numerical methods 
+ the SYSTEM system is operational on a cdc 6500 WITH with teletype terminals.  
+---------------------------------------------------------------
+
+CACM-1589.txt
+SYSTEM system control language has been prevented, and there 
+results.  use of the SYSTEM system requires a minimum of experience 
+dialog: a conversational programming SYSTEM system WITH with a graphical orientation 
+ 
+or instruction, since the growth of AN an overlaying  
+---------------------------------------------------------------
+
+CACM-2378.txt
+AN an OPERATING operating SYSTEM system based on the concept of a supervisory computer 
+AN an OPERATING operating SYSTEM system WHICH which is organized as a 
+OPERATING operating systems, supervisors, multiprogramming, 
+ 
+1523	4	2378 
+---------------------------------------------------------------
+
+CACM-1236.txt
+OPERATING operating on the IBM ibm 7094 is described.  the SYSTEM system  
+a fully automatic document retrieval SYSTEM system 
+ the SYSTEM system is used not only to simulate AN an actual OPERATING operating 
+ 
+the smart automatic document retrieval system-an illustration 
+---------------------------------------------------------------
+
+CACM-1698.txt
+are needed in certain aspects of OPERATING operating SYSTEM system  
+statistical models FOR for input-output, OPERATING operating 
+the ability of a computer SYSTEM system to communicate 
+SYSTEM system design, input-output design 
+a statistical model FOR for console behavior in multiuser COMPUTERS computers 
+---------------------------------------------------------------
+
+CACM-1542.txt
+a microprogrammed implementation of euler on IBM ibm system/360 model 30 
+second read-only storage unit.  the SYSTEM system consists  
+program written in 360 machine language.  the SYSTEM system is described 
+microprogramming on AN an IBM ibm system/360 model 30 using a 
+AN an experimental processing SYSTEM system FOR for the algorithmic 
+---------------------------------------------------------------
+
+CACM-1962.txt
+are produced FOR for long periods of TIME time (up to several hours) at 
+groove-a program to compose, store, and edit functions of TIME time 
+computer music, music, real-time control, digital control, TIME time 
+and editing functions of TIME time is described.  the functions are typical 
+ 
+---------------------------------------------------------------
+
+CACM-3153.txt
+considered.  initially, a closed SYSTEM system consisting of a process 
+of processor TIME time devoted to each class.  applying a decomposition 
+approach and treating the closed SYSTEM system as a single server, 
+the response times in AN an open SYSTEM system WITH with external arrivals are 
+ 
+---------------------------------------------------------------
+
+CACM-1195.txt
+IBM ibm 7090 system.  the programs are completely self-checking 
+SYSTEM system on AN an IBM ibm 1401-7090 combined data processing  
+uplifts-university of pittsburgh linear file tandem SYSTEM system 
+ 
+1195	5	1195 
+---------------------------------------------------------------
+
+CACM-2184.txt
+language and the file names of AN an OPERATING operating system. 
+file, OPERATING operating system, programming language, functions, 
+ 
+and a storable object of type context.  manipulations  
+ca710606 jb february 3, 1978  9:58 am 
+---------------------------------------------------------------
+
+CACM-1179.txt
+programs may be debugged in the pufft SYSTEM system and  
+subroutine library, AN an input--output SYSTEM system  
+FOR for the IBM ibm 7090/7094 computer is described.  
+FOR for use at compile TIME time and at execute time, and a rather 
+then recompiled and run in the ibjob-ibftc SYSTEM system supplied by the manufacturer. 
+---------------------------------------------------------------
+
+CACM-1590.txt
+within 1 to 2 times real-time on the IBM ibm 7090. 
+converter attached to AN an interconnected IBM ibm 7090-pdp-1 
+ 
+a list of points along the waveform as candidates  
+a computer procedure WHICH which determines pitch 
+---------------------------------------------------------------
+
+CACM-1956.txt
+well WITH with the total read TIME time calculated using the optimum merge 
+parameterized in terms of the ratio of seek TIME time to the TIME time it takes 
+sort timing, drum-merging, access TIME time 
+read time, defined to be the sum of seek TIME time plus data-transfer 
+TIME time FOR for optimum merging on a given hardware configuration is proportional 
+---------------------------------------------------------------
+
+CACM-1572.txt
+the simulation of TIME time SHARING sharing systems 
+IBM ibm 360/67 time-sharing system. 
+ 
+1380	6	1572 
+FOR for these systems, but appropriate software adjustments 
+---------------------------------------------------------------
+
+CACM-2398.txt
+interactive SYSTEM system called newbasic/catalyst  
+at the SYSTEM system level shows how students can mix the advantages 
+teacher/student authored cai using the newbasic SYSTEM system 
+cai, basic, catalyst, newbasic, education, COMPUTERS computers 
+experience WITH with the SYSTEM system in AN an urban  
+---------------------------------------------------------------
+
+CACM-2372.txt
+only once at translation TIME time rather than repeatedly 
+OPERATING operating systems, access management, data banks,  
+the security of AN an information SYSTEM system may be 
+SYSTEM system implementation within today's languages and OPERATING operating systems. 
+ 
+---------------------------------------------------------------
+
+CACM-2541.txt
+design of the language, OPERATING operating system,  
+new concept FOR for OPERATING operating systems: separation  
+design of this SYSTEM system (which has not been implemented). 
+endangering the SYSTEM system integration (correctly  
+AN an overview of the ispl computer SYSTEM system design 
+---------------------------------------------------------------
+
+CACM-1304.txt
+a rapid turnaround multi-programming SYSTEM system 
+in this paper, basic features, SYSTEM system characteristics 
+SYSTEM system WITH with rapid turnaround TIME time are described. 
+ 
+irons, e. t. 
+---------------------------------------------------------------
+
+CACM-0202.txt
+to a computer program makes the SYSTEM system convenient  
+diagnostic monitor SYSTEM system WHICH which facilitates  
+a control SYSTEM system FOR for logical block diagnosis WITH with data loading 
+ 
+this paper describes a section of AN an integrated 
+---------------------------------------------------------------
+
+CACM-1744.txt
+solution to AN an overdetermined SYSTEM system of  
+overdetermined SYSTEM system of linear equations is presented, 
+ 
+5.13 5.14 5.41 
+permits the occasional exchange of two equations  
+---------------------------------------------------------------
+
+CACM-1393.txt
+the alpak SYSTEM system in several respects, including  
+by the SYSTEM system are sums, differences, products, quotients, 
+pm is AN an IBM ibm 7094 program SYSTEM system FOR for formal manipulation 
+pm, a SYSTEM system FOR for polynomial manipulation 
+ 
+---------------------------------------------------------------
+
+CACM-1923.txt
+OPERATING operating systems, interfaces input-output, 
+AN an approach to SYSTEM system interfaces FOR for high 
+pseudofiles 
+ 
+1923	5	1923 
+---------------------------------------------------------------
+
+CACM-2622.txt
+OPERATING operating SYSTEM system security, security, authentication, 
+have access to the table, but he can penetrate the SYSTEM system 
+known solely to himself and the system.  the SYSTEM system compares 
+in many computer OPERATING operating systems a user authenticates 
+program.  the integrity of the SYSTEM system depends on  
+---------------------------------------------------------------
+
+CACM-1571.txt
+research institute at ucla is described.  the SYSTEM system 
+AN an existing SYSTEM system and planned additions within 
+a user-oriented time-shared online SYSTEM system 
+will be possible in the SYSTEM system design through  
+ 
+---------------------------------------------------------------
+
+CACM-0619.txt
+significant misspellings either at original entry TIME time 
+retrieval of misspelled names in AN an airlines passenger record SYSTEM system 
+ 
+AN an automatic scoring technique WHICH which matches the names 
+retrieve passengers' records successfully, despite  
+---------------------------------------------------------------
+
+CACM-2892.txt
+performance evaluation and efficiency, resource SHARING sharing 
+FOR for various models of SYSTEM system use is studied.  
+ 
+2892	5	2892 
+ some measurements of line efficiency FOR for the arpanet are 
+---------------------------------------------------------------
+
+CACM-1163.txt
+reprogram philco 2000 series codes FOR for IBM ibm 7094 operation. 
+ experience WITH with this SYSTEM system is limited but  
+a translation SYSTEM system has been developed to 
+ 
+highly successful encouraging application of the 
+---------------------------------------------------------------
+
+CACM-1622.txt
+successfully run on the IBM ibm 7094 in connection  
+AN an efficient procedure FOR for the generation of closed subsets 
+ 
+of the form: "if s(i) is a member of the subset, then 
+ca670307 jb february 28, 1978  1:18 pm 
+---------------------------------------------------------------
+
+CACM-1464.txt
+in relation to AN an elaborate OPERATING operating SYSTEM system 
+into the ibsys OPERATING operating system.  assembly  
+although assembly plus loading TIME time exceeds compilation 
+time, the total TIME time is satisfactory and the  
+ 
+---------------------------------------------------------------
+
+CACM-2128.txt
+TIME time sharing, resource allocation, scheduling algorithms, 
+allocation, multiprogramming, multiprocessing, TIME time 
+ 
+a processor allocation method FOR for time-sharing 
+lists. 
+---------------------------------------------------------------
+
+CACM-2542.txt
+OPERATING operating SYSTEM system development, language processing 
+WHICH which is used to describe the evolving SYSTEM system  
+a software design and evaluation SYSTEM system 
+ this SYSTEM system is based on a simple, high level language 
+a critical failure of current software SYSTEM system 
+---------------------------------------------------------------
+
+CACM-2624.txt
+model of a third-generation-like computer SYSTEM system is 
+OPERATING operating system, third generation architecture, 
+systems, e.g. cp-67 on the IBM ibm 360/67.  from previous 
+ 
+on a limited number of third generation computer  
+---------------------------------------------------------------
+
+CACM-2297.txt
+computer SYSTEM system OPERATING operating under demand paging.  in 
+of a program's execution TIME time in a given number  
+paging machines, demand paging, OPERATING operating systems 
+ 
+the model presented, the number of page-frames of  
+---------------------------------------------------------------
+
+CACM-1829.txt
+over the graphical SYSTEM system in response to commands  
+g21 SYSTEM system and the graphics hardware are described.  
+of graphical SYSTEM system 
+SYSTEM system WITH with remote entry.  the existing  
+ 
+---------------------------------------------------------------
+
+CACM-2841.txt
+of the SYSTEM system are: (1) the surfaces are rendered as isoparametric 
+is described. the surfaces are represented in the SYSTEM system 
+AN an experimental SYSTEM system FOR for computer-aided 
+of a practical 3-d SYSTEM system FOR for designing space-forms. 
+ 
+---------------------------------------------------------------
+
