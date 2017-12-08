@@ -141,9 +141,7 @@ def calculate_pseudorelevance(query_words, query_id):
         if term not in query_words:
             new_query += term[0] + " "
     new_query = new_query.rstrip()
-    #print new_query
     new_query_words = query_words + new_query.split()
-    print new_query_words
     return calculate_BM25(new_query_words, query_id)
 
 def form_query_vector(query_words):
@@ -303,13 +301,10 @@ def start():
     process_corpus() # this function generates the inverted index for unigram for the given corpus
     get_average_length_of_doc() # this function helps in calculating "AVDL", average document length in the corpus
     relevance_info()
-    #BM25()
 
-
-    query = "probabilistic algorithms especially those dealing with algebraic and symbolic manipulation  some examples rabiin probabilistic algorithm on finite field siam waztch probabilistic testing of polynomial identities siam  rabinm"
 
     relevancy()
-    #print calculate_pseudorelevance(query.split(), "35")
+    #BM25() # please run BM25 from Task1, this is a run for pseudo relevance only.
     BM25_pseudo()
     print "BM25 Scores Generated!"
 

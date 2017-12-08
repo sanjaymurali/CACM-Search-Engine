@@ -59,13 +59,23 @@ def calculate_jelinker(query_words):
     for doc in FILENAMES_IN_CORPUS:
         length_of_doc = total_words(doc)
         score = 0
+        Myu = (float(LAMBDAVAL*length_of_doc)/float(1 - LAMBDAVAL))
+        # for term in query_words:
+        #     if term in INVERTED_INDEX and doc in INVERTED_INDEX[term]:
+        #         firstTerm = float(1.0-LAMBDAVAL)*(float(reduced_inverted_index[term][doc])/float(length_of_doc))
+        #         secondTerm = ((LAMBDAVAL*(calculate_cqi(term)))/TOTAL_WORDS_IN_COLLECTION)
+        #         score += math.log(firstTerm + secondTerm + 1.0)
+
         for term in query_words:
             if term in INVERTED_INDEX and doc in INVERTED_INDEX[term]:
-                firstTerm = float(1.0-LAMBDAVAL)*(float(reduced_inverted_index[term][doc])/float(length_of_doc))
-                secondTerm = ((LAMBDAVAL*(calculate_cqi(term)))/TOTAL_WORDS_IN_COLLECTION)
-                score += math.log(firstTerm + secondTerm + 1.0)
-        total_score = math.log(score + 1.0)
-        total_score = math.log(total_score + 1.0)
+                numerator = float(reduced_inverted_index[term][doc]) + (Myu * ((calculate_cqi(term))/TOTAL_WORDS_IN_COLLECTION))
+                denominator = (float(length_of_doc) + Myu)
+                without_log = numerator/denominator
+                score += (without_log)
+
+        total_score = score
+        #total_score = math.log(score + 1.0)
+        #total_score = math.log(total_score + 1.0)
         doc_score.update({doc: total_score})
 
     doc_score = sorted(doc_score.items(), key=operator.itemgetter(1),reverse=True)  # sort them in descending order of score
