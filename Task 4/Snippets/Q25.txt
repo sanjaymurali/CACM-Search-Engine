@@ -1,0 +1,77 @@
+CACM-2318
+modeling, EVALUATION, PERFORMANCE, analytic-models, 
+the role OF COMPUTER system models in PERFORMANCE EVALUATION 
+COMPUTER system PERFORMANCE. this paper 
+methods for evaluating the PERFORMANCE OF COMPUTER 
+SYSTEMS AND establishes circumstances under 
+---------------------------------------------------------------
+
+CACM-2812
+AND PERFORMANCE EVALUATION. there are four major 
+accurately defined SYSTEMS, SYSTEMS optimization 
+was written in ads (accurately defined SYSTEMS) 
+OF applications software design, COMPUTER selection 
+soda (SYSTEMS optimization AND design algorithm) 
+---------------------------------------------------------------
+
+CACM-3089
+AND system PERFORMANCE EVALUATION 
+principal PERFORMANCE measures, including availability, 
+database reliability, file SYSTEMS, checkpoints, recovery 
+PERFORMANCE OF rollback recovery SYSTEMS under intermittent failures 
+---------------------------------------------------------------
+
+CACM-2542
+is proposed. a system which integrates PERFORMANCE EVALUATION 
+feedback, the problems which adversely affect PERFORMANCE 
+a software design AND EVALUATION system 
+supervisory SYSTEMS, debugging, program maintenance, 
+description is used as direct input to PERFORMANCE 
+---------------------------------------------------------------
+
+CACM-3119
+PERFORMANCE EVALUATION, queueing models 
+multiple processor SYSTEMS. issues considered include the impact OF cpu 
+simple queueing models are used to study the PERFORMANCE tradeoffs OF 
+on multiple processor SYSTEMS 
+---------------------------------------------------------------
+
+CACM-1653
+system PERFORMANCE EVALUATION: survey AND appraisal 
+the state OF the art OF system PERFORMANCE 
+the central role OF measurement in PERFORMANCE 
+presented as three levels OF approach to EVALUATION, 
+OF PERFORMANCE; overhead AND cpu speed are placed in 
+---------------------------------------------------------------
+
+CACM-2268
+rational extrapolation showed the best PERFORMANCE. 
+a study comparing the PERFORMANCE OF several COMPUTER 
+programs for integrating SYSTEMS OF ordinary 
+procedure is described together with the EVALUATION 
+a comparative study OF COMPUTER programs 
+---------------------------------------------------------------
+
+CACM-1908
+cost for usage OF the two COMPUTER SYSTEMS; however, 
+on-line vs off-line PERFORMANCE, decision-making PERFORMANCE, 
+a much higher level OF PERFORMANCE is attained by 
+a PERFORMANCE level equal to that OF the batch 
+two such SYSTEMS for what may well be the predominant user 
+---------------------------------------------------------------
+
+CACM-2984
+COMPUTER system, PERFORMANCE EVALUATION, cost/utilization, system balance 
+cost/utilization: a measure OF system PERFORMANCE 
+system PERFORMANCE in terms OF a cost/utilization 
+PERFORMANCE. 
+a method is presented for evaluating COMPUTER 
+---------------------------------------------------------------
+
+CACM-2634
+AND use, tests were made for each OF these SYSTEMS, 
+several hundred college AND university COMPUTER 
+AND the results are summarized as to cost AND PERFORMANCE. 
+an EVALUATION OF statistical software in the social sciences 
+---------------------------------------------------------------
+

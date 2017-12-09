@@ -1,0 +1,71 @@
+CACM-2660
+parallelism, POLYNOMIAL ROOT finding, real zeros 
+addendum to m. L. patrick paper 
+simmons, g. c. 
+ca740410 jb february 1, 1978 10:36 am 
+---------------------------------------------------------------
+
+CACM-1524
+a stopping criterion for POLYNOMIAL ROOT finding 
+when searching for the ROOT OF a POLYNOMIAL, 
+POLYNOMIAL. 
+accept a number as AN adequate approximation to the ROOT. 
+which occurs IN evaluating the POLYNOMIAL. this stopping 
+---------------------------------------------------------------
+
+CACM-1999
+square ROOT, newton-raphson iteration, optimal approximants 
+approximants IS considered, and some optimal POLYNOMIAL initial 
+use AN iterative scheme for the square ROOT different from 
+square ROOT for slow or no divide 
+---------------------------------------------------------------
+
+CACM-1763
+ROOT finders, POLYNOMIAL equation roots, quadratic 
+equation roots, POLYNOMIAL zeros 
+roots OF low-order POLYNOMIAL equations (algorithm 326 [c2]) 
+ca680407 jb february 23, 1978 10:27 am 
+---------------------------------------------------------------
+
+CACM-1615
+draw both ordinary and time-lag ROOT locus diagrams 
+AN algorithm for generating ROOT locus diagrams 
+ca670313 jb february 28, 1978 12:57 pm 
+diagrams. 
+---------------------------------------------------------------
+
+CACM-2808
+interesting historical MATERIAL. the acceleration 
+by elementary methods. this MATERIAL can be used 
+cacm january, 1975 
+todd, j. 
+---------------------------------------------------------------
+
+CACM-0848
+a note on range transformations for square ROOT and logarithm 
+usage for the square ROOT and logarithm function 
+range symmetric about 10.1 will give examples OF this 
+cacm june, 1963 
+---------------------------------------------------------------
+
+CACM-1893
+ROOT finders, roots OF POLYNOMIAL equations, POLYNOMIAL 
+ca690517 jb february 17, 1978 2:29 pm 
+5.15 
+roots OF polynomials by a root-squaring 
+---------------------------------------------------------------
+
+CACM-1667
+ROOT finders, roots OF POLYNOMIAL equations, POLYNOMIAL 
+5.15 
+327 5 1667 
+cacm november, 1968 
+---------------------------------------------------------------
+
+CACM-1623
+may be INTERESTED IN the problem because it IS stated 
+neidleman, L. d. 
+order to circumvent some OF the shortcomings OF the 
+were tried failed. the problem IS straightforward (although 
+---------------------------------------------------------------
+

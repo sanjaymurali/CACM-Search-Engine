@@ -1,0 +1,73 @@
+CACM-1795
+CODE OPTIMIZATION, sequencing OF operations, 
+optimal CODE for serial AND parallel computation 
+4.12 
+ca691217 jb february 15, 1978 1:59 pm 
+---------------------------------------------------------------
+
+CACM-2897
+OPTIMIZATION, OPTIMIZATION techniques, data flow analysis 
+lower level CODE by a sequence OF steps. each 
+CODE produced by a conventional pl/i optimizing 
+expansion-the task OF tailoring this CODE to take 
+a case study OF a new CODE generation technique for compilers 
+---------------------------------------------------------------
+
+CACM-1658
+a reasonable amount OF MACHINE time. 
+is summarized. the MACHINE time AND storage 
+operations research, OPTIMIZATION theory, integer 
+over several test problems OF small AND INTERMEDIATE 
+---------------------------------------------------------------
+
+CACM-2253
+rather than the MACHINE CODE. the goal is to automatically 
+in a previous paper. this scheme attempts program OPTIMIZATION 
+languages, program OPTIMIZATION, range operations, symbolic 
+generate CODE for handling the tedious address 
+---------------------------------------------------------------
+
+CACM-2495
+arithmetic expressions, CODE generation, compilers, 
+adapting optimal CODE generation for arithmetic 
+object-code OPTIMIZATION, register assignment, 
+cacm june, 1973 
+---------------------------------------------------------------
+
+CACM-3080
+compilers, correctness, CODE OPTIMIZATION, 
+that OPTIMIZATION OF the genre OF this paper can result 
+proving the correctness OF heuristically optimized CODE 
+the system is as a post OPTIMIZATION step in CODE 
+---------------------------------------------------------------
+
+CACM-1947
+object CODE OPTIMIZATION 
+instructions, object CODE, OPTIMIZATION, redundancy 
+fortran, graph theory, loop structure, MACHINE 
+2923 5 1947 
+---------------------------------------------------------------
+
+CACM-2904
+compilers, OPTIMIZATION OF compiled CODE, program analysis, 
+integrated package OF local OPTIMIZATION algorithms. 
+including linear function test replacement, 
+4.12 5.24 5.32 
+---------------------------------------------------------------
+
+CACM-2491
+interpreter, MACHINE CODE, time tradeoff, space 
+an alternative to MACHINE language CODE. hardware 
+CODE 
+it is realized as interpretive CODE not needing 
+tradeoff, compiled CODE, subroutine calls, threaded 
+---------------------------------------------------------------
+
+CACM-2748
+threaded CODE, snobol4, interpretors, CODE generation 
+amenable to MACHINE independent implementations. 
+an efficient arrangement for interpretive CODE 
+OF threaded CODE but requires less space AND is more 
+indirect threaded CODE 
+---------------------------------------------------------------
+

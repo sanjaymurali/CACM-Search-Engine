@@ -1,0 +1,78 @@
+CACM-3032
+nodes OF a NETWORK. ALGORITHMS FOR accomplishing 
+computer NETWORKS, store-and-forward PACKET 
+this delivery through a store-and-forward PACKET switching 
+forwarding, a broadcast ROUTING method which exploits 
+reverse path forwarding, broadcast packets, ROUTING, 
+---------------------------------------------------------------
+
+CACM-2949
+ON such a topology INFORMATION scheme is that 
+to update this INFORMATION. one OF THE major constrain ts 
+a correctness proof OF a topology INFORMATION 
+NETWORK 
+proof OF this topology INFORMATION protocol is also presented. 
+---------------------------------------------------------------
+
+CACM-2890
+ROUTING ALGORITHMS, adaptive ROUTING, quadratic ROUTING, 
+ON quadratic adaptive ROUTING ALGORITHMS 
+distributed NETWORK, computer NETWORK, message switching 
+conditions FOR an optimal ROUTING, adaptive ROUTING tends 
+alternate ROUTING, store-and-forward NETWORK, 
+---------------------------------------------------------------
+
+CACM-2892
+proposed NETWORK protocol AND compared WITH those FOR THE current system. 
+communication, measurement, PACKET switching, 
+arpanet, computer communication NETWORKS, interprocess 
+ARE USED to anticipate overhead IN a heavily loaded NETWORK. 
+---------------------------------------------------------------
+
+CACM-2776
+included: THE arpa net, THE california state college NETWORK, 
+were identified. THE five major NETWORKS 
+NETWORKS, higher education 
+conducted during 1971-73. five major AND 18 minor NETWORKS 
+experiences OF these operating NETWORKS, a number OF factors 
+---------------------------------------------------------------
+
+CACM-2849
+computer NETWORKS, PACKET switching, multiprocessing, 
+using PACKET address recognition. design principles 
+control. coordination OF access to THE ether FOR PACKET 
+under heavy loads AND a PACKET protocol 
+locally distributed computing stations. THE PACKET 
+---------------------------------------------------------------
+
+CACM-1928
+large systems simulation, NETWORK structures, 
+NETWORKS OF large AND active digital systems 
+exclusive simulation OF activity IN digital NETWORKS 
+OF NETWORK structures other than digital NETWORKS. 
+---------------------------------------------------------------
+
+CACM-1685
+NETWORK analysis, NETWORK calculation, NETWORK program 
+NETWORK generator, NETWORK assembler, activity 
+gan, a system FOR generating activity NETWORKS, 
+ON activity NETWORKS (scheduling activity NETWORKS) 
+a set OF standard NETWORKS is presented. also, 
+---------------------------------------------------------------
+
+CACM-2197
+learned from THE operation OF THE NETWORK over THE past 
+computer sharing, computer utility, cooperative NETWORKS, 
+computing NETWORKS. one such NETWORK has 
+two years. a major impact OF THE NETWORK was 
+OF THE NETWORK. a regional NETWORK brings many benefits 
+---------------------------------------------------------------
+
+CACM-3158
+personal computing, security, privacy, NETWORKS, public-key encryption 
+data to other users ON THE NETWORK. 
+a method FOR implementing secure personal computing IN a NETWORK 
+secure personal computing IN an insecure NETWORK 
+public-key encryption device AND HARDWARE keys. each user is responsible 
+---------------------------------------------------------------
+

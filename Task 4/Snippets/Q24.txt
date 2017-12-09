@@ -1,0 +1,70 @@
+CACM-1696
+and transient states of a STOCHASTIC matrix 
+with certain sequences of STOCHASTIC matrices 
+STOCHASTIC matrix, ergodic, chain identification 
+is presented. applications in markov renewal programming 
+---------------------------------------------------------------
+
+CACM-0268
+STOCHASTIC evaluation of a static storage allocation 
+ca611013 jb march 16, 1978 12:48 pm 
+cohen, l. j. 
+cacm october, 1961 
+---------------------------------------------------------------
+
+CACM-1410
+PROCESSES governing the user inputs and the program activity. 
+requires the description of the STOCHASTIC 
+1810 6 1410 
+interarrival statistics for time sharing systems 
+---------------------------------------------------------------
+
+CACM-2882
+query complexity, STOCHASTIC model, monte carlo 
+a STOCHASTIC evaluation model for database 
+evaluation, invented list, threaded list, cellular 
+793 4 2882 
+---------------------------------------------------------------
+
+CACM-1540
+is more STOCHASTIC than monte carlo in nature. 
+results are given that compare it to a nonpreference assignment algorithm. 
+cacm september, 1967 
+1540 5 1540 
+---------------------------------------------------------------
+
+CACM-1194
+of the ir system APPLIED to its operation 
+and STOCHASTIC search through linked index terms 
+1681 6 1194 
+the main catalog is used to describe the documents, 
+---------------------------------------------------------------
+
+CACM-1435
+problem of STOCHASTIC convergence, (2) the problem 
+problems and several techniques for solving them. 
+design of computer simulation experiments for industrial systems 
+ca660502 jb march 3, 1978 10:20 am 
+---------------------------------------------------------------
+
+CACM-0020
+a technique is discussed which, when APPLIED 
+accelerating convergence of iterative PROCESSES 
+20 5 20 
+wegstein, j. h. 
+---------------------------------------------------------------
+
+CACM-2742
+such as slow STOCHASTIC convergence. however, an additional 
+improved event-scanning mechanisms for discrete event simulation 
+reputation of eating up hours of computer time. this 
+as the events-list scan problem becomes 
+---------------------------------------------------------------
+
+CACM-1235
+a STOCHASTIC approach to the grammatical coding of english 
+class or part of speech. the program operates at relatively 
+assign each word in an english text to its form 
+to code additional words. finally, the remaining words 
+---------------------------------------------------------------
+

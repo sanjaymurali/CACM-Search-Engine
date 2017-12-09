@@ -1,0 +1,71 @@
+CACM-2089
+PRIME NUMBER (algorithm 310 $a1)) 
+PRIME numbers, generator 
+5.0 
+cacm march, 1970 
+---------------------------------------------------------------
+
+CACM-1840
+an efficient PRIME NUMBER generator (algorithm 357 [a1]) 
+PRIME numbers, factoring, NUMBER theory 
+1841 6 1840 
+1537 6 1840 
+---------------------------------------------------------------
+
+CACM-1933
+pseudo-random NUMBER, random NUMBER, modular arithmetic, 
+NUMBER generator of increased cycle length. 
+for 2**61 - 1, the next largest PRIME mersenne 
+coding the lehmer pseudo-random NUMBER generator 
+NUMBER, are given for possible construction of a pseudo-random 
+---------------------------------------------------------------
+
+CACM-1539
+PRIME NUMBER generator 1; PRIME NUMBER generator 
+311[a1]) 
+2120 5 1539 
+377 6 1539 
+---------------------------------------------------------------
+
+CACM-2462
+an efficient PRIME NUMBER generator (algorithm r357) 
+demorgan, r. m. 
+cacm august, 1973 
+2462 5 2462 
+---------------------------------------------------------------
+
+CACM-1841
+a PRIME NUMBER generator using the 
+PRIME numbers, NUMBER theory, sorting 
+1539 5 1841 
+2120 4 1841 
+---------------------------------------------------------------
+
+CACM-1538
+PRIME NUMBER generator 2 (algorithm 311 [a1]) 
+ca670907b jb march 23, 1978 2:34 pm 
+cacm september, 1967 
+1538 6 1538 
+---------------------------------------------------------------
+
+CACM-2206
+representation, mixed-radix conversion, PRIME NUMBER, 
+howell, j. 
+cacm march, 1971 
+residue arithmetic [f4] (algorithm 406) 
+---------------------------------------------------------------
+
+CACM-2507
+representation, mixed radix conversion, PRIME NUMBER, 
+howell, j. 
+ca730513 jb january 23, 1978 4:34 pm 
+3.5 5.14 
+---------------------------------------------------------------
+
+CACM-1420
+PRIME. this generator passes the usual statistical 
+a new uniform pseudorandom NUMBER generator 
+modulus is the largest PRIME within accumulator capacity 
+NUMBER generator is discussed, in which the 
+---------------------------------------------------------------
+

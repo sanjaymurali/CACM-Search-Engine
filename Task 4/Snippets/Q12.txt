@@ -1,0 +1,73 @@
+CACM-3127
+portability, real time, OPERATING SYSTEMS, minicomputer 
+thoth, a PORTABLE real-time OPERATING system 
+application programs which use thoth are highly PORTABLE. thoth 
+thoth isa real-time OPERATING system which is designed to be PORTABLE 
+---------------------------------------------------------------
+
+CACM-2246
+PORTABLE software, level of language, machine 
+levels of language for PORTABLE software 
+implemented in a PORTABLE form. a popular way of 
+then to map this language, often using a macro processor, 
+---------------------------------------------------------------
+
+CACM-3068
+OPERATING SYSTEMS, security, protection, program verification 
+a model for verification of data security in OPERATING SYSTEMS 
+here in terms of a general model for OPERATING SYSTEMS. 
+uncircumventably secure, shared computer SYSTEMS. a 
+ucla secure OPERATING system is also discussed. 
+---------------------------------------------------------------
+
+CACM-1930
+extremely PORTABLE random number generator 
+extremely PORTABLE subroutines are sometimes 
+PORTABLE 8-line fortran program is provided which based 
+of the generator from being high, the generator 
+---------------------------------------------------------------
+
+CACM-1461
+discussion summary on OPERATING SYSTEMS 
+1461 5 1461 
+ca660311 jb march 3, 1978 1:26 pm 
+cacm march, 1966 
+---------------------------------------------------------------
+
+CACM-1750
+multiprogrammed OPERATING SYSTEMS, multiprocessor 
+OPERATING SYSTEMS, control data corporation 6600, OPERATING system with ecs 
+multiple computer SYSTEMS, extended core storage, 
+generalization of such a design, special emphasis is 
+---------------------------------------------------------------
+
+CACM-1680
+retrieval OPERATING SYSTEMS, graphics, displays, man-machine 
+to it, and surrendering control to the OPERATING 
+computer-assisted instruction, tutorial SYSTEMS, 
+programs) of the OPERATING system. language processors 
+is a cataloged program that controls the standard OPERATING 
+---------------------------------------------------------------
+
+CACM-2372
+OPERATING SYSTEMS, access management, data banks, 
+system implementation within today's languages and OPERATING SYSTEMS. 
+security features of several existing SYSTEMS, and serves 
+on the implementation of security measures in information SYSTEMS 
+management information SYSTEMS 
+---------------------------------------------------------------
+
+CACM-1247
+computer programming SYSTEMS 
+system which can serve as an OPERATING environment for 
+an OPERATING environment for dynamic-recursive 
+SYSTEMS. the available services include dynamic allocation 
+---------------------------------------------------------------
+
+CACM-2069
+OPERATING SYSTEMS, memory management 
+markovian computer models, scheduling strategies, 
+ca700415 jb february 13, 1978 2:36 pm 
+page-on-demand, demand paging, time-sharing multiprogramming, 
+---------------------------------------------------------------
+

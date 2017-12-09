@@ -1,0 +1,76 @@
+CACM-2327
+AUTOMATA THEORY, brain THEORY, network complexity, 
+toward an AUTOMATA THEORY OF brains 
+in which AUTOMATA THEORY might evolve over THE 
+a source OF ideas for AUTOMATA theory-the STUDY 
+development OF THE THEORY. this paper suggests THE ways 
+---------------------------------------------------------------
+
+CACM-2650
+error correction, REGULAR LANGUAGES, REGULAR events, 
+order-n correction for REGULAR LANGUAGES 
+finite state AUTOMATA, compiler error recovery, 
+b, belonging TO a given REGULAR language l, 
+AUTOMATA 
+---------------------------------------------------------------
+
+CACM-1678
+switching THEORY, THEORY OF computability 
+science program, AUTOMATA, formal LANGUAGES, 
+describe as AUTOMATA, formal LANGUAGES, abstract 
+AUTOMATA, formal LANGUAGES, abstract switching, 
+---------------------------------------------------------------
+
+CACM-2112
+THE translator consists OF mealy form finite-state AUTOMATA interacting 
+expression, context-free LANGUAGES, translation, recognizers, 
+AUTOMATA, turing machines, REGULAR expression, transduction 
+directed compilers, finite state AUTOMATA 
+context-free LANGUAGES. a formal procedure is given for deriving from 
+---------------------------------------------------------------
+
+CACM-2921
+finite state machines (AUTOMATA), REGULAR expressions, 
+parsing, programming LANGUAGES, language generation, 
+describe THE syntax OF programming LANGUAGES more 
+REGULAR right part grammars AND their parsers 
+grammars called REGULAR right part (rrp) 
+---------------------------------------------------------------
+
+CACM-2931
+logic, programming LANGUAGES, AUTOMATA, denotational 
+computability THEORY. programming LANGUAGES offer 
+AND how they are TO be transformed (THE dynamics). 
+logic AND programming LANGUAGES 
+much concentration on THE finite-state AND ALGEBRAIC 
+---------------------------------------------------------------
+
+CACM-2323
+toward a general THEORY OF special functions 
+TO differential equations. such a THEORY is 
+then THE prospects for a general THEORY OF functions 
+preferable TO a less general effort TO make ALGEBRAIC 
+simplification, symbolic integration, ALGEBRAIC 
+---------------------------------------------------------------
+
+CACM-2449
+OF structured variables based on simple AUTOMATA 
+THEORY is presented. THE technique offers a deterministic 
+cacm september, 1973 
+2449 5 2449 
+---------------------------------------------------------------
+
+CACM-1896
+coulomb wave functions, wave functions, REGULAR coulomb wave functions 
+REGULAR coulomb wave functions (algorithm 292 s22]) 
+1896 5 1896 
+5.12 
+---------------------------------------------------------------
+
+CACM-1898
+coulomb wave functions, wave functions, REGULAR coulomb wave functions 
+REGULAR coulomb wave functions (algorithm 292 [s22]) 
+kolbig, k. s. 
+ca690511 jb february 17, 1978 3:19 pm 
+---------------------------------------------------------------
+

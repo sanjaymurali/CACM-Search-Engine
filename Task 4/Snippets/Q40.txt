@@ -1,0 +1,80 @@
+CACM-2956
+notion THAT a DATA TYPE is a set of values together 
+THE domain of an array as a DATA TYPE, THE need for 
+some ideas ON DATA TYPES IN high-level LANGUAGES 
+DATA TYPES, generic procedures, programming LANGUAGES 
+more narrow for I:= 1 to n notation), THE use of 
+---------------------------------------------------------------
+
+CACM-3105
+abstract DATA TYPES, TYPE checking, capabilities 
+programming LANGUAGES, access control, DATA TYPES, 
+expression of access constraints ON shared DATA. 
+TYPES. 
+a language extension for expressing constraints ON DATA access 
+---------------------------------------------------------------
+
+CACM-2651
+programmer-defined DATA TYPES DATA TYPES and generic 
+DATA TYPE definition, DATA description language, compilation 
+treatment of DATA TYPES includes provision for 
+set of DATA TYPES and associated operations IN a manner 
+and very flexible DATA TYPE behavior, IN a context THAT 
+---------------------------------------------------------------
+
+CACM-2265
+TYPE checking, TYPES, lambda calculus, models for 
+characterizes THE TYPE relations within THE program 
+programming LANGUAGES, syntax, semantics, compiler 
+problems faced for ANY notion of TYPE checking 
+over different classes of objects (E.G. 
+---------------------------------------------------------------
+
+CACM-2254
+THE value of partitioning for array LANGUAGES. 
+detail to be of value IN THE design of other array LANGUAGES. 
+dynamic partitioning for array LANGUAGES 
+of general interest is THE DATA structure for partitioning. 
+ARE defined for different TYPES of arrays, so 
+---------------------------------------------------------------
+
+CACM-2940
+of abstract DATA TYPES. IN this paper THE abstraction techniques 
+abstraction and representation, abstract DATA TYPES, 
+corresponding constructs IN other LANGUAGES. a 
+ARE extended from simple DATA representation 
+most important poin t of interaction between DATA 
+---------------------------------------------------------------
+
+CACM-2470
+LANGUAGES, DATA TYPES, modes, axioms, correctness, 
+DATA TYPES out of simper ones WITH THE operations of rowing, 
+formal language definition, formal description, DATA STRUCTURES, 
+DATA TYPES. both deterministic and nondeterministic 
+THAT completely new primitive TYPES can be introduced 
+---------------------------------------------------------------
+
+CACM-1588
+upon THE DATA LIST STRUCTURES. these two problems HAVE 
+operate ON simple and complex DATA LIST organizations. 
+STRUCTURES and/or from their inability to perform THE 
+of pl/i. THE basic concepts of LIST processing and 
+THE concepts of LIST processing HAVE been introduced 
+---------------------------------------------------------------
+
+CACM-2051
+use WITH a small portion of hypothetical DATA. 
+THE investigator must arrange DATA for input by aligning pairs 
+IN THAT pair of words. THE output is a LIST of ALL correspondence 
+and uses LIST processing techniques to sort and count them. 
+correspondence, regular correspondence, LIST processing 
+---------------------------------------------------------------
+
+CACM-1457
+DATA STRUCTURES, including linear text, sparse matrices, 
+and tree or LIST STRUCTURES. THE main DATA 
+implementation. advantages of these programming LANGUAGES 
+DATA manipulation and programming problems 
+of DATA representations which HAVE been used to describe 
+---------------------------------------------------------------
+

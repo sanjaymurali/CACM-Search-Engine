@@ -1,0 +1,71 @@
+CACM-1795
+CODE OPTIMIZATION, sequencing of operations, 
+optimal CODE FOR serial and parallel computation 
+4.12 
+ca691217 jb february 15, 1978 1:59 pm 
+---------------------------------------------------------------
+
+CACM-2897
+OPTIMIZATION, OPTIMIZATION techniques, data flow analysis 
+lower level CODE by a sequence of steps. each 
+CODE produced by a conventional pl/i optimizing 
+expansion-the task of tailoring this CODE to take 
+a case study of a new CODE generation technique FOR compilers 
+---------------------------------------------------------------
+
+CACM-2495
+arithmetic expressions, CODE generation, compilers, 
+adapting optimal CODE generation FOR arithmetic 
+object-code OPTIMIZATION, register assignment, 
+cacm june, 1973 
+---------------------------------------------------------------
+
+CACM-2904
+compilers, OPTIMIZATION of compiled CODE, program analysis, 
+integrated package of local OPTIMIZATION algorithms. 
+including linear function test replacement, 
+4.12 5.24 5.32 
+---------------------------------------------------------------
+
+CACM-1947
+object CODE OPTIMIZATION 
+instructions, object CODE, OPTIMIZATION, redundancy 
+to transforming the program to improve object time EFFICIENCY. 
+compilers, data flow analysis, dominance, EFFICIENCY, 
+---------------------------------------------------------------
+
+CACM-3080
+compilers, correctness, CODE OPTIMIZATION, 
+that OPTIMIZATION of the genre of this paper can result 
+proving the correctness of heuristically optimized CODE 
+the system is as a post OPTIMIZATION step in CODE 
+---------------------------------------------------------------
+
+CACM-2253
+in a previous paper. this scheme attempts program OPTIMIZATION 
+languages, program OPTIMIZATION, range operations, symbolic 
+rather than the machine CODE. the goal is to automatically 
+generate CODE FOR handling the tedious address 
+---------------------------------------------------------------
+
+CACM-1886
+factorization algorithms, CODE OPTIMIZATION, sequencing 
+generation of optimal CODE FOR expressions via factorization 
+EFFICIENCY of the object CODE produced by first factoring 
+1886 5 1886 
+---------------------------------------------------------------
+
+CACM-1564
+tables into cobol CODE is contained in the 
+indexing and also by outputting the CODE as it is generated, 
+a line at a time. the only OPTIMIZATION 
+attempted is the elimination of obviously unnecessary 
+---------------------------------------------------------------
+
+CACM-2944
+OPTIMIZATION, reference counts, storage 
+used to find actions that cancel when the CODE is executed 
+EFFICIENCY. 
+storage reclamation overhead to be partially 
+---------------------------------------------------------------
+

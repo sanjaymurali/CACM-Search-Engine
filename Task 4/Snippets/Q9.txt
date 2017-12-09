@@ -1,0 +1,75 @@
+CACM-2372
+OPERATING SYSTEMS, access management, data banks, 
+system implementation within today's languages AND OPERATING SYSTEMS. 
+as a framework for a proposal for general SECURITY 
+one to perform much of the checking of SECURITY 
+SECURITY, privacy, access control confidentiality, 
+---------------------------------------------------------------
+
+CACM-3158
+personal computing, SECURITY, privacy, NETWORKS, public-key encryption 
+data to other users on the NETWORK. 
+a method for implementing secure personal computing IN a NETWORK 
+secure personal computing IN an insecure NETWORK 
+for his own SECURITY AND need not rely on the SECURITY of 
+---------------------------------------------------------------
+
+CACM-3068
+OPERATING SYSTEMS, SECURITY, protection, program verification 
+a model for verification of data SECURITY IN OPERATING SYSTEMS 
+here IN terms of a general model for OPERATING SYSTEMS. 
+uncircumventably secure, shared computer SYSTEMS. a 
+ucla secure OPERATING system is also discussed. 
+---------------------------------------------------------------
+
+CACM-2621
+OPERATING SYSTEMS, time sharing SYSTEMS, SECURITY, cryptography 
+the protection of time sharing SYSTEMS from 
+a high SECURITY log-in procedure 
+cacm august, 1974 
+---------------------------------------------------------------
+
+CACM-2949
+topology, routing problem IN NETWORKS, DISTRIBUTED OPERATING 
+computer NETWORKS, DISTRIBUTED control, NETWORK 
+DISTRIBUTED computer NETWORK, correctness proofs, 
+NETWORK 
+merit computer NETWORK is presented AND explained; this 
+---------------------------------------------------------------
+
+CACM-1745
+information NETWORKS, information SYSTEMS, computing 
+communications services, DISTRIBUTED data base, 
+SECURITY. 
+that adequate provisions are made for information 
+---------------------------------------------------------------
+
+CACM-1808
+SECURITY SYSTEMS, confidential information 
+cryptographic, cryptanalysis, ciphers secrecy SYSTEMS, 
+relative SECURITY, costs, AND preferred methods 
+processing 
+---------------------------------------------------------------
+
+CACM-3174
+OPERATING SYSTEMS, passwords, computer SECURITY 
+password SECURITY: a case history 
+extreme SECURITY AND ease of use. 
+SECURITY scheme on a remotely accessed time-sharing system. 
+---------------------------------------------------------------
+
+CACM-2870
+the model provides a unifying view of all SYSTEMS 
+of them according to SECURITY objectives, AND 
+derived from the SECURITY classes AND justified by the semantics 
+the construction of mechanisms that enforce SECURITY. 
+of secure information flow among SECURITY classes. the 
+---------------------------------------------------------------
+
+CACM-2622
+OPERATING system SECURITY, SECURITY, authentication, 
+IN many computer OPERATING SYSTEMS a user authenticates 
+cacm august, 1974 
+all relevant code AND data bases, may be known 
+---------------------------------------------------------------
+

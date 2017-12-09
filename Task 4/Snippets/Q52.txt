@@ -1,0 +1,77 @@
+CACM-2721
+aquatic ECOSYSTEMS, as well as IN environmental 
+of the accuracy of the SIMULATION methods, a SIMULATION 
+the digital SIMULATION of river plankton population dynamics 
+accurate, the SIMULATION was found to predict the general 
+digital SIMULATION, mathematical modeling, plankton 
+---------------------------------------------------------------
+
+CACM-2749
+the model aids IN choosing between the two SIMULATION 
+SIMULATION organization, event SIMULATION, clock 
+pulse SIMULATION, significant event SIMULATION. 
+this paper compares a new method of SIMULATION 
+IN the SIMULATION of some systems when computational 
+---------------------------------------------------------------
+
+CACM-1928
+SIMULATION, logical SIMULATION, digital SIMULATION, 
+large systems SIMULATION, network structures, 
+as the event queue grows IN length, AND a SIMULATION 
+of the techniques described may be used for the SIMULATION 
+exclusive SIMULATION of activity IN digital networks 
+---------------------------------------------------------------
+
+CACM-2767
+SIMULATION, time flow mechanisms, event 
+SIMULATION, time flow mechanisms, event list algorithm, 
+SIMULATION system. two of the algorithms are new, one 
+routine, discrete system SIMULATION, sorting 
+list algorithm, SIMULATION executive, event scheduling 
+---------------------------------------------------------------
+
+CACM-3070
+discrete-event SIMULATION AND analytic techniques are 
+hybrid SIMULATION models of computer systems 
+computer system, discrete-event SIMULATION is used 
+performance evaluation, SIMULATION, queueing 
+of a hybrid SIMULATION model IN which both 
+---------------------------------------------------------------
+
+CACM-1870
+random numbers, SIMULATION, boolean algebra, bit manipulation 
+some techniques for using pseudorandom numbers IN computer SIMULATION 
+IN SIMULATION programming are described. 
+1794 4 1870 
+---------------------------------------------------------------
+
+CACM-1890
+traffic SIMULATION, traffic flow, traffic network 
+SIMULATION of traffic flows IN a network 
+signal setting, vehicle, road network, list structure, computer SIMULATION 
+a computer SIMULATION program which deals 
+SIMULATION scheme has its excellent point IN that 
+---------------------------------------------------------------
+
+CACM-3048
+deterministic SIMULATION model of a system. IN the model 
+performance evaluation, deterministic SIMULATION, 
+SIMULATION is presented as a practical technique 
+data streams of the real system. SIMULATION of the 
+computers by deterministic SIMULATION 
+---------------------------------------------------------------
+
+CACM-2742
+discrete event SIMULATION, SIMULATION, event scanning mechanisms 
+improved event-scanning mechanisms for discrete event SIMULATION 
+SIMULATION models of large, complex "real-world" 
+reputation of eating up hours of computer time. this 
+---------------------------------------------------------------
+
+CACM-2970
+making a costly error IN a preliminary SIMULATION run. 
+property, sequential estimator, SIMULATION, 
+of SIMULATION output. IN particular, it describes a 
+achieving specific accuracy IN SIMULATION output analysis 
+---------------------------------------------------------------
+

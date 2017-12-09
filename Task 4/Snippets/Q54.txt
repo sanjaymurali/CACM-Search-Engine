@@ -1,0 +1,78 @@
+CACM-2940
+LANGUAGES, PROGRAMMING methodology, PROOFS OF CORRECTNESS, TYPES, verification 
+OF ABSTRACT DATA TYPES. in this paper the abstraction techniques 
+abstraction AND representation, ABSTRACT DATA TYPES, 
+decomposition, program SPECIFICATIONS, PROGRAMMING 
+corresponding constructs in other LANGUAGES. A 
+---------------------------------------------------------------
+
+CACM-3031
+ABSTRACT DATA TYPES AND software validation 
+ABSTRACT DATA type, CORRECTNESS proof, 
+OF an ABSTRACT DATA type. second, semi-automatic 
+DATA type, DATA structure, specification 
+such PROOFS OF CORRECTNESS AND to derive an immediate 
+---------------------------------------------------------------
+
+CACM-2958
+ABSTRACT DATA TYPES can play A significant role 
+for the specification OF ABSTRACT DATA TYPES. among 
+ABSTRACT DATA type, CORRECTNESS proof, DATA type, 
+ABSTRACT DATA TYPES AND the development OF DATA structures 
+involved in constructing algebraic SPECIFICATIONS 
+---------------------------------------------------------------
+
+CACM-2192
+recursion, induction, CORRECTNESS, PROOFS, compiler CORRECTNESS 
+for PROGRAMMING LANGUAGES. 
+AND thus applicable in PROOFS about interpreters 
+2903 5 2192 
+---------------------------------------------------------------
+
+CACM-3103
+ABSTRACT DATA TYPES, automatic PROGRAMMING, DATA 
+thus the programs produced using ABSTRACT TYPES were 
+DATA TYPES such as sets AND lists, programmer 
+for ABSTRACT TYPES from A library OF implementations 
+an example program. general issues in DATA structure 
+---------------------------------------------------------------
+
+CACM-2295
+OF PROGRAMMING LANGUAGES, DATA structures 
+PROGRAMMING primitives, PROGRAMMING LANGUAGES, 
+algol, SEMANTICS, recursive composition, design 
+comment on the composition OF SEMANTICS in algol 68 
+---------------------------------------------------------------
+
+CACM-3105
+ABSTRACT DATA TYPES, type checking, capabilities 
+PROGRAMMING LANGUAGES, access control, DATA TYPES, 
+paper shows how to extend PROGRAMMING LANGUAGES 
+LANGUAGES that support the notion OF ABSTRACT DATA 
+expression OF access constraints on shared DATA. 
+---------------------------------------------------------------
+
+CACM-2931
+logic, PROGRAMMING LANGUAGES, automata, DENOTATIONAL 
+computability theory. PROGRAMMING LANGUAGES offer 
+with the method OF DATA TYPES as lattices (or partial 
+logic AND PROGRAMMING LANGUAGES 
+to be done in showing how ABSTRACT conceptualizations 
+---------------------------------------------------------------
+
+CACM-2470
+LANGUAGES, DATA TYPES, modes, axioms, CORRECTNESS, 
+DATA TYPES out OF simper ones with the operations OF rowing, 
+DATA TYPES. both deterministic AND nondeterministic 
+accurate description OF program SEMANTICS. it is shown 
+that completely new primitive TYPES can be introduced 
+---------------------------------------------------------------
+
+CACM-1902
+different LANGUAGES, INCLUDING assembly language. 
+an automatic grading scheme for simple PROGRAMMING exercises 
+to record the results OF PROGRAMMING exercises in three 
+made to A typical UNIVERSITY operating system 
+AND for final runs with system-supplied DATA. exercises 
+---------------------------------------------------------------
+

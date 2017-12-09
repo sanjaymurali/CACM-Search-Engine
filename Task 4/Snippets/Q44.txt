@@ -1,0 +1,71 @@
+CACM-2829
+the areas OF TEXTURE simulation and lighting models. 
+modeled in a similar manner to the TEXTURE mapping 
+and then added to the intensity obtained from the TEXTURE 
+COMPUTER graphics, graphic display, shading, hidden surface removal 
+TEXTURE and reflection in COMPUTER generated images 
+---------------------------------------------------------------
+
+CACM-2523
+picture processing, scene ANALYSIS, edge detection 
+textured regions is described. TEXTURE edges in the 
+a region coloring technique for scene ANALYSIS 
+3.63 8.2 
+---------------------------------------------------------------
+
+CACM-2771
+using a COMPUTER. SYNTHESIS begins with primitive solids 
+the SYNTHESIS OF solids bounded BY many faces 
+SYNTHESIS, three-dimensional modeling 
+graphics, machined components, polyhedra, shape 
+---------------------------------------------------------------
+
+CACM-2924
+COMPUTER graphics, three-dimensional surface representation, 
+shaped three-dimensional surfaces. the method is a SYNTHESIS 
+an in teractive COMPUTER graphics method has been 
+an interactive COMPUTER graphics approach to surface representation 
+---------------------------------------------------------------
+
+CACM-2751
+the quality OF COMPUTER generated images OF 
+PERCEPTION and the fundamental laws OF optics are 
+illumination for COMPUTER generated pictures 
+COMPUTER graphics, graphic display, hidden surface removal. 
+---------------------------------------------------------------
+
+CACM-1686
+COMPUTER SYNTHESIS OF holograms for 3-d display 
+and applications OF COMPUTER holography are 
+holography, optics, fourier transforms, COMPUTER 
+suggested. COMPUTER holograms have been made OF three-dimensional 
+---------------------------------------------------------------
+
+CACM-1002
+be useful in the on line, real-time ANALYSIS OF biological 
+ANALYSIS is used for multiplications, 
+implementing both the SYNTHESIS OF these filters, and 
+since much OF the COMPUTER time spent in time-series 
+---------------------------------------------------------------
+
+CACM-2210
+approach to automatic program SYNTHESIS is given, 
+program SYNTHESIS, mathematical induction 
+toward automatic program SYNTHESIS 
+numbers,lists, and trees, in order to construct 
+---------------------------------------------------------------
+
+CACM-2683
+assertions, SYNTHESIS OF loop predicates, weak 
+the SYNTHESIS OF loop predicates 
+assistance. this paper discusses techniques 
+wegbreit, b. 
+---------------------------------------------------------------
+
+CACM-0533
+harmonic ANALYSIS as presented in the third 
+corrupted with correlated noise (OF a known form) 
+digital SYNTHESIS OF correlated stationary noise 
+in terms OF exact harmonic ANALYSIS. in practice, discrete 
+---------------------------------------------------------------
+

@@ -1,0 +1,76 @@
+CACM-3043
+concurrent programming, DISTRIBUTED PROCESSES, 
+DISTRIBUTED PROCESSES: a concurrent programming concept 
+the paper gives several examples OF DISTRIBUTED PROCESSES 
+PROCESSES communicate AND synchronize by means OF procedure 
+hansen, P. 
+---------------------------------------------------------------
+
+CACM-3128
+SYSTEMS, security MODELS, mutual exclusion, semaphores 
+a NEW SYNCHRONIZATION mechanism is proposed, using 
+correctness arguments AND ALSO simplifies implementation IN DISTRIBUTED 
+SYSTEMS. the mechanism is defined formally, AND then several 
+abstract objects called eventcounts AND sequencers, that allows PROCESSES 
+---------------------------------------------------------------
+
+CACM-2578
+multiprocessing, networks, self-stabilization, SYNCHRONIZATION, 
+error recovery, DISTRIBUTED control, harmonious cooperation, self-repair 
+self-stabilizing SYSTEMS IN spite OF DISTRIBUTED control 
+ca741106 jb january 16,1978 10:18 am 
+---------------------------------------------------------------
+
+CACM-3082
+DISTRIBUTED SYSTEMS, computer networks, 
+clock SYNCHRONIZATION, multiprocess SYSTEMS 
+another IN a DISTRIBUTED system is examined, AND 
+is illustrated with a method FOR solving SYNCHRONIZATION 
+time, clocks, AND the ordering OF events IN a DISTRIBUTED system 
+---------------------------------------------------------------
+
+CACM-2128
+time sharing, RESOURCE ALLOCATION, scheduling ALGORITHMS, 
+application to more general RESOURCE ALLOCATION problems. it is implemented 
+a processor ALLOCATION method FOR time-sharing 
+monitors, dynamic ALLOCATION, processor 
+slicing, scheduling, conversational SYSTEMS, 
+---------------------------------------------------------------
+
+CACM-2969
+computer networks, DATABASES, DISTRIBUTED 
+DATABASES, optimal file location 
+an optimization procedure FOR the ALLOCATION 
+one computer to another can ALSO be gained from the 
+---------------------------------------------------------------
+
+CACM-2158
+2158 5 2158 
+IN implicit multistep integration ALGORITHMS 
+FOR nonlinear SYSTEMS OF ordinary differential equations 
+ca710906 jb february 2, 1978 2:13 pm 
+---------------------------------------------------------------
+
+CACM-3141
+decentralized ALGORITHMS, DISTRIBUTED SYSTEMS, operating SYSTEMS 
+numbered PROCESSES arranged IN a circle, IN which no central 
+controller exists AND the number OF PROCESSES is not known a priori. 
+IN circular configurations OF PROCESSES 
+---------------------------------------------------------------
+
+CACM-1747
+a time-of-day clock, the SYNCHRONIZATION OF PARALLEL 
+SYSTEMS, computer SYSTEMS design, input equipment, 
+PARALLEL processing, PARALLEL programming, 
+SYSTEMS design, multiprogramming, multiprogrammed 
+AND ASYNCHRONOUS reproducibility OF output. these criteria 
+---------------------------------------------------------------
+
+CACM-2371
+IN a RESOURCE sharing computer network 
+computer networks, RESOURCE sharing 
+a system OF communication between PROCESSES IN a 
+DISTRIBUTED throughout a computer network. 
+system is extended so that it may be used between PROCESSES 
+---------------------------------------------------------------
+

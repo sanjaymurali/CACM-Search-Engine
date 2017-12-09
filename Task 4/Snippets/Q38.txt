@@ -1,0 +1,80 @@
+CACM-3031
+ABSTRACT DATA TYPE, correctness proof, 
+DATA TYPE, DATA structure, specification 
+ABSTRACT DATA TYPES and software validation 
+OF an ABSTRACT DATA TYPE. second, semi-automatic 
+formal specification OF A DATA TYPE. an example 
+---------------------------------------------------------------
+
+CACM-2958
+ABSTRACT DATA TYPE, correctness proof, DATA TYPE, 
+ABSTRACT DATA TYPES CAN play A significant role 
+for THE specification OF ABSTRACT DATA TYPES. among 
+ABSTRACT DATA TYPES and THE development OF DATA structures 
+DATA structure, specification, software specification 
+---------------------------------------------------------------
+
+CACM-3103
+ABSTRACT DATA TYPES, automatic programming, DATA 
+thus THE programs produced using ABSTRACT TYPES were 
+DATA TYPES such as sets and lists, programmer 
+purpose implementation for an ABSTRACT TYPE. 
+for ABSTRACT TYPES from A library OF implementations 
+---------------------------------------------------------------
+
+CACM-3105
+ABSTRACT DATA TYPES, TYPE checking, capabilities 
+programming languages, access control, DATA TYPES, 
+languages THAT support THE notion OF ABSTRACT DATA 
+expression OF access constraints ON shared DATA. 
+TYPES. 
+---------------------------------------------------------------
+
+CACM-2956
+notion THAT A DATA TYPE IS A set OF values together 
+some ideas ON DATA TYPES IN high-level languages 
+DATA TYPES, generic procedures, programming languages 
+THE domain OF an array as A DATA TYPE, THE need for 
+more narrow for I:= 1 TO n notation), THE use OF 
+---------------------------------------------------------------
+
+CACM-2940
+OF ABSTRACT DATA TYPES. IN THIS paper THE abstraction techniques 
+abstraction and representation, ABSTRACT DATA TYPES, 
+wulf, w. A. 
+are extended from simple DATA representation 
+most important poin t OF interaction between DATA 
+---------------------------------------------------------------
+
+CACM-2651
+programmer-defined DATA TYPES DATA TYPES and generic 
+DATA TYPE definition, DATA description language, compilation 
+treatment OF DATA TYPES includes provision for 
+set OF DATA TYPES and associated operations IN A manner 
+and very flexible DATA TYPE behavior, IN A context THAT 
+---------------------------------------------------------------
+
+CACM-2470
+languages, DATA TYPES, modes, axioms, correctness, 
+DATA TYPES out OF simper ones with THE operations OF rowing, 
+DATA TYPES. both deterministic and nondeterministic 
+QUESTIONS OF local and global environments and OF 
+THAT completely new primitive TYPES CAN be introduced 
+---------------------------------------------------------------
+
+CACM-2265
+TYPE checking, TYPES, lambda calculus, models for 
+characterizes THE TYPE relations within THE program 
+problems faced for any notion OF TYPE checking 
+THE notion OF TYPE checking and presents A partial 
+TYPE checking. THIS paper attempts TO isolate 
+---------------------------------------------------------------
+
+CACM-2931
+with THE method OF DATA TYPES as lattices (or partial 
+TO be done IN showing HOW ABSTRACT conceptualizations 
+and HOW they are TO be transformed (THE dynamics). 
+OF computation (IN A way, THE statics OF THE problem) 
+TO certain QUESTIONS are computable IN principle, 
+---------------------------------------------------------------
+

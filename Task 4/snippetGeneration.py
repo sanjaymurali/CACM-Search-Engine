@@ -10,9 +10,18 @@ from bs4 import BeautifulSoup
 CORPUS_DIR = "../Project Input/cacm/"
 UPDATED_CORPUS = "Corpus/"
 QUERY_FILE = "queriesRedefined.txt"
-BM25_SCORE_DIR = "BM25 Scores"
+SCORE_DIR = "BM25 Scores"
 CACM_REL = "cacm.rel.txt"
 STOP_WORD_FILE = "common_words.txt"
+stopWordList = []
+queryDict = dict()
+
+
+def generate_snippet():
+    for i in range(1, 65):
+        query_id = str(i)
+        processed_score_file =  process_score_file(query_id)
+        returnSummary(query_id, processed_score_file)
 
 
 def regenerate_corpus():
@@ -30,11 +39,35 @@ def regenerate_corpus():
 
 
 def termQueryMatch(query, word):
+    pattern_to_remove = re.compile(r'[,.!\"();:<>-_+=@#]')
+    pattern_word = pattern_to_remove.sub('', word)
     query = query.split()
+
     for i in query:
-        if i==word:
+        if i == pattern_word:
             return True
+
     return False
+
+def process_score_file(query_id):
+    queryDocumentResult = dict()
+    # extract result files for a particular
+    QueryResult = open(SCORE_DIR + "/Q"+str(query_id)+".txt", "r")
+    count = 0
+    for resultLine in QueryResult.readlines():
+        if count == 10:
+            break
+        else:
+            resultLine = re.split(r'\t+', resultLine)
+            # print re.split(r'\t+', resultLine)
+            queryId = resultLine[0]
+            documentId = resultLine[2]
+            if queryId in queryDocumentResult:
+                queryDocumentResult[queryId].append(documentId)
+            else:
+                queryDocumentResult[queryId] = [documentId]
+        count += 1
+    return queryDocumentResult
 
 def returnSignificanceScore(sentence, query):
     sentence = sentence.split()
@@ -47,10 +80,9 @@ def returnSignificanceScore(sentence, query):
     for word in sentence:
         if termQueryMatch(query, word) and word not in stopWordList:
             min = sentence.index(word)
-            #print "first i"
             break
     for i in range(len(sentence)-1, 0, -1):
-        if termQueryMatch(query, sentence[i]) and i not in stopWordList:
+        if termQueryMatch(query, sentence[i]) and sentence[i] not in stopWordList:
             max = i
             break
     for i in sentence[min: (max+1)]:
@@ -60,11 +92,11 @@ def returnSignificanceScore(sentence, query):
         result = 0
     else:
         result =  math.pow(count,2)/len(sentence[min:(max+1)])
-    #print result
+
     return result
 
 
-def returnSummary(queryId, queryDocumentResult, queryDict):
+def returnSummary(queryId, queryDocumentResult):
     query = queryDict[int(queryId)]
     resultFileForQuery = queryDocumentResult[queryId]
     output_file = open("Snippets/" +"Q"+queryId+".txt","w")
@@ -81,66 +113,46 @@ def returnSummary(queryId, queryDocumentResult, queryDict):
             if count < 6:
                 summary.append(str(i))
                 count += 1
-        output_file.write(file.name.split("/")[1])
+        output_file.write(file.name.split("/")[1].replace(".txt",""))
         output_file.write("\n")
         for snip in summary:
-            list = snip.split(" ")
-            for word in list:
-                if termQueryMatch(query, word):
-                    list[list.index(word)] = word.upper()
-                    output_file.write(word.upper())
-                    output_file.write(" ")
-                output_file.write(word+" ")
-            output_file.write("\n")
+            words = snip.split()
+            if len(words) != 0:
+                for word in words:
+                    if termQueryMatch(query, word):
+                        words[words.index(word)] = word.upper()
+                        output_file.write(word.upper())
+                        output_file.write(" ")
+                    else:
+                        output_file.write(word+" ")
+                output_file.write("\n")
         output_file.write("---------------------------------------------------------------")
         output_file.write("\n\n")
     output_file.close()
-        #print summary
 
 
-
-stopWordList = []
-queryDict = {}
-
-queryFile = open(QUERY_FILE,"r")
-stopListFile = open(STOP_WORD_FILE, "r")
-
-
-
-
-#stoplist words
-for line in stopListFile.readlines():
-    stopWordList.append(line.strip())
-stopListFile.close()
-
-#query dict
-count = 1
-for query in queryFile.readlines():
-    queryDict[count] = query
-    count+=1
+def process_stopwords():
+    global stopWordList
+    stopListFile = open(STOP_WORD_FILE, "r")
+    # stoplist words
+    for line in stopListFile.readlines():
+        stopWordList.append(line.strip())
+    stopListFile.close()
 
 
-queryDocumentResult = {}
-#extract result files for a particular
-firstQueryResult =  open(BM25_SCORE_DIR+"/Q1.txt","r")
-for resultLine in firstQueryResult.readlines():
-    resultLine = re.split(r'\t+', resultLine)
-    #print re.split(r'\t+', resultLine)
-    queryId = resultLine[0]
-    documentId = resultLine[2]
-    if queryId in queryDocumentResult:
-        queryDocumentResult[queryId].append(documentId)
-    else:
-        queryDocumentResult[queryId] = [documentId]
+def query_list_processing():
+    global queryDict
+    queryFile = open(QUERY_FILE, "r")
+    # query dict
+    count = 1
+    for query in queryFile.readlines():
+        queryDict[count] = query
+        count += 1
 
-#print queryDocumentResult
-#regenerate_corpus()
-returnSummary("1",queryDocumentResult, queryDict)
-#something like {'1': ['CACM-1605.txt', 'CACM-1410.txt', 'CACM-1506.txt',
+def start():
+    process_stopwords()
+    query_list_processing()
+    generate_snippet()
 
 
-
-
-
-
-
+start()

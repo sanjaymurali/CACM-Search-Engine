@@ -1,0 +1,80 @@
+CACM-2711
+AUTOMATIC INFORMATION RETRIEVAL, AUTOMATIC 
+in particular, RETRIEVAL PERFORMANCE may correlate inversely 
+a vector space model for AUTOMATIC INDEXING 
+INDEXING, content analysis, document space 
+typical EVALUATION results are shown, demonstrating 
+---------------------------------------------------------------
+
+CACM-2990
+INFORMATION RETRIEVAL, AUTOMATIC INDEXING, content 
+THE PERFORMANCE OF INFORMATION RETRIEVAL systems 
+given user query OF a number OF AUTOMATIC INDEXING systems 
+effective INFORMATION RETRIEVAL using term accuracy 
+study, RETRIEVAL EVALUATION is based on optimizing THE 
+---------------------------------------------------------------
+
+CACM-1032
+theoretical CONSIDERATIONS in INFORMATION RETRIEVAL systems 
+INFORMATION storage AND RETRIEVAL systems are composed 
+(c) file organization TO make access TO INFORMATION 
+strategy, a linear model for an EVALUATION function 
+efficient. for identification OF INFORMATION THE paper 
+---------------------------------------------------------------
+
+CACM-0329
+as is its APPLICATION TO PROBLEMS OF AUTOMATIC 
+INDEXING AND AUTOMATIC abstracting. included in THE 
+AND linguistic techniques for THE solution OF PROBLEMS OF AUTOMATIC analysis. 
+in preparation for THE widespread use OF AUTOMATIC 
+AUTOMATIC abstracting AND INDEXING survey AND recommendations 
+---------------------------------------------------------------
+
+CACM-1457
+AUTOMATIC INFORMATION RETRIEVAL programs require 
+in AUTOMATIC INFORMATION RETRIEVAL 
+for THE RETRIEVAL APPLICATION are examined, 
+manipulations TO be performed in AUTOMATIC INFORMATION 
+facilities TO aid in INFORMATION RETRIEVAL. 
+---------------------------------------------------------------
+
+CACM-2631
+direct access, INFORMATION RETRIEVAL, character 
+text searching, INFORMATION THEORY, file organization, 
+RETRIEVAL, namely, THE maintenance AND use OF large 
+INFORMATION, an attempt is made TO overcome 
+one OF THE PROBLEMS often associated with INFORMATION 
+---------------------------------------------------------------
+
+CACM-2307
+AUTOMATIC INDEXING, AUTOMATIC search AND RETRIEVAL, 
+for INFORMATION RETRIEVAL AND for THE control 
+THE current role OF computers in AUTOMATIC 
+reorganization OF THE stored INFORMATION as a function OF 
+files are searched AND INFORMATION is retrieved following 
+---------------------------------------------------------------
+
+CACM-2542
+is proposed. a system which integrates PERFORMANCE EVALUATION 
+a software design AND EVALUATION system 
+description is used as direct input TO PERFORMANCE 
+THE PERFORMANCE OF a proposed design is not evaluated 
+analysis AND simulation routines. using THE PERFORMANCE 
+---------------------------------------------------------------
+
+CACM-1653
+system PERFORMANCE EVALUATION: survey AND appraisal 
+THE state OF THE art OF system PERFORMANCE 
+requiring successively greater amounts OF INFORMATION. 
+PROBLEMS are examined. throughput, turnaround, AND 
+THE central role OF measurement in PERFORMANCE 
+---------------------------------------------------------------
+
+CACM-1236
+THE smart AUTOMATIC document RETRIEVAL system-an illustration 
+a fully AUTOMATIC document RETRIEVAL system 
+retrieve THE wanted INFORMATION. a typical search 
+systems operations AND EVALUATION procedures. 
+AND search requests. THIS feature is used in THE RETRIEVAL 
+---------------------------------------------------------------
+
