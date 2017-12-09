@@ -3,8 +3,8 @@ import math
 import operator
 import shutil
 
-CORPUS_DIR = "D:\IR_Project_CS6200\IR_Project\Task 3\Processed_stem_corpus"
-QUERY_FILE = "D:\IR_Project_CS6200\IR_Project\Task 3\cacm_stem.query.txt"
+CORPUS_DIR = "../../Processed_stem_corpus"
+QUERY_FILE = "../../cacm_stem.query.txt"
 BM25_SCORE_DIR = "BM25 Scores"
 CACM_REL = "cacm.rel.txt"
 

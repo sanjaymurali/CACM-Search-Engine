@@ -16,7 +16,6 @@ INVERTED_INDEX = dict()
 NK = dict()
 
 def smoothed_query():
-    calculate_nk()
 
     queries = open(QUERY_FILE, "r")
     query = queries.readline()
@@ -28,54 +27,25 @@ def smoothed_query():
         query = queries.readline()
 
 def calculate_jelinker(query_words):
-    global NK
+
     TOTAL_WORDS_IN_COLLECTION = 374418
-    nk = dict() #local
-    reduced_inverted_index = dict() #local
+
     doc_score = dict()
-
-    # doc_id => score
-
-    query_term_frequency = dict()
-    # term frequencies for each word in the given query
-    for word in query_words:
-        if not query_term_frequency.has_key(word):
-            query_term_frequency.update({word: 1})
-        else:
-            query_term_frequency[word] += 1
-
-    # building inverted index with only terms in the query
-    for term in query_term_frequency:
-        if not INVERTED_INDEX.has_key(term):
-            reduced_inverted_index.update({term: {}})
-        else:
-            reduced_inverted_index.update({term: INVERTED_INDEX[term]})
-
-    for word in query_words:
-        if NK.has_key(word):
-            number_of_docs = NK[word]
-            nk[word] = number_of_docs
-
     for doc in FILENAMES_IN_CORPUS:
+
         length_of_doc = total_words(doc)
+
         score = 0
-        Myu = (float(LAMBDAVAL*length_of_doc)/float(1 - LAMBDAVAL))
-        # for term in query_words:
-        #     if term in INVERTED_INDEX and doc in INVERTED_INDEX[term]:
-        #         firstTerm = float(1.0-LAMBDAVAL)*(float(reduced_inverted_index[term][doc])/float(length_of_doc))
-        #         secondTerm = ((LAMBDAVAL*(calculate_cqi(term)))/TOTAL_WORDS_IN_COLLECTION)
-        #         score += math.log(firstTerm + secondTerm + 1.0)
-
         for term in query_words:
-            if term in INVERTED_INDEX and doc in INVERTED_INDEX[term]:
-                numerator = float(reduced_inverted_index[term][doc]) + (Myu * ((calculate_cqi(term))/TOTAL_WORDS_IN_COLLECTION))
-                denominator = (float(length_of_doc) + Myu)
-                without_log = numerator/denominator
-                score += (without_log)
-
+            if term in INVERTED_INDEX:
+                if doc in INVERTED_INDEX[term]:
+                    firstTerm = float(1.0 - LAMBDAVAL)*(float(INVERTED_INDEX[term][doc])/float(length_of_doc))
+                else:
+                    firstTerm = 0.0
+                secondTerm = float(LAMBDAVAL)*((float(calculate_cqi(term)))/float(TOTAL_WORDS_IN_COLLECTION))
+                totalTerm = float(firstTerm + secondTerm)
+                score += math.log(totalTerm)
         total_score = score
-        #total_score = math.log(score + 1.0)
-        #total_score = math.log(total_score + 1.0)
         doc_score.update({doc: total_score})
 
     doc_score = sorted(doc_score.items(), key=operator.itemgetter(1),reverse=True)  # sort them in descending order of score
@@ -85,8 +55,8 @@ def calculate_jelinker(query_words):
 def calculate_cqi(term):
     count = 0
     list = INVERTED_INDEX[term]
-    for key,value in list.items():
-        count+= list[key]
+    for item in list:
+        count += INVERTED_INDEX[term][item]
     return count
 
 
@@ -105,11 +75,6 @@ def total_words(doc):
     file = open("../Corpus/"+doc, "r")
     words = file.read().split()
     return len(words)
-
-def calculate_nk():
-    global NK
-    for key in INVERTED_INDEX:
-        NK[key] = len(INVERTED_INDEX[key])
 
 # Used in inverted index creation. Create inverted index from corpus
 def process_corpus():
@@ -170,15 +135,10 @@ def write_score(score, query_id):
     builder = ""
     rank = 1 # from top to bottom
     for docid, score in score:
-        builder += str(query_id) + "\tQ0\t" + docid + "\t" + str(rank) + "\t" + str(score) + "\tJELINKER\n"
+        builder += str(query_id) + "\tQ0\t" + docid + "\t" + str(rank) + "\t" + str(score) + "\tJELINEK\n"
         rank += 1
     builder = builder[0: len(builder)-1] # delete the trailing "\n"
     score_file.write(builder)
-
-
-def write_file(content):
-    file1 = open('sanjay.txt', "a")
-    file1.write(str(content))
 
 
 def start():
@@ -195,8 +155,5 @@ def start():
     delete_files()
     process_corpus()  # this function generates the inverted index for unigram for the given corpus
     smoothed_query()
-
-    print NUMBER_OF_DOCS
-
 
 start()

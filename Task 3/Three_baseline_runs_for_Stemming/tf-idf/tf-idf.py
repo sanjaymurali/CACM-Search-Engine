@@ -3,9 +3,8 @@ import math
 import operator
 import shutil
 
-CORPUS_DIR = "D:\IR_Project_CS6200\IR_Project\Task 3\Processed_stem_corpus"
-QUERY_FILE = "D:\IR_Project_CS6200\IR_Project\Task 3\cacm_stem.query.txt"
-CORPUS_DIR_extended = "D:\IR_Project_CS6200\IR_Project\Task 3\Processed_stem_corpus\\"
+CORPUS_DIR = "../../Processed_stem_corpus"
+QUERY_FILE = "../../cacm_stem.query.txt"
 TFIDF_SCORE_DIR = "TF-IDF Scores"
 NUMBER_OF_DOCS = 0
 
@@ -56,26 +55,35 @@ def calculate_tfidf(query_words):
 
     for doc in FILENAMES_IN_CORPUS:
         length_of_doc = total_words(doc)
+        score_doc = 0
+        score = 0
         for term in query_words:
             if term in INVERTED_INDEX and doc in reduced_inverted_index[term]:
-                tf = float(reduced_inverted_index[term][doc])/float(length_of_doc)
-                idf = 1.0 + math.log(NUMBER_OF_DOCS/nk[term]) # full normalization
-                score = tf*idf
-                if doc in doc_score:
-                    total_score = doc_score[doc] + score  # query consists of several words, so total needs to be found
-                    doc_score.update({doc: total_score})
-                else:
-                    doc_score.update({doc: score})
+                tf = float(calculate_tf_in_doc(doc,term))
+                idf = math.log(NUMBER_OF_DOCS/nk[term]) # full normalization
+                score += tf*idf/float(length_of_doc)
+            else:
+                score += 0
+        score_doc = score
+        doc_score.update({doc: score_doc})
+
 
     doc_score = sorted(doc_score.items(), key=operator.itemgetter(1),reverse=True)  # sort them in descending order of score
     doc_score = doc_score[0:100]  # the assignment asks only top 100
     return doc_score
 
+def  calculate_tf_in_doc(doc, term):
+    if not INVERTED_INDEX.has_key(term):
+        return 0
+    elif doc not in INVERTED_INDEX[term]:
+        return 0
+    else:
+        return float(INVERTED_INDEX[term][doc])
 
 def total_words(doc):
-    file = open(CORPUS_DIR_extended+doc, "r")
+    file = open(CORPUS_DIR+"/"+doc, "r")
     words = file.read().split()
-    return len(words)
+    return float(len(words))
 
 def calculate_nk():
     global NK

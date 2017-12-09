@@ -3,10 +3,9 @@ import math
 import operator
 import shutil
 
-CORPUS_DIR = "D:\IR_Project_CS6200\IR_Project\Task 3\Processed_stopped_corpus"
-CORPUS_DIR_extended = "D:\IR_Project_CS6200\IR_Project\Task 3\Processed_stopped_corpus\\"
-QUERY_FILE = "D:\IR_Project_CS6200\IR_Project\Task 1\queriesRedefined.txt"
-TFIDF_SCORE_DIR = "Jelinker Scores"
+CORPUS_DIR = "../../Processed_stopped_corpus"
+QUERY_FILE = "../../queriesRedefined.txt"
+JELINEK_SCORES_DIR = "Jelinker Scores"
 NUMBER_OF_DOCS = 0
 LAMBDAVAL = 0.35
 
@@ -16,8 +15,7 @@ FILENAMES_IN_CORPUS = []
 INVERTED_INDEX = dict()
 NK = dict()
 
-def tf_idf():
-    calculate_nk()
+def smoothed_query():
 
     queries = open(QUERY_FILE, "r")
     query = queries.readline()
@@ -29,57 +27,36 @@ def tf_idf():
         query = queries.readline()
 
 def calculate_jelinker(query_words):
-    global NK
-    TOTAL_WORDS_IN_COLLECTION= 374418
-    nk = dict() #local
-    reduced_inverted_index = dict() #local
+
+    TOTAL_WORDS_IN_COLLECTION = 374418
+
     doc_score = dict()
-
-    # doc_id => score
-
-    query_term_frequency = dict()
-    # term frequencies for each word in the given query
-    for word in query_words:
-        if not query_term_frequency.has_key(word):
-            query_term_frequency.update({word: 1})
-        else:
-            query_term_frequency[word] += 1
-
-    # building inverted index with only terms in the query
-    for term in query_term_frequency:
-        if not INVERTED_INDEX.has_key(term):
-            reduced_inverted_index.update({term: {}})
-        else:
-            reduced_inverted_index.update({term: INVERTED_INDEX[term]})
-
-    for word in query_words:
-        if NK.has_key(word):
-            number_of_docs = NK[word]
-            nk[word] = number_of_docs
-
     for doc in FILENAMES_IN_CORPUS:
+
         length_of_doc = total_words(doc)
+
+        score = 0
         for term in query_words:
-            if term in INVERTED_INDEX and doc in INVERTED_INDEX[term]:
-                firstTerm = float(1.0-LAMBDAVAL)*(float(reduced_inverted_index[term][doc])/float(length_of_doc))
-                #idf = math.log(NUMBER_OF_DOCS/nk[term])
-                secondTerm = LAMBDAVAL*(calculate_cqi(reduced_inverted_index,term)/TOTAL_WORDS_IN_COLLECTION)
-                score = firstTerm + secondTerm
-                if doc in doc_score:
-                    total_score = doc_score[doc] + score  # query consists of several words, so total needs to be found
-                    doc_score.update({doc: total_score})
+            if term in INVERTED_INDEX:
+                if doc in INVERTED_INDEX[term]:
+                    firstTerm = float(1.0 - LAMBDAVAL)*(float(INVERTED_INDEX[term][doc])/float(length_of_doc))
                 else:
-                    doc_score.update({doc: score})
+                    firstTerm = 0.0
+                secondTerm = float(LAMBDAVAL)*((float(calculate_cqi(term)))/float(TOTAL_WORDS_IN_COLLECTION))
+                totalTerm = float(firstTerm + secondTerm)
+                score += math.log(totalTerm)
+        total_score = score
+        doc_score.update({doc: total_score})
 
     doc_score = sorted(doc_score.items(), key=operator.itemgetter(1),reverse=True)  # sort them in descending order of score
     doc_score = doc_score[0:100]  # the assignment asks only top 100
     return doc_score
 
-def calculate_cqi(reduced_inverted_index, term):
+def calculate_cqi(term):
     count = 0
-    list = reduced_inverted_index[term]
-    for key,value in list.items():
-        count+= list[key]
+    list = INVERTED_INDEX[term]
+    for item in list:
+        count += INVERTED_INDEX[term][item]
     return count
 
 
@@ -95,16 +72,9 @@ def total_words_in_collection():
 
 
 def total_words(doc):
-    file = open(CORPUS_DIR_extended+doc, "r")
+    file = open(CORPUS_DIR + "/"+doc, "r")
     words = file.read().split()
     return len(words)
-
-def calculate_nk():
-    global NK
-    for key in INVERTED_INDEX:
-        NK[key] = len(INVERTED_INDEX[key])
-
-
 
 # Used in inverted index creation. Create inverted index from corpus
 def process_corpus():
@@ -154,26 +124,21 @@ def retrieve_corpus():
         FILENAMES_IN_CORPUS = file_names
 
 def delete_files():
-    if os.path.exists(TFIDF_SCORE_DIR):
-        shutil.rmtree(TFIDF_SCORE_DIR)
-    os.mkdir(TFIDF_SCORE_DIR)
+    if os.path.exists(JELINEK_SCORES_DIR):
+        shutil.rmtree(JELINEK_SCORES_DIR)
+    os.mkdir(JELINEK_SCORES_DIR)
 
 
 # write scores to files
 def write_score(score, query_id):
-    score_file = open(TFIDF_SCORE_DIR+"/Q" + str(query_id) +".txt", "w")
+    score_file = open(JELINEK_SCORES_DIR+"/Q" + str(query_id) +".txt", "w")
     builder = ""
     rank = 1 # from top to bottom
     for docid, score in score:
-        builder += str(query_id) + "\tQ0\t" + docid + "\t" + str(rank) + "\t" + str(score) + "\tJELINKER\n"
+        builder += str(query_id) + "\tQ0\t" + docid + "\t" + str(rank) + "\t" + str(score) + "\tJELINEK_SCORES_DIR\n"
         rank += 1
     builder = builder[0: len(builder)-1] # delete the trailing "\n"
     score_file.write(builder)
-
-
-def write_file(content):
-    file1 = open('sanjay.txt', "a")
-    file1.write(str(content))
 
 
 def start():
@@ -189,8 +154,6 @@ def start():
 
     delete_files()
     process_corpus()  # this function generates the inverted index for unigram for the given corpus
-    tf_idf()
-    print NUMBER_OF_DOCS
-
+    smoothed_query()
 
 start()

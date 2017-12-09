@@ -145,8 +145,7 @@ public class HW4 {
                             fileName = fileName.substring(0, fileName.length() - 4); // removing extension
 
                             // Output form : Query_ID Q0 fileName docID Rank score Lucene
-                            builder += query_ID + " Q0 " + fileName + " " + docId + " "
-                                    + (i + 1) + " " + hits[i].score + " Lucene\n";
+                            builder += query_ID + " Q0 " + fileName + " " + (i + 1) + " " + hits[i].score + " Lucene\n";
                         }
                         builder = builder.substring(0, builder.length()-1); // remove trailing new line "\n"
                         outputStream.write(builder);

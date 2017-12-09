@@ -1,9 +1,26 @@
 import os
 
-INPUT_SCORES_DIR = "../Task 1/BM25/BM25 Scores"
+import operator
+
+INPUT_SCORES_DIR = "../Task 3/Three_baseline_runs_for_Stopping/tf-idf/TF-IDF Scores"
+OUTPUT_TEXT = "TF_IDF_Stopped_Precision_and_Recall.txt"
 CACM_REL_PATH = "cacm.rel.txt"
 SCORES_TO_CONSIDER = []
 CACM_REL = dict()
+RECALL = dict()
+PRECISION = dict()
+AVERAGE_PRECISIONS = []
+RECIPROCAL_RANKS = []
+
+def calculate_recall_precision():
+    # there are 64 queries, so iterating through all of them
+    global RECALL, PRECISION
+    for i in range(1, 65):
+        query_id = str(i)
+        if CACM_REL.has_key(query_id):
+            RECALL[query_id] = recall_query(query_id)
+            PRECISION[query_id] = precision_query(query_id)
+
 
 def read_dir():
     global SCORES_TO_CONSIDER
@@ -46,34 +63,115 @@ def recall_query(query_id):
     A = CACM_REL[query_id]
     B = get_documents(query_id)
     AintersectionB = 0
-    recall = []
+    recall = dict()
     length_A = len(A)
     for document in B:
         if document in A:
             AintersectionB += 1
-        recall.append(float(AintersectionB)/float(length_A))
+        recall[document] = (float(AintersectionB)/float(length_A))
     return recall
 
 def precision_query(query_id):
     A = CACM_REL[query_id]
     B = get_documents(query_id)
     AintersectionB = 0
-    precision = []
+    precision = dict()
     length_B = 0
     for document in B:
         length_B += 1
         if document in A:
             AintersectionB += 1
-        precision.append(float(AintersectionB)/float(length_B))
-
+        precision[document] = (float(AintersectionB)/float(length_B))
     return precision
 
+def average_precision(query_id):
+    global AVERAGE_PRECISIONS
+    if PRECISION.has_key(query_id):
+        relevant_doc = CACM_REL[query_id]
+
+        precisions = PRECISION[query_id]
+        sum = 0
+        counter = 0
+        for every_precision in precisions:
+            if every_precision in relevant_doc:
+                counter += 1
+                #print precisions[every_precision]
+                sum += precisions[every_precision]
+        if counter == 0:
+            ap = 0
+        else:
+            ap = float(sum)/float(counter)
+        AVERAGE_PRECISIONS.append(ap)
+        return ap
+
+def mean_average_precision():
+    sum = 0
+    for ap in AVERAGE_PRECISIONS:
+        sum += ap
+    map = float(sum)/float(64)
+    return map
+
+def write_precision_recall():
+    global RECIPROCAL_RANKS
+    precision_recall_file_lines = ""
+
+    for file in range(1,65):
+        filename = "Q"+str(file)+".txt"
+        query_id_outer = str(file)
+        first_relevant_boolean = False
+        rank = 0.0
+        if CACM_REL.has_key(query_id_outer):
+            query_file = open(INPUT_SCORES_DIR + "/" + filename, "r").read()
+            opened_file = query_file.split("\n")
+            line_number = 1
+            for line in opened_file:
+                words = line.split()
+                document = words[2]
+                rank_of_doc = int(words[3])
+                document = document.split(".txt")[0]
+                if relevant_or_not(query_id_outer, document):
+                    type_of_document = "Relevant"
+                    if first_relevant_boolean == False:
+                        RECIPROCAL_RANKS.append(rank_of_doc)
+                        rank = rank_of_doc
+                        first_relevant_boolean = True
+                else:
+                    type_of_document = "Non-Relevant"
+                precision_recall_file_lines += line + "\t" + type_of_document + "\t"
+                precision_recall_file_lines += str(PRECISION[query_id_outer][document]) + "\t" + str(
+                    RECALL[query_id_outer][document]) + "\n"
+                line_number += 1
+            precision_recall_file_lines += "\nAverage Precision of Query " + query_id_outer + ": "  + str(average_precision(query_id_outer)) + "\n"
+            precision_recall_file_lines += "Reciprocal Rank of Query " + query_id_outer + ": "  + str(rank) + "\n\n"
+        else:
+            precision_recall_file_lines += "Query Q" + query_id_outer + " has no Relevant Terms. Precision: 0 and Recall: 0\n\n"
+
+    precision_recall_file_lines += "Mean Average Precision: " + str(mean_average_precision()) + "\n"
+    precision_recall_file_lines += "Mean Reciprocal Rank: " + str(mean_reciprocal_ranks())
+    precision_recall_file_lines = precision_recall_file_lines.rstrip()
+    new_file = open(OUTPUT_TEXT, "w")
+    new_file.write(precision_recall_file_lines)
+
+def mean_reciprocal_ranks():
+    sum = 0
+    for rank in RECIPROCAL_RANKS:
+        sum += float(1.0/float(rank))
+    mrr = float(sum)/float(len(RECIPROCAL_RANKS))
+    return mrr
+
+def relevant_or_not(query_id, doc):
+    if CACM_REL.has_key(query_id):
+        if doc in CACM_REL[query_id]:
+            return True
+        else:
+            return False
 
 def start():
-    print "hello"
+
     process_cacm_rel() # process relevance judgement given to us
     read_dir() # sets the scores to consider for evaluation, disregard any query which has no relevance judgement
-    print recall_query("1")
-    print precision_query("1")
-
+    calculate_recall_precision()
+    write_precision_recall()
+    print mean_average_precision()
+    print mean_reciprocal_ranks()
 start()
