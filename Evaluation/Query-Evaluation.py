@@ -2,8 +2,12 @@ import os
 
 import operator
 
+MODEL = "TF_IDF_Stopped"
+
 INPUT_SCORES_DIR = "../Task 3/Three_baseline_runs_for_Stopping/tf-idf/TF-IDF Scores"
-OUTPUT_TEXT = "TF_IDF_Stopped_Precision_and_Recall.txt"
+OUTPUT_TEXT = MODEL+"_Precision_and_Recall.txt"
+OUTPUT_PRECISION_20 = MODEL+"_Precision_at_20.txt"
+OUTPUT_PRECISION_5 = MODEL+"_Precision_at_5.txt"
 CACM_REL_PATH = "cacm.rel.txt"
 SCORES_TO_CONSIDER = []
 CACM_REL = dict()
@@ -11,6 +15,8 @@ RECALL = dict()
 PRECISION = dict()
 AVERAGE_PRECISIONS = []
 RECIPROCAL_RANKS = []
+PRECISION_AT_5 = dict()
+PRECISION_AT_20 = dict()
 
 def calculate_recall_precision():
     # there are 64 queries, so iterating through all of them
@@ -112,7 +118,7 @@ def mean_average_precision():
     return map
 
 def write_precision_recall():
-    global RECIPROCAL_RANKS
+    global RECIPROCAL_RANKS,PRECISION_AT_5, PRECISION_AT_20
     precision_recall_file_lines = ""
 
     for file in range(1,65):
@@ -129,6 +135,10 @@ def write_precision_recall():
                 document = words[2]
                 rank_of_doc = int(words[3])
                 document = document.split(".txt")[0]
+                if rank_of_doc == 5:
+                    PRECISION_AT_5[query_id_outer] = PRECISION[query_id_outer][document]
+                if rank_of_doc == 20:
+                    PRECISION_AT_20[query_id_outer] = PRECISION[query_id_outer][document]
                 if relevant_or_not(query_id_outer, document):
                     type_of_document = "Relevant"
                     if first_relevant_boolean == False:
@@ -152,6 +162,24 @@ def write_precision_recall():
     new_file = open(OUTPUT_TEXT, "w")
     new_file.write(precision_recall_file_lines)
 
+def write_precision_at_5():
+    precision_at_5 = sorted(PRECISION_AT_5.items(),key= lambda x: int(x[0]))
+    precision_at_5_lines = ""
+    for one in precision_at_5:
+        precision_at_5_lines += "Precision of Query " + one[0] + " at 5 is: " + str(one[1]) + "\n"
+    precision_at_5_lines = precision_at_5_lines.rstrip()
+    precision_at_5_file = open(OUTPUT_PRECISION_5, "w")
+    precision_at_5_file.write(precision_at_5_lines)
+
+def write_precision_at_20():
+    precision_at_20 = sorted(PRECISION_AT_20.items(),key= lambda x: int(x[0]))
+    precision_at_20_lines = ""
+    for one in precision_at_20:
+        precision_at_20_lines += "Precision of Query " + one[0] + " at 20 is: " + str(one[1]) + "\n"
+    precision_at_20_lines = precision_at_20_lines.rstrip()
+    precision_at_20_file = open(OUTPUT_PRECISION_20, "w")
+    precision_at_20_file.write(precision_at_20_lines)
+
 def mean_reciprocal_ranks():
     sum = 0
     for rank in RECIPROCAL_RANKS:
@@ -172,6 +200,8 @@ def start():
     read_dir() # sets the scores to consider for evaluation, disregard any query which has no relevance judgement
     calculate_recall_precision()
     write_precision_recall()
-    print mean_average_precision()
-    print mean_reciprocal_ranks()
+    write_precision_at_5()
+    write_precision_at_20()
+    # print mean_average_precision()
+    # print mean_reciprocal_ranks()
 start()
