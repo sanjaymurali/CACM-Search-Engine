@@ -1,0 +1,15 @@
+BM25 Baseline Run: 0.542507530431
+Lucene Baseline Run: 0.418819356336
+Smoothed Query Likelihood Model Baseline Run: 0.354999763568
+TF-IDF Baseline Run: 0.318304533023
+
+BM25 Pseudo Relevance Feedback Run: 0.546912900792
+
+BM25 Stopped Run: 0.554260553487
+Smoothed Query Likelihood Model Stopped Run: 0.406086419497
+TF-IDF Stopped Run: 0.343191885297
+
+Extra Credit:
+
+BM25 Proximity-Enabled No Stopping Run: 0.537814662757
+BM25 Proximity-Enabled Stopping Run: 0.554815888373
