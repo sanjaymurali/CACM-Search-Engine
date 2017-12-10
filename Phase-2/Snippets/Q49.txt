@@ -1,0 +1,69 @@
+CACM-2990
+THE performance OF INFORMATION RETRIEVAL SYSTEMS 
+INFORMATION RETRIEVAL, automatic indexing, content 
+effective INFORMATION RETRIEVAL using term accuracy 
+given user query OF a number OF automatic indexing SYSTEMS 
+ways. much OF THE published evaluation work is BASED 
+---------------------------------------------------------------
+CACM-3012
+implementation, system use, INFORMATION storage and RETRIEVAL system 
+THE results show THE important ROLE played 
+and RETRIEVAL system IN medical research 
+and RETRIEVAL system. a monitor built into THE computer 
+THE use OF an interactive INFORMATION storage 
+---------------------------------------------------------------
+CACM-2307
+for INFORMATION RETRIEVAL and for THE control 
+THE current ROLE OF computers IN automatic 
+reorganization OF THE stored INFORMATION as a function OF 
+files are searched and INFORMATION is retrieved following 
+automatic indexing, automatic search and RETRIEVAL, 
+---------------------------------------------------------------
+CACM-1032
+theoretical considerations IN INFORMATION RETRIEVAL SYSTEMS 
+INFORMATION storage and RETRIEVAL SYSTEMS are composed 
+OF THE file BASED on its history and past 
+(c) file organization to make access to INFORMATION 
+efficient. for identification OF INFORMATION THE paper 
+---------------------------------------------------------------
+CACM-1457
+automatic INFORMATION RETRIEVAL programs require 
+IN automatic INFORMATION RETRIEVAL 
+facilities to aid IN INFORMATION RETRIEVAL. 
+for THE RETRIEVAL application are examined, 
+manipulations to be performed IN automatic INFORMATION 
+---------------------------------------------------------------
+CACM-2795
+THE program employs both THE INFORMATION RETRIEVAL and 
+a model OF natural language BASED on an underlying 
+grammatical KNOWLEDGE, stored IN a formal grammar. 
+KNOWLEDGE, which include: (1) executable tests 
+is described. a program BASED on this model is able 
+---------------------------------------------------------------
+CACM-3134
+BASED INFORMATION SYSTEMS, using THE normal multiplication table as a directory 
+are described. for a certain class OF INFORMATION SYSTEMS, 
+INFORMATION RETRIEVAL, inverted files, multiattribute RETRIEVAL, 
+d RETRIEVAL OF INFORMATION are described. this method is particularly 
+THE appropriateness OF THE above approach to a given INFORMATION system 
+---------------------------------------------------------------
+CACM-2390
+utility, INFORMATION RETRIEVAL, trees, data structures 
+and THE ROLE required OF readers, writers, and 
+KNOWLEDGE which THE paper assumes. under certain conditions, 
+an updated file OF their current KNOWLEDGE, and on selecting 
+---------------------------------------------------------------
+CACM-1699
+OF mechanized INFORMATION RETRIEVAL SYSTEMS, 
+INFORMATION RETRIEVAL testing, INFORMATION system 
+OF THE research is that an INFORMATION RETRIEVAL system 
+SYSTEMS laboratory. THE basic assumption 
+interactive SYSTEMS, user learning factors, on-line searching 
+---------------------------------------------------------------
+CACM-1514
+INFORMATION RETRIEVAL system. 
+on THE expected gain from adjust ing matched term RETRIEVAL SYSTEMS 
+term RETRIEVAL SYSTEMS. THE expected gain and its probability 
+a file adjustment procedure BASED on maximizing 
+OF: (1) THE prior proportion OF omitted terms, and (2) THE 
+---------------------------------------------------------------

@@ -1,0 +1,70 @@
+CACM-1456
+storage AND RETRIEVAL OF aspects OF meaning in directed graph structures 
+AND answering simple ENGLISH questions ARE given. an 
+examples OF METHODS OF inputting INFORMATION 
+the contexts in which it has been used TO define other WORDS. 
+ARE inadequate vehicles FOR LANGUAGE processing on any 
+---------------------------------------------------------------
+CACM-1235
+WORDS AND frequently occurring LEXICAL WORDS. some suffix 
+assign each word in an ENGLISH text TO its form 
+through the use OF a small DICTIONARY OF function 
+a stochastic approach TO the grammatical coding OF ENGLISH 
+TO code additional WORDS. finally, the remaining WORDS 
+---------------------------------------------------------------
+CACM-1855
+OF ENGLISH WORDS AND that it pursues all analysis paths 
+syntactic analysis, LANGUAGE processing, LANGUAGE 
+analyses OF ENGLISH sentences with respect 
+FOR the DICTIONARY AND the grammar is indicated 
+a program FOR the syntactic analysis OF ENGLISH sentences 
+---------------------------------------------------------------
+CACM-1700
+RETRIEVAL METHODS has been mated with the 
+card peekaboo, FOR NATURAL LANGUAGE searching 
+peekaboo, superimposed coding, NATURAL LANGUAGE 
+an equality is in conclusive; the WORDS OF the 
+WORDS using the inclusive OR operation. if, at search 
+---------------------------------------------------------------
+CACM-1681
+mode, INFORMATION RETRIEVAL LANGUAGE, symbolic command LANGUAGE 
+NATURAL LANGUAGE communication, on-line searching, 
+remote console communication, INFORMATION RETRIEVAL, 
+easy ENGLISH is a NATURAL command LANGUAGE 
+easy english,a LANGUAGE FOR INFORMATION 
+---------------------------------------------------------------
+CACM-2905
+HASHING, HASHING METHODS, hash coding, direct addressing, 
+comparison with ordinary HASHING is given which 
+way, perfect HASHING functions, i.e. functions transforming 
+directly TO small sets. some METHODS TO extend 
+TO give minimal (OR almost minimal) tables FOR 
+---------------------------------------------------------------
+CACM-3041
+balanced trees, zipf's law, INFORMATION RETRIEVAL 
+respect TO their LEXICAL ordering) between the left AND 
+median split trees: a FAST lookup technique FOR frequently occuring keys 
+application OF mst's TO DICTIONARY lookup FOR ENGLISH is 
+the LEXICAL median OF a node's descendents as its split 
+---------------------------------------------------------------
+CACM-3087
+dialogue, query generation, INFORMATION RETRIEVAL, NATURAL LANGUAGE programming 
+question answering, relational database, NATURAL LANGUAGE, 
+in programming NATURAL LANGUAGE systems FOR limited domains, 
+an ENGLISH LANGUAGE question answering system 
+by typing requests in ENGLISH, casual users 
+---------------------------------------------------------------
+CACM-0144
+simple terminal equipments. since ENGLISH WORDS form only 
+other benefits accrue in code AND LANGUAGE translation 
+present METHODS ARE inefficient when computer systems 
+representations OF entire WORDS OR common phrases (rather 
+character-transmission OF non-dictionary WORDS such 
+---------------------------------------------------------------
+CACM-2437
+HASHING, HASHING techniques, HASHING METHODS, hash coding, 
+storage, INFORMATION RETRIEVAL, HASHING analysis, 
+transformation METHODS using an abstract file 
+transformation METHODS. in this approach the keys in 
+average performance OF the transformation METHODS on 
+---------------------------------------------------------------

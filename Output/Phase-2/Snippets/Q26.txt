@@ -1,0 +1,69 @@
+CACM-1750
+OPERATING SYSTEMS, CONTROL data corporation 6600, OPERATING system with ecs 
+multiprogrammed OPERATING SYSTEMS, multiprocessor 
+multiple computer SYSTEMS, extended core storage, 
+generalization of such a design, special emphasis is 
+---------------------------------------------------------------
+CACM-2626
+the design of MECHANISMS to CONTROL the sharing 
+SYSTEMS, proprietary programs, protected subsystems, virtual memory, descriptors 
+multics, protection, security, privacy, access CONTROL, 
+protection and the CONTROL of information sharing IN multics 
+hierarchical CONTROL of access specifications, 
+---------------------------------------------------------------
+CACM-2878
+IN this paper CONTROL numbers, as well as lower and upper 
+bounds for the CONTROL numbers and the capacities 
+at some of its queues is a CONTROL limit policy, 
+priority queues, semi-markov process, price scheduling, OPERATING system 
+with a single CONTROL number for any possible queue 
+---------------------------------------------------------------
+CACM-2372
+OPERATING SYSTEMS, access management, data banks, 
+system implementation within today's languages and OPERATING SYSTEMS. 
+security features of several existing SYSTEMS, and serves 
+security, privacy, access CONTROL confidentiality, 
+on the implementation of security measures IN information SYSTEMS 
+---------------------------------------------------------------
+CACM-1680
+retrieval OPERATING SYSTEMS, graphics, displays, man-machine 
+to it, and surrendering CONTROL to the OPERATING 
+computer-assisted instruction, tutorial SYSTEMS, 
+programs) of the OPERATING system. language processors 
+is a cataloged program that controls the standard OPERATING 
+---------------------------------------------------------------
+CACM-3068
+OPERATING SYSTEMS, security, protection, program verification 
+a model for verification of data security IN OPERATING SYSTEMS 
+here IN terms of a general model for OPERATING SYSTEMS. 
+uncircumventably secure, shared computer SYSTEMS. a 
+ucla secure OPERATING system is also discussed. 
+---------------------------------------------------------------
+CACM-1677
+storage organization IN programming SYSTEMS 
+addressing MECHANISMS, paging, segmentation, file 
+or programming SYSTEMS: simplicity of programmed addressing, 
+CONTROL. on the basis of experience at rice, 
+CONTROL, codewords, data representation, program 
+---------------------------------------------------------------
+CACM-2840
+protection IN OPERATING SYSTEMS 
+is argued. the "safety" problem for protection SYSTEMS 
+a model of protection MECHANISMS IN computing 
+protection, protection system, OPERATING 
+SYSTEMS is presented and its appropriateness 
+---------------------------------------------------------------
+CACM-3026
+end user facilities, executive CONTROL software 
+the 1100 series SYSTEMS are sperry univac's 
+languages, data management SYSTEMS, 
+large-scale main frame computer SYSTEMS. beginning 
+registers. the 1100 OPERATING system is designed 
+---------------------------------------------------------------
+CACM-1591
+is described. the model transferred CONTROL to the 
+full resources of the OPERATING system (language processors, 
+OPERATING system to execute functions other than 
+written to run under the OPERATING system (ibsys) for 
+into an OPERATING system of a large computer 
+---------------------------------------------------------------

@@ -2,7 +2,7 @@ import os
 
 import operator
 
-MODEL = "TF_IDF_Stopped"
+MODEL = "TF_IDF_Stopped_Run"
 
 INPUT_SCORES_DIR = "../Task 3/Three_baseline_runs_for_Stopping/tf-idf/TF-IDF Scores"
 OUTPUT_TEXT = MODEL+"_Precision_and_Recall.txt"

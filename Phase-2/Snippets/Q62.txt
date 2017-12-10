@@ -1,0 +1,61 @@
+CACM-2685
+the PARALLEL execution of do loops 
+PARALLEL computing, multiprocessor computers, 
+methods are developed FOR the PARALLEL execution 
+4.12 5.24 
+---------------------------------------------------------------
+CACM-3156
+graph THEORY, PARALLEL processing, algorithms, 
+we present a PARALLEL algorithm which uses n2 processors to find the connected 
+computing connected components on PARALLEL computers 
+3156 4 3156 
+---------------------------------------------------------------
+CACM-0320
+operations, systems AND CIRCUITS. a set of rules FOR 
+BOTH the sequential AND PARALLEL aspects of logic. they 
+1237 5 320 
+king, f. e. h. 
+---------------------------------------------------------------
+CACM-2401
+window employed (two-by-two elements), the PARALLEL 
+a PARALLEL processing algorithm FOR shrinking 
+any pattern, regardless of the COMPLEXITY of 
+counting binary patterns, shrinking, PARALLEL 
+---------------------------------------------------------------
+CACM-1158
+constructs FOR organizing AND explicating PARALLEL 
+program structures FOR PARALLEL processing 
+program segments are discussed as extensions 
+1158 4 1158 
+---------------------------------------------------------------
+CACM-3059
+multiprogramming, PARALLEL processing, queueing 
+models FOR PARALLEL processing within programs: 
+approximate queueing models FOR internal PARALLEL 
+3070 4 3059 
+---------------------------------------------------------------
+CACM-2714
+PARALLEL processing, PARALLEL merging, PARALLEL binary insertion 
+|b|=n, m<=n, AND p, p<=m, PARALLEL processors 
+FOR merging a AND b with the p PARALLEL processors, 
+merging with PARALLEL processors 
+the previous best PARALLEL merging algorithm, 
+---------------------------------------------------------------
+CACM-1262
+procedure-oriented language statements to facilitate PARALLEL processing 
+a range of PARALLEL operation AND partly to 
+define each PARALLEL path within this range. do togethers 
+in PARALLEL. the statements are do together 
+---------------------------------------------------------------
+CACM-2973
+PARALLEL computer, PARALLEL sorting, PARALLEL merge, 
+sorting on a mesh-connected PARALLEL computer 
+2973 5 2973 
+the best previous algorithm takes time o(n log 
+---------------------------------------------------------------
+CACM-2266
+a highly PARALLEL algorithm FOR approximating 
+is conceptually suitable FOR PARALLEL computation, 
+PARALLEL numerical algorithms, real polynomials, 
+to the zeros is guaranteed. multiple zeros AND 
+---------------------------------------------------------------

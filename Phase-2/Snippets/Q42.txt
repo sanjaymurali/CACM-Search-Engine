@@ -1,0 +1,66 @@
+CACM-1653
+system PERFORMANCE EVALUATION: survey AND appraisal 
+the state of the art of system PERFORMANCE 
+the central role of measurement in PERFORMANCE 
+presented as three levels of approach to EVALUATION, 
+of PERFORMANCE; overhead AND cpu speed are placed in 
+---------------------------------------------------------------
+CACM-2318
+modeling, EVALUATION, PERFORMANCE, analytic-models, 
+the role of COMPUTER system models in PERFORMANCE EVALUATION 
+COMPUTER system PERFORMANCE. this paper 
+methods for evaluating the PERFORMANCE of COMPUTER 
+---------------------------------------------------------------
+CACM-2542
+is proposed. a system which integrates PERFORMANCE EVALUATION 
+feedback, the problems which adversely affect PERFORMANCE 
+a software design AND EVALUATION system 
+description is used as direct input to PERFORMANCE 
+the PERFORMANCE of a proposed design is not evaluated 
+---------------------------------------------------------------
+CACM-2984
+COMPUTER system, PERFORMANCE EVALUATION, cost/utilization, system balance 
+cost/utilization: a measure of system PERFORMANCE 
+system PERFORMANCE in terms of a cost/utilization 
+PERFORMANCE. 
+a method is presented for evaluating COMPUTER 
+---------------------------------------------------------------
+CACM-3089
+AND system PERFORMANCE EVALUATION 
+principal PERFORMANCE measures, including availability, 
+PERFORMANCE of rollback recovery systems under intermittent failures 
+procedures, checking TECHNIQUES, reliability 
+---------------------------------------------------------------
+CACM-3048
+for PERFORMANCE EVALUATION of alternative 
+PERFORMANCE EVALUATION, deterministic simulation, 
+statistics needed for PERFORMANCE EVALUATION, without 
+PERFORMANCE EVALUATION of highly concurrent 
+---------------------------------------------------------------
+CACM-2894
+of COMPUTER PERFORMANCE, instead of the more 
+frequently used in ternal system measurement TECHNIQUES. 
+EVALUATION of results, is included. 
+a methodology for interactive COMPUTER service measurement 
+in teractive system, COMPUTER service, measurement, 
+---------------------------------------------------------------
+CACM-2268
+rational extrapolation showed the best PERFORMANCE. 
+a study comparing the PERFORMANCE of several COMPUTER 
+procedure is described together with the EVALUATION 
+a comparative study of COMPUTER programs 
+---------------------------------------------------------------
+CACM-2990
+PERFORMANCE of a specific user query. the concept 
+ways. much of the published EVALUATION work is based 
+the PERFORMANCE of information retrieval systems 
+study, retrieval EVALUATION is based on optimizing the 
+on measuring the retrieval PERFORMANCE of an average 
+---------------------------------------------------------------
+CACM-1827
+PERFORMANCE monitoring, PERFORMANCE measurement, 
+system EVALUATION, software monitor, software 
+PERFORMANCE monitoring in a time-sharing system 
+AND PERFORMANCE. the overall structure of mts is outlined 
+program behavior, PERFORMANCE data, multiprogramming 
+---------------------------------------------------------------

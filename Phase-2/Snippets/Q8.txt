@@ -1,0 +1,69 @@
+CACM-2951
+the five diverse arpa NETWORK SYSTEMS studied IN detail, 
+NETWORK time-sharing SYSTEMS as it depends on some 
+if the ultimate aim of a computing NETWORK 
+computing applications at some NETWORK computing 
+dynamic response time prediction FOR computer NETWORKS 
+---------------------------------------------------------------
+CACM-2776
+experiences of these OPERATING NETWORKS, a number of factors 
+included: the arpa net, the california state college NETWORK, 
+were identified. the five major NETWORKS 
+NETWORK, the michigan educational research information triad, 
+NETWORKS, higher education 
+---------------------------------------------------------------
+CACM-1685
+NETWORK analysis, NETWORK calculation, NETWORK program 
+NETWORK generator, NETWORK assembler, activity 
+gan, a system FOR generating activity NETWORKS, 
+on activity NETWORKS (scheduling activity NETWORKS) 
+a set of standard NETWORKS is presented. also, 
+---------------------------------------------------------------
+CACM-3032
+nodes of a NETWORK. algorithms FOR accomplishing 
+IN store-and-forward packet switching computer NETWORKS. 
+computer NETWORK include (1) transmission 
+it can be implemented IN existing NETWORKS with less complexity 
+computer NETWORKS, store-and-forward packet 
+---------------------------------------------------------------
+CACM-2949
+topology, routing problem IN NETWORKS, distributed OPERATING 
+NETWORK 
+merit computer NETWORK is presented and explained; this 
+NETWORK to communicate, each node must have 
+distributed computer NETWORK, correctness proofs, 
+---------------------------------------------------------------
+CACM-2625
+information sharing, OPERATING SYSTEMS, computer 
+various ADDRESSING SCHEMES making use of segment 
+ADDRESSING, capabilities, ADDRESSING hardware, 
+ADDRESSING may be substantially superior to present 
+these SCHEMES when dealing with shared addresses are 
+---------------------------------------------------------------
+CACM-2371
+computer NETWORKS, RESOURCE sharing 
+IN a RESOURCE sharing computer NETWORK 
+the hypothetical application of the system to an existing NETWORK is discussed. 
+distributed throughout a computer NETWORK. 
+---------------------------------------------------------------
+CACM-1928
+large SYSTEMS simulation, NETWORK structures, 
+and SYSTEMS to be simulated may be combinations of synchronous 
+exclusive simulation of activity IN digital NETWORKS 
+of NETWORK structures other than digital NETWORKS. 
+NETWORKS of large and active digital SYSTEMS 
+---------------------------------------------------------------
+CACM-1695
+simulation, library SYSTEMS, modeling, NETWORK 
+a neural NETWORK, to analyze the output data produced 
+means FOR specification and modification of a NETWORK and 
+NETWORKS are built up from components representing 
+plexus-an on-line system FOR modeling neural NETWORKS 
+---------------------------------------------------------------
+CACM-1723
+NETWORKS directly from the project precedence relations. 
+ordering, NETWORK construction by computer 
+project NETWORKS, pert, cpm, topological 
+computer construction of project NETWORKS 
+project NETWORKS are used IN pert and cpm. 
+---------------------------------------------------------------

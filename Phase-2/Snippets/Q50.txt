@@ -1,0 +1,68 @@
+CACM-2714
+|b|=n, m<=n, and p, p<=m, PARALLEL PROCESSORS 
+for merging a and b with the p PARALLEL PROCESSORS, 
+merging with PARALLEL PROCESSORS 
+PARALLEL processing, PARALLEL merging, PARALLEL binary insertion 
+the previous best PARALLEL merging algorithm, 
+---------------------------------------------------------------
+CACM-3156
+graph theory, PARALLEL processing, algorithms, 
+o(log2n) time bound also can be achieved using only n$n/$log2n)) PROCESSORS. 
+of a symmetric boolean matrix. we assume that the PROCESSORS have 
+computing connected components on PARALLEL computers 
+we present a PARALLEL algorithm which uses n2 PROCESSORS to find the connected 
+---------------------------------------------------------------
+CACM-3075
+requires more space than the product of PROCESSORS 
+PROCESSORS. the algorithm makes use of a technique that 
+fast PARALLEL sorting algorithms 
+PARALLEL processing, sorting, algorithms, bucket sort 
+a PARALLEL bucket-sort algorithm is presented 
+---------------------------------------------------------------
+CACM-1811
+parallel-processor, parallelism, PARALLEL programming, 
+of solution time with the number of PROCESSORS. 
+solution time when n PROCESSORS are applied approaches 
+PROCESSORS have independent instruction counters, meaning 
+means of data IN storage shared by all PROCESSORS. a 
+---------------------------------------------------------------
+CACM-2114
+a formal system for INFORMATION RETRIEVAL from files 
+file structure, directory decoding, and record RETRIEVAL are defined 
+lists, prime keyword, PARALLEL processing of lists 
+ca700201 jb february 14, 1978 1:04 pm 
+---------------------------------------------------------------
+CACM-0891
+to install an INFORMATION RETRIEVAL program IN less than 
+everyman's INFORMATION RETRIEVAL system 
+the INFORMATION RETRIEVAL problem whose solution 
+to many different types of RETRIEVAL problems. further,the 
+many groups who have previously dismissed an INFORMATION 
+---------------------------------------------------------------
+CACM-2288
+RETRIEVAL, INFORMATION RETRIEVAL, record organization, 
+file organization: the consecutive RETRIEVAL property 
+RETRIEVAL system based on the consecutive 
+the consecutive RETRIEVAL property is an important 
+set. its existence enables the design of an INFORMATION 
+---------------------------------------------------------------
+CACM-1457
+automatic INFORMATION RETRIEVAL programs require 
+IN automatic INFORMATION RETRIEVAL 
+facilities to aid IN INFORMATION RETRIEVAL. 
+for the RETRIEVAL application are examined, 
+manipulations to be performed IN automatic INFORMATION 
+---------------------------------------------------------------
+CACM-1699
+INFORMATION RETRIEVAL testing, INFORMATION system 
+of the research is that an INFORMATION RETRIEVAL system 
+of mechanized INFORMATION RETRIEVAL systems, 
+communication, remote terminal communication, RETRIEVAL 
+experimental evaluation of INFORMATION 
+---------------------------------------------------------------
+CACM-1680
+INFORMATION RETRIEVAL. it is written IN fortran 
+programs) of the operating system. language PROCESSORS 
+programming, simulation, modeling, INFORMATION 
+RETRIEVAL operating systems, graphics, displays, man-machine 
+---------------------------------------------------------------

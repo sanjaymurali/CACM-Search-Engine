@@ -1,0 +1,69 @@
+CACM-2805
+perturbation OF EIGENVALUES, non-normal MATRICES, 
+van der sluis, A. 
+perturbations OF simple AND multiple EIGENVALUES 
+OF THE EIGENVALUES, THE departure from normality, 
+are derived are shown TO be almost attainable FOR any set OF MATRICES. 
+---------------------------------------------------------------
+CACM-2697
+NUMERICAL LINEAR algebra, LINEAR systems, 
+toeplitz MATRICES, tridiagonal MATRICES 
+REAL arithmetic. this fact is exploited TO reduce 
+THE solution OF LINEAR systems having REAL, symmetric, 
+proved that THE computed lu DECOMPOSITION converges 
+---------------------------------------------------------------
+CACM-2554
+schwartz FOR THE reduction OF symmetric MATRICES 
+generalized EIGENVALUES, symmetric band MATRICES 
+an ordinary EIGENVALUE problem FOR A symmetric band 
+crawford, C. r. 
+order OF THE matrix AND m THE bandwidth, THE MATRICES 
+---------------------------------------------------------------
+CACM-2047
+STEWART, G. W. 
+EIGENVALUES, EIGENVECTORS, qr method, origin 
+algorithm FOR symmetric tridiagonal MATRICES 
+cacm june, 1970 
+EIGENVALUES, while THE implicit method can effectively loose THE shift AND 
+---------------------------------------------------------------
+CACM-1954
+STEWART, G. W. 
+REAL symmetric matrix, EIGENVALUES, EIGENVECTORS, qr algorithm 
+EIGENVALUES AND EIGENVECTORS OF A REAL 
+cacm december, 1970 
+---------------------------------------------------------------
+CACM-2695
+poole, W. G. jr. 
+IN NUMERICAL LINEAR algebra. consider THE class OF sparse 
+tridiagonal matrix, PERMUTATION, algorithm, 
+EIGENVALUES, graph, bandwidth, sparse matrix 
+MATRICES which can be tridiagonalized using 
+---------------------------------------------------------------
+CACM-2807
+backward ERROR ANALYSIS, BOUNDS 
+are unfounded, AND IN general THE absolute ERROR IN THE solution 
+FOR ERROR IN solution, bound FOR residual 
+wilkinson, J. h. 
+systems OF LINEAR equations is commonly regarded as suspect. 
+---------------------------------------------------------------
+CACM-1998
+rounding ERROR bound, ERROR BOUNDS, complex rounding ERROR BOUNDS 
+cacm september, 1970 
+A comparison OF complex matrix with REAL matrix inversion 
+complex matrix inversion versus REAL 
+accumulation THE bound is half OF THE REAL system. 
+---------------------------------------------------------------
+CACM-2226
+ZERO-ONE LINEAR programming problem. an ERROR IN 
+FOR THE ZERO-ONE programming problem 
+cacm january, 1971 
+ca710108 jb february 8, 1978 10:32 am 
+proll, l. G. 
+---------------------------------------------------------------
+CACM-2806
+ERROR ANALYSIS, gram-schmidt orthogonalization 
+MATRICES, EIGENVALUES, norms, condition numbers, 
+TO norm-bound "condition numbers." one (FOR 
+birkhoff, G. 
+two hadamard numbers FOR MATRICES 
+---------------------------------------------------------------

@@ -8,7 +8,7 @@ import re
 CORPUS_DIR = "../Corpus"
 QUERY_FILE = "../queriesRedefined.txt"
 BM25_SCORE_DIR = "BM25 Scores"
-BM25_PSEUDO_SCORE_DIR = "BM25 Psuedo Scores"
+BM25_PSEUDO_SCORE_DIR = "BM25 Pseudo Scores"
 CACM_REL = "cacm.rel.txt"
 
 # for creating inverted index
@@ -134,7 +134,6 @@ def calculate_pseudorelevance(query_words, query_id):
         new_query_vector.update({term: score})
 
     new_query_list = sorted(new_query_vector.items(), key=operator.itemgetter(1), reverse=True)
-    #print new_query_list
     new_query = ""
     for i in range(0, 20):
         term = new_query_list[i]

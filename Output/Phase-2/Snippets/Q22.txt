@@ -1,0 +1,63 @@
+CACM-2473
+macleod, I. d. g. 
+HIDDEN-LINE plot, surface plot 
+collins, A. m. 
+HIDDEN-LINE plotting program (algorithm r420) 
+---------------------------------------------------------------
+CACM-2384
+HIDDEN-LINE plot, surface plot 
+HIDDEN-LINE plotting program [j6] (algorithm a420) 
+ca720207 jb january 31, 1978 4:12 pm 
+4.9 
+---------------------------------------------------------------
+CACM-2913
+aliasing, COMPUTER GRAPHICS, convolutional 
+to HIDDEN-SURFACE ALGORITHMS IS discussed, AND an implementation 
+filtering, HIDDEN-SURFACE removal, sampling 
+3047 4 2913 
+---------------------------------------------------------------
+CACM-2638
+HIDDEN-LINE plotting program (algorithm r420) 
+cacm june, 1974 
+ca740608 jb january 17, 1978 3:00 pm 
+gaither, b. 
+---------------------------------------------------------------
+CACM-2441
+HIDDEN-LINE plotting program (algorithm r420) 
+cacm september, 1973 
+ca730914 jb january 23, 1978 8:36 AM 
+williamson, h. 
+---------------------------------------------------------------
+CACM-2564
+HIDDEN-LINE plotting program (algorithm r420) 
+2564 5 2564 
+ca741210 jb january 13, 1978 3:45 pm 
+ellis, t. m. r. 
+---------------------------------------------------------------
+CACM-2637
+HIDDEN-LINE plotting program (algorithm r420) 
+cacm june, 1974 
+ellis, t. m. r. 
+ca740609 jb january 17, 1978 2:59 pm 
+---------------------------------------------------------------
+CACM-2692
+COMPUTER GRAPHICS, HIDDEN-SURFACE, clipping 
+these ALGORITHMS are able to clip polygons 
+A new family of clipping ALGORITHMS IS described. 
+FOR subsequent HIDDEN-SURFACE computations. 
+clipping window. the ALGORITHMS described achieve 
+---------------------------------------------------------------
+CACM-2924
+COMPUTER GRAPHICS, three-dimensional surface representation, 
+an IN teractive COMPUTER GRAPHICS method has been 
+an interactive COMPUTER GRAPHICS approach to surface representation 
+THIS method are ALGORITHMS which enable IN teractive 
+static or dynamic GRAPHICS display. the basic 
+---------------------------------------------------------------
+CACM-2674
+raster scan COMPUTER GRAPHICS with "real time" 
+scan conversion ALGORITHMS which have been 
+GRAPHICS, scan conversion, raster display, line 
+COMPUTER. results obtained from the implementations show 
+scan conversion ALGORITHMS FOR A cell organized raster display 
+---------------------------------------------------------------

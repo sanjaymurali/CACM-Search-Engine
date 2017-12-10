@@ -1,0 +1,63 @@
+CACM-3148
+to DISTRIBUTED COMPUTING at the level of general purpose programming 
+high level programming for DISTRIBUTED COMPUTING 
+DISTRIBUTED COMPUTING, modules, messages, assertions 
+programming for DISTRIBUTED AND other loosely coupled systems 
+---------------------------------------------------------------
+CACM-3137
+a macro model of a DISTRIBUTED information system in presented. the model 
+a methodology for the design of DISTRIBUTED information systems 
+database, interactive COMPUTING, economic modeling, transaction processing 
+DISTRIBUTED processing, system design, cost minimization, DISTRIBUTED 
+---------------------------------------------------------------
+CACM-2849
+DISTRIBUTED control, DISTRIBUTED COMPUTING, 
+locally DISTRIBUTED COMPUTING stations. the packet 
+broadcasts is DISTRIBUTED among the contending 
+ethernet: DISTRIBUTED packet switching for local computer networks 
+on the ether is DISTRIBUTED among the receiving stations 
+---------------------------------------------------------------
+CACM-1745
+a position paper on COMPUTING AND communications 
+information networks, information systems, COMPUTING 
+communications services, DISTRIBUTED data base, 
+so that a clear division of costs is made among COMPUTING, 
+AND free enterprise, COMPUTING economics, 
+---------------------------------------------------------------
+CACM-2949
+topology, routing problem in networks, DISTRIBUTED operating 
+main tenance protocol for a DISTRIBUTED computer 
+DISTRIBUTED computer network, correctness proofs, 
+in order for the nodes of a DISTRIBUTED computer 
+computer networks, DISTRIBUTED control, network 
+---------------------------------------------------------------
+CACM-3043
+concurrent programming, DISTRIBUTED processes, 
+microcomputer networks with DISTRIBUTED storage. 
+DISTRIBUTED processes: a concurrent programming concept 
+the paper gives several examples of DISTRIBUTED processes 
+---------------------------------------------------------------
+CACM-3082
+another in a DISTRIBUTED system is examined, AND 
+DISTRIBUTED systems, computer networks, 
+time, clocks, AND the ordering of events in a DISTRIBUTED system 
+a DISTRIBUTED algorithm is given for synchronizing 
+---------------------------------------------------------------
+CACM-2578
+self-stabilizing systems in spite of DISTRIBUTED control 
+error recovery, DISTRIBUTED control, harmonious cooperation, self-repair 
+ca741106 jb january 16,1978 10:18 am 
+multiprocessing, networks, self-stabilization, synchronization, 
+---------------------------------------------------------------
+CACM-2276
+AND speed, with some new ALGORITHMS. a number of procedures 
+DISTRIBUTED random numbers into exponentially 
+shorter ALGORITHMS AND faster but space consuming 
+AND normally DISTRIBUTED quantities. the most efficient 
+---------------------------------------------------------------
+CACM-0052
+an efficient method for generating uniformly DISTRIBUTED 
+points on the surface on an n-dimensional 
+ca591007 jb march 22, 1978 4:12 pm 
+52 5 52 
+---------------------------------------------------------------

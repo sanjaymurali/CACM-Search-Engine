@@ -1,0 +1,63 @@
+CACM-2699
+of VERY HIGH LEVEL whose repertoire of semantic 
+automatic data structure choice in a language of VERY HIGH LEVEL 
+LANGUAGES, set-theoretic LANGUAGES, data 
+SETL is a set-theoretically oriented language 
+---------------------------------------------------------------
+CACM-1923
+HIGH LEVEL LANGUAGES, command language 
+LEVEL LANGUAGES using basic input/output support 
+an approach to system interfaces for HIGH 
+pseudofiles 
+---------------------------------------------------------------
+CACM-2906
+VERY HIGH LEVEL language, nonprocedural language, 
+a VERY HIGH LEVEL programming language for data processing applications 
+in recent years, VERY high-level LANGUAGES 
+forms, one for describing the business organization, 
+---------------------------------------------------------------
+CACM-2717
+this paper describes a HIGH LEVEL and nonprocedural 
+convert: a HIGH LEVEL translation 
+utility program, programming LANGUAGES, nonprocedural LANGUAGES 
+which provides VERY powerful and highly flexible data 
+---------------------------------------------------------------
+CACM-3171
+to be used for implementations of HIGH LEVEL LANGUAGES. under suitable 
+line number administration, diagnostic messages, abstract machine code 
+a technique is described for run-time line number administration 
+3171 5 3171 
+---------------------------------------------------------------
+CACM-2527
+implementation of HIGH LEVEL language machine 
+computer architecture, HIGH LEVEL language machine, 
+the statements of a HIGH LEVEL language have been 
+whose "machine language" is apl. the machine is fully 
+---------------------------------------------------------------
+CACM-3148
+HIGH LEVEL programming for distributed computing 
+to distributed computing at the LEVEL of general purpose programming 
+program of development in advanced programming LANGUAGES, and relations 
+LANGUAGES. based on primitive notions of module, message, 
+of particular LANGUAGES and machines. it appears to be useful for 
+---------------------------------------------------------------
+CACM-2316
+programming LANGUAGES, higher LEVEL LANGUAGES, 
+of programming LANGUAGES (= higher LEVEL LANGUAGES). 
+LANGUAGES, history, future directions, language 
+programming LANGUAGES: history and future 
+of 1972. key concepts other than specific LANGUAGES are discussed. 
+---------------------------------------------------------------
+CACM-3150
+as HIGH LEVEL LANGUAGES enabled the programmer to escape from the 
+programming, programming LANGUAGES, programming systems, systems development 
+shortcomings of programming LANGUAGES as they now exist, 
+beyond programming LANGUAGES 
+intricacies of a machine's order code, higher LEVEL programming systems 
+---------------------------------------------------------------
+CACM-0724
+work, and mostfind their jobs offer HIGH LEVEL of professional 
+HIGH percentage of programmers have apparently 
+by participants: LANGUAGES, personnel, various specific 
+favorable light, on the whole. personalities seem to 
+---------------------------------------------------------------

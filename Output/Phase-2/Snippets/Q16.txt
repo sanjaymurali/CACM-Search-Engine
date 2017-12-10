@@ -1,0 +1,68 @@
+CACM-3141
+decentralized algorithms, distributed SYSTEMS, OPERATING SYSTEMS 
+numbered PROCESSES arranged IN a circle, IN which no central 
+MESSAGE extinction IN order to achieve an average number OF 
+controller exists AND the number OF PROCESSES is not known a priori. 
+MESSAGE passes OF order (n log n) rather than o(n2). 
+---------------------------------------------------------------
+CACM-2378
+OPERATING SYSTEMS, supervisors, multiprogramming, 
+an OPERATING system BASED ON the concept OF a supervisory computer 
+small supervisor AND a set OF independent PROCESSES 
+time-sharing, cooperating PROCESSES 
+active PROCESSES AND manages memory, handle errors, AND 
+---------------------------------------------------------------
+CACM-0243
+a binary-coded MESSAGE. the MESSAGE itself is arranged 
+n-dimensional codes for detecting AND correcting MULTIPLE errors 
+are BASED upon parity evaluations along prescribed 
+array. the PROCESSES OF encoding AND error detection 
+for detecting AND correcting MULTIPLE errors IN 
+---------------------------------------------------------------
+CACM-1750
+multiprogrammed OPERATING SYSTEMS, multiprocessor 
+MULTIPLE computer SYSTEMS, extended core storage, 
+OPERATING SYSTEMS, control data corporation 6600, OPERATING system with ecs 
+AND functions OF such a system are BASED ON a 
+considerations IN the design OF a MULTIPLE 
+---------------------------------------------------------------
+CACM-2522
+OPERATING SYSTEMS, supervisory SYSTEMS 
+AND are source allocation strategy BASED ON 
+recent research IN time-sharing paging SYSTEMS 
+SYSTEMS, resource allocation, software evaluation, 
+the system resources to the PROCESSES competing for them. 
+---------------------------------------------------------------
+CACM-1135
+DESCRIPTIONS (which are one-to-one translations 
+OF ALL batch FILE PROCESSES. this new philosophy has 
+into a compiler the aspects common to ALL PROCESSES 
+a general business-oriented language BASED ON decision expressions* 
+a structure, BASED ON identifying AND incorporating 
+---------------------------------------------------------------
+CACM-2184
+FILE, OPERATING system, programming language, functions, 
+language AND the FILE names OF an OPERATING system. 
+BASED upon the first two terms IN the equivalent 
+regarded as the abstraction BASED upon the first two terms OF 
+ON the meaning OF names IN programming SYSTEMS 
+---------------------------------------------------------------
+CACM-2080
+multiprogramming, OPERATING SYSTEMS, parallel PROCESSES, process concept, 
+that can be extended with a hierarchy OF OPERATING SYSTEMS to suit diverse 
+process communication, MESSAGE buffering, process 
+OF a hierarchy OF PROCESSES as well as the communication among them. 
+---------------------------------------------------------------
+CACM-2629
+OPERATING SYSTEMS, including: (1) a hierarchical FILE system 
+initiate asynchronous PROCESSES; (4) system command 
+time-sharing, OPERATING system, FILE system, command language, pdp-11 
+FILE, device, AND inter-process i/o; (3) the ability to 
+OPERATING system for the digital equipment 
+---------------------------------------------------------------
+CACM-2320
+OPERATING SYSTEMS, concurrent PROCESSES, shared 
+OPERATING SYSTEMS but also within user programs. 
+a data structure shared by concurrent PROCESSES 
+competing PROCESSES to any degree desired. these 
+---------------------------------------------------------------

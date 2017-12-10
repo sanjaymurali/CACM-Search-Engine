@@ -1,0 +1,61 @@
+CACM-2266
+is conceptually suitable FOR PARALLEL COMPUTATION, 
+PARALLEL numerical ALGORITHMS, real polynomials, 
+a highly PARALLEL algorithm FOR approximating 
+to the zeros is guaranteed. multiple zeros AND 
+---------------------------------------------------------------
+CACM-2289
+solution of graph problems is the determination of ALGORITHMS 
+PARALLEL processing, special purpose computers, 
+ESPECIALLY FOR problems whose solutions appear to be inherently 
+achieved by virtue of the possibilities FOR PARALLEL 
+ALGORITHMS are presented FOR the solution of certain 
+---------------------------------------------------------------
+CACM-3075
+fast PARALLEL sorting ALGORITHMS 
+PARALLEL processing, sorting, ALGORITHMS, bucket sort 
+integer. the model of COMPUTATION FOR this procedure 
+a PARALLEL bucket-sort algorithm is presented 
+---------------------------------------------------------------
+CACM-2973
+PARALLEL computer, PARALLEL sorting, PARALLEL merge, 
+two ALGORITHMS are presented FOR sorting n^2 
+sorting on a mesh-connected PARALLEL computer 
+n). the ALGORITHMS of this paper are shown to be optimal 
+---------------------------------------------------------------
+CACM-3059
+multiprogramming, PARALLEL processing, queueing 
+models FOR PARALLEL processing within programs: 
+approximate queueing models FOR internal PARALLEL 
+network models, multiprocessing of COMPUTATION 
+---------------------------------------------------------------
+CACM-1795
+optimal code FOR serial AND PARALLEL COMPUTATION 
+4.12 
+ca691217 jb february 15, 1978 1:59 pm 
+fateman, r. j. 
+---------------------------------------------------------------
+CACM-2785
+PARALLEL COMPUTATION, PARALLEL architecture 
+of the problems associated with PARALLEL computer 
+2685 5 2785 
+designed FOR programming the illiac iv computer. 
+---------------------------------------------------------------
+CACM-0950
+"PARALLEL" form. by this is meant that serial 
+computations of highly PARALLEL computers as can be 
+ALGORITHMS ought to be replaced by algorithm which 
+PARALLEL methods FOR integrating ordinary differential equations 
+---------------------------------------------------------------
+CACM-2570
+PARALLEL processing, precedence graphs, scheduling, 
+a comparison of list schedules FOR PARALLEL processing systems 
+different ALGORITHMS suggested in the literature vary significantly 
+times are random variables is presented. 
+---------------------------------------------------------------
+CACM-2895
+of communicating PARALLEL processes is described. 
+formal specifications,program correctness, PARALLEL 
+events of a COMPUTATION can occur. the language 
+problem AND the writer priority of the second 
+---------------------------------------------------------------

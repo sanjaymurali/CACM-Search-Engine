@@ -1,0 +1,62 @@
+CACM-2266
+is conceptually suitable FOR PARALLEL COMPUTATION, 
+a highly PARALLEL algorithm FOR approximating 
+PARALLEL numerical algorithms, real polynomials, 
+to the zeros is guaranteed. multiple zeros and 
+---------------------------------------------------------------
+CACM-2785
+PARALLEL COMPUTATION, PARALLEL architecture 
+glypnir is one of the earliest existing LANGUAGES 
+of the problems associated with PARALLEL computer 
+2685 5 2785 
+---------------------------------------------------------------
+CACM-1795
+optimal code FOR serial and PARALLEL COMPUTATION 
+4.12 
+ca691217 jb february 15, 1978 1:59 pm 
+fateman, r. j. 
+---------------------------------------------------------------
+CACM-3059
+multiprogramming, PARALLEL processing, queueing 
+models FOR PARALLEL processing within programs: 
+approximate queueing models FOR internal PARALLEL 
+network models, multiprocessing of COMPUTATION 
+---------------------------------------------------------------
+CACM-2895
+of communicating PARALLEL processes is described. 
+formal specifications,program correctness, PARALLEL 
+events of a COMPUTATION can occur. the language 
+problem and the writer priority of the second 
+---------------------------------------------------------------
+CACM-3075
+fast PARALLEL sorting algorithms 
+PARALLEL processing, sorting, algorithms, bucket sort 
+integer. the model of COMPUTATION FOR this procedure 
+a PARALLEL bucket-sort algorithm is presented 
+---------------------------------------------------------------
+CACM-2700
+when proving that a PARALLEL program has a 
+halting. thus correctness proofs of a PARALLEL 
+reduction: a method of proving properties of PARALLEL programs 
+method, process, COMPUTATION sequence 
+PARALLEL program, semaphore, verification 
+---------------------------------------------------------------
+CACM-2685
+the PARALLEL execution of do loops 
+PARALLEL computing, multiprocessor computers, 
+methods are developed FOR the PARALLEL execution 
+4.12 5.24 
+---------------------------------------------------------------
+CACM-1158
+constructs FOR organizing and explicating PARALLEL 
+program structures FOR PARALLEL processing 
+program segments are discussed as extensions 
+1158 4 1158 
+---------------------------------------------------------------
+CACM-2714
+PARALLEL processing, PARALLEL merging, PARALLEL binary insertion 
+|b|=n, m<=n, and p, p<=m, PARALLEL processors 
+FOR merging a and b with the p PARALLEL processors, 
+merging with PARALLEL processors 
+the previous best PARALLEL merging algorithm, 
+---------------------------------------------------------------

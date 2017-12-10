@@ -1,0 +1,62 @@
+CACM-2973
+PARALLEL computer, PARALLEL sorting, PARALLEL merge, 
+two ALGORITHMS are presented for sorting n^2 
+sorting on a mesh-connected PARALLEL computer 
+n). the ALGORITHMS of this paper are shown to be optimal 
+---------------------------------------------------------------
+CACM-2266
+PARALLEL numerical ALGORITHMS, real polynomials, 
+a highly PARALLEL algorithm for approximating 
+is conceptually suitable for PARALLEL computation, 
+to the zeros is guaranteed. multiple zeros and 
+---------------------------------------------------------------
+CACM-3075
+fast PARALLEL sorting ALGORITHMS 
+PARALLEL processing, sorting, ALGORITHMS, bucket sort 
+a PARALLEL bucket-sort algorithm is presented 
+2973 6 3075 
+---------------------------------------------------------------
+CACM-0950
+"PARALLEL" form. by this is meant that serial 
+computations of highly PARALLEL computers as can be 
+ALGORITHMS ought to be replaced by algorithm which 
+PARALLEL methods for integrating ordinary differential equations 
+---------------------------------------------------------------
+CACM-3156
+graph theory, PARALLEL processing, ALGORITHMS, 
+we present a PARALLEL algorithm which uses n2 processors to find the connected 
+computing connected components on PARALLEL computers 
+3156 4 3156 
+---------------------------------------------------------------
+CACM-2557
+minimization, PARALLEL machine, time minimization 
+as well as PARALLEL computers is discussed. ALGORITHMS 
+2557 6 2557 
+3075 5 2557 
+---------------------------------------------------------------
+CACM-2570
+PARALLEL processing, precedence graphs, scheduling, 
+a comparison of list schedules for PARALLEL processing systems 
+different ALGORITHMS suggested in the literature vary significantly 
+times are random variables is presented. 
+---------------------------------------------------------------
+CACM-2714
+PARALLEL processing, PARALLEL merging, PARALLEL binary insertion 
+|b|=n, m<=n, and p, p<=m, PARALLEL processors 
+for merging a and b with the p PARALLEL processors, 
+merging with PARALLEL processors 
+the previous best PARALLEL merging algorithm, 
+---------------------------------------------------------------
+CACM-2289
+solution of graph problems is the determination of ALGORITHMS 
+PARALLEL processing, special purpose computers, 
+achieved by virtue of the possibilities for PARALLEL 
+ALGORITHMS are presented for the solution of certain 
+these ALGORITHMS exhibit a computation time that in 
+---------------------------------------------------------------
+CACM-1262
+procedure-oriented language statements to facilitate PARALLEL processing 
+a range of PARALLEL operation and partly to 
+define each PARALLEL path within this range. do togethers 
+in PARALLEL. the statements are do together 
+---------------------------------------------------------------

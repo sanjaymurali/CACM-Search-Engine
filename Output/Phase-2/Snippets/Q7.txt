@@ -1,0 +1,69 @@
+CACM-3043
+PROCESSES COMMUNICATE AND SYNCHRONIZE BY means OF procedure 
+CONCURRENT programming, DISTRIBUTED PROCESSES, 
+DISTRIBUTED PROCESSES: a CONCURRENT programming concept 
+THE paper gives several examples OF DISTRIBUTED PROCESSES 
+a language concept FOR CONCURRENT PROCESSES 
+---------------------------------------------------------------
+CACM-2949
+a CORRECTNESS proof OF a topology information 
+potato heuristic routing doctrine." a CORRECTNESS 
+topology, routing problem IN networks, DISTRIBUTED operating 
+store AND forward MESSAGE switching, traffic control 
+network to COMMUNICATE, each node must have 
+---------------------------------------------------------------
+CACM-2912
+one process at a time can modify THE data, but CONCURRENT 
+theorems are proved, AND some ALGORITHMS are presented 
+BY one process AND read BY other PROCESSES. 
+to illustrate their use. THESE INCLUDE a solution 
+CONCURRENT reading AND writing 
+---------------------------------------------------------------
+CACM-3141
+decentralized ALGORITHMS, DISTRIBUTED systems, operating systems 
+numbered PROCESSES arranged IN a circle, IN WHICH no central 
+MESSAGE extinction IN order to achieve an average number OF 
+controller exists AND THE number OF PROCESSES is not known a priori. 
+MESSAGE passes OF order (n log n) rather than o(n2). 
+---------------------------------------------------------------
+CACM-3128
+synchronization OF CONCURRENT PROCESSES requires controlling THE relative 
+to protection mechanisms IN THE system is explained; IN PARTICULAR, 
+abstract objects called eventcounts AND sequencers, that allows PROCESSES 
+ordering OF events IN THE PROCESSES. 
+process synchronization, interprocess communication, DISTRIBUTED 
+---------------------------------------------------------------
+CACM-2342
+proofs OF CORRECTNESS have been given FOR 
+incorrectness OF) an attempted solution, with respect 
+parallel PROCESSES have been examined BY 
+operating systems, parallel PROCESSES 
+subproblems, IN THE form OF parallel PROGRAMS, AND informal 
+---------------------------------------------------------------
+CACM-2865
+verification, CONCURRENT PROCESSES, synchronization, 
+CORRECTNESS proof can be used to prove such 
+OF properties OF parallel PROGRAMS is presented. 
+is IN some sense complete FOR partial CORRECTNESS. 
+AND program termination. TECHNIQUES FOR verifying 
+---------------------------------------------------------------
+CACM-2320
+a data structure shared BY CONCURRENT PROCESSES 
+operating systems, CONCURRENT PROCESSES, shared 
+operating systems but also within user PROGRAMS. 
+OF PROGRAMS AND permits a large class OF time-dependent 
+competing PROCESSES to any degree desired. THESE 
+---------------------------------------------------------------
+CACM-2376
+parallel programming, multiprogramming, program CORRECTNESS, 
+synchronization OF communicating PROCESSES 
+AND many receiving PROCESSES WHICH remove messages 
+many sending PROCESSES WHICH deposit messages IN a buffer 
+THE same MESSAGE frame IN THE buffer nor will they run into a deadlock. 
+---------------------------------------------------------------
+CACM-2890
+routing ALGORITHMS, adaptive routing, quadratic routing, 
+on quadratic adaptive routing ALGORITHMS 
+THE optimal MESSAGE routing AND THE other to illustrate 
+DISTRIBUTED network, computer network, MESSAGE switching 
+---------------------------------------------------------------

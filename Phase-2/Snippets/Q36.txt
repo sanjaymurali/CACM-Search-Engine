@@ -1,0 +1,68 @@
+CACM-2739
+natural LANGUAGE, PARSING, grammar, programming languages 
+sentences have been based on augmented CONTEXT-FREE 
+be useful and adequate FOR computerized natural LANGUAGE 
+on ten years' experience PARSING text sentences with 
+FOR the computer analysis of natural LANGUAGE 
+---------------------------------------------------------------
+CACM-1350
+the augmented predictive analyzer FOR CONTEXT-FREE 
+with two other PARSING algorithms: a selective 
+parse ALGORITHM" and an immediate constituent 
+a standard-form grammar, it can accept the LANGUAGE 
+ALGORITHM FOR arbitrary CONTEXT-FREE languages is compared 
+---------------------------------------------------------------
+CACM-2112
+RECOGNITION and PARSING may be treated as special cases of the translation 
+PARSING, meta-compilers, pushdown transducer, syntax 
+expression, CONTEXT-FREE languages, translation, recognizers, 
+CONTEXT-FREE languages. a formal procedure is given FOR deriving from 
+---------------------------------------------------------------
+CACM-2110
+an efficient CONTEXT-FREE PARSING ALGORITHM 
+syntax analysis, PARSING, CONTEXT-FREE grammar, 
+class of grammars, which seems to include most practical CONTEXT-FREE 
+programming LANGUAGE grammars. in an empirical comparison it appears 
+and the familiar top-down ALGORITHM. it has a time bound proportional to 
+---------------------------------------------------------------
+CACM-2754
+PARSING, electrocardiogram. 
+and tabular PARSING techniques. several parameters serve 
+ALGORITHM incorporating piecewise linear approximation 
+approximation, CONTEXT-FREE grammar, bottom-up 
+a syntactic ALGORITHM FOR peak detection 
+---------------------------------------------------------------
+CACM-2030
+formal LANGUAGE theory, PARSING, PARSING algorithms, RECOGNITION algorithms 
+derivations and a PARSING ALGORITHM which finds 
+required by the ALGORITHM is essentially no more than the required to 
+FOR grammars which contain loops. the ALGORITHM is 
+context-sensitive grammars, context-sensitive PARSING, formal grammars, 
+---------------------------------------------------------------
+CACM-2836
+of a CONTEXT-FREE grammar. an ALGORITHM is presented 
+in addition, the correctness of the ALGORITHM 
+involving probabilistic PARSING OR combinatorial 
+cacm september, 1976 
+---------------------------------------------------------------
+CACM-2703
+FOR including the semantics of a CONTEXT-FREE LANGUAGE 
+specifically, it is shown that any deterministic ALGORITHM 
+version of knuth's circularity testing ALGORITHM 
+with the syntax of the LANGUAGE. the circularity 
+attribute grammars, circularity problem, CONTEXT-FREE 
+---------------------------------------------------------------
+CACM-2061
+a CONTEXT-FREE grammar is then introduced and its connection with 
+in the second part, the utility of the ALGORITHM is discuss 
+an ALGORITHM FOR the construction of bounded-context parsers 
+the ALGORITHM is claimed to be particularly useful in the 
+the definition of a CONTEXT-FREE grammar and the working of a 
+---------------------------------------------------------------
+CACM-2301
+floyd production LANGUAGE, PARSING, syntax 
+algorithmic LANGUAGE processing,bottom-up PARSING, 
+on an extension of floyd production LANGUAGE (fpl). included 
+a bottom-up scheme FOR PARSING them, based 
+is an ALGORITHM, similar to that of deremer's, 
+---------------------------------------------------------------

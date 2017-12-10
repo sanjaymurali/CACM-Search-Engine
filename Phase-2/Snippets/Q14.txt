@@ -1,0 +1,61 @@
+CACM-2348
+merge SORT algorithm [m1] (algorithm a426) 
+SORT, merge 
+cacm may, 1972 
+2679 4 2348 
+---------------------------------------------------------------
+CACM-0132
+math SORT (algorithm 23) 
+132 5 132 
+ca601103 jb march 20, 1978 8:03 pm 
+feurzeig, w. 
+---------------------------------------------------------------
+CACM-0662
+shuttle SORT (algorithm 175) 
+cacm december, 1963 
+ca631212 jb march 13, 1978 2:52 pm 
+662 5 662 
+---------------------------------------------------------------
+CACM-0701
+shuttle SORT (algorithm 175) 
+ca631024 jb march 13, 1978 5:29 pm 
+701 5 701 
+cacm october, 1963 
+---------------------------------------------------------------
+CACM-2397
+optimizing the polyphase SORT (corrigendum) 
+2397 5 2397 
+cacm january, 1972 
+shell, d. l. 
+---------------------------------------------------------------
+CACM-0841
+shuttle SORT (algorithm 175) 
+cacm june, 1963 
+841 5 841 
+ca630608 jb march 14, 1978 10:20 am 
+---------------------------------------------------------------
+CACM-2563
+merge SORT algorithm (r426) 
+2563 5 2563 
+ca741211 jb january 13, 1978 3:43 pm 
+2563 4 2563 
+---------------------------------------------------------------
+CACM-1724
+a block SORT with internal sorts, and to the 
+a generalized partial pass block SORT 
+block SORT, partial pass SORT, direct access devices, 
+pass column SORT by ashenhurst and the amphisbaenic 
+SORT, amphisbaenic 
+---------------------------------------------------------------
+CACM-0853
+the cobol SORT verb 
+858 6 853 
+849 6 853 
+857 6 853 
+---------------------------------------------------------------
+CACM-0857
+methods used in fact to SORT such files are discussed. 
+glore, j. b. 
+858 6 857 
+853 6 857 
+---------------------------------------------------------------

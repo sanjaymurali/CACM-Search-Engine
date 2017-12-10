@@ -1,0 +1,67 @@
+CACM-3047
+IMAGE transformation, IMAGE matching, shaded IMAGES 
+we illustrate THE technique using landsat IMAGES AND DIGITAL terrain models. 
+OF such IMAGES with DIGITAL terrain models. IN addition, 
+light or radar IMAGES requires exact alignment 
+synthetic IMAGE intensity IS calculated using THE 
+---------------------------------------------------------------
+CACM-1686
+mathematics, IMAGE PROCESSING 
+optical AND DIGITAL holography ARE reviewed. 
+AND APPLICATIONS OF computer holography ARE 
+THE MATHEMATICAL model AND computational techniques 
+OF THE IMAGES reconstructed from DIGITAL holograms ARE presented. 
+---------------------------------------------------------------
+CACM-3013
+IMAGE PROCESSING, pattern recognition, edge detection 
+TO one OF THE standard DIGITAL APPROXIMATIONS TO THE gradient. 
+IS similar TO THE DIGITAL laplacian, but USES THE max, rather 
+some new methods OF detecting step edges IN DIGITAL pictures 
+AND centroid OF a neighborhood as AN edge VALUE, IS also 
+---------------------------------------------------------------
+CACM-2283
+triangular arrays, IMAGE PROCESSING, skeleton 
+TO IMAGE irregularities AND NOISE, yet it will yield 
+a thinned IMAGE with AN overall reduced number OF 
+thinning algorithms, rectangular, hexagonal, 
+---------------------------------------------------------------
+CACM-2142
+encoding, IMAGE PROCESSING, linear programming, 
+approximation, biomedical IMAGE PROCESSING, efficient 
+MATHEMATICAL programming, monte carlo techniques, optimization, 
+AND THE problem IS TO FIND THE "most representative" 
+picture PROCESSING, stereology, x-ray analysis 
+---------------------------------------------------------------
+CACM-2065
+IMAGE PROCESSING, biomedical IMAGE PROCESSING, on-line IMAGE PROCESSING, 
+semiautomatic IMAGE PROCESSING, data structure, structure operators, 
+karyotyping, karyotyping, list PROCESSING picture PROCESSING 
+system IS intended for a wide variety OF biomedical APPLICATIONS. 
+new pictures-forms. many OF THE ideas ARE taken from THE symbolic MATHEMATICAL 
+---------------------------------------------------------------
+CACM-3015
+biomedical IMAGE PROCESSING, IMAGE reconstruction, 
+practical consequences for IMAGE reconstruction OF THE 
+relaxation methods for IMAGE reconstruction 
+IN this paper, it IS shown THAT, for a consistent 
+x-ray tomography, MATHEMATICAL programming, 
+---------------------------------------------------------------
+CACM-2125
+digitized IMAGE, connection tree, minimal polygon, 
+contour from a digitized IMAGE IS illustrated. 
+THE IMAGE ARE first obtained by a modified ledley algorithm IN one 
+IMAGE scan. a minimal perimeter polygon subjected TO specified constraints 
+---------------------------------------------------------------
+CACM-2370
+recognition,and IMAGE PROCESSING ARE presented. 
+terminal, IMAGE PROCESSING, pattern recognition 
+AN experimental laboratory for pattern recognition AND signal PROCESSING 
+AND programming support ARE described AND typical APPLICATIONS 
+DIGITAL computer, dot-mode AND vector displays, 
+---------------------------------------------------------------
+CACM-1144
+manipulation OF THE DIGITAL IMAGE OF THE nuclear 
+DIGITAL computer determination OF alpha source activity 
+it IS believed THAT THE technique, using a DIGITAL computer, 
+has many USES AND APPLICATIONS IN THE field 
+---------------------------------------------------------------

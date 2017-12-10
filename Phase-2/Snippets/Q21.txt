@@ -1,0 +1,63 @@
+CACM-2337
+sorting, COMPUTATIONAL COMPLEXITY, COMPUTATIONAL combinatorics 
+ALGORITHMS is given. one new algorithm for 
+a sorting problem AND its COMPLEXITY 
+technique. 
+---------------------------------------------------------------
+CACM-2997
+COMPUTATIONAL COMPLEXITY, convex hull, optimal ALGORITHMS, 
+proposed ALGORITHMS is optimal within a multiplicative 
+least o(n log n) operations, the time COMPLEXITY of the 
+log n) operations. the presented ALGORITHMS use the "divide 
+---------------------------------------------------------------
+CACM-3086
+COMPUTATIONAL COMPLEXITY, COMPUTATIONAL models, 
+analysis of ALGORITHMS, combinatorial problems, 
+the decision tree COMPLEXITY of computing the 
+discussing the effects of the COMPUTATIONAL model on 
+on the COMPLEXITY of computing the measure of u[ai, bi] 
+---------------------------------------------------------------
+CACM-2932
+COMPLEXITY of computations 
+in tractable problems, probabilistic ALGORITHMS 
+the framework for research in the theory of COMPLEXITY 
+COMPLEXITY of computations, algebraic COMPLEXITY, 
+---------------------------------------------------------------
+CACM-2837
+concrete COMPUTATIONAL COMPLEXITY, upper bounds, 
+COMPLEXITY vi(n) of the i-th selection problem 
+selection problem, ALGORITHMS, comparison problems, 
+3150 4 2837 
+---------------------------------------------------------------
+CACM-2927
+COMPUTATIONAL COMPLEXITY, sieve, prime number generation, 
+given an integer n, what is the COMPUTATIONAL 
+COMPLEXITY. this upper bound is shown to be equivalent 
+AND the bit COMPLEXITY to o(n logn log log logn). 
+COMPLEXITY of finding all the primes less than 
+---------------------------------------------------------------
+CACM-3018
+cover, edge clique cover, COMPUTATIONAL COMPLEXITY, 
+ALGORITHMS which always produce solutions 
+problem is established which allows ALGORITHMS 
+keyword conflicts, intersection graphs, node clique 
+---------------------------------------------------------------
+CACM-2325
+of computation, ALGORITHMS, continuous ALGORITHMS 
+of continuous ALGORITHMS. four of the components 
+(finite precision number systems, COMPUTATIONAL 
+COMPLEXITY), synthesis AND analysis of ALGORITHMS, 
+---------------------------------------------------------------
+CACM-1309
+reports, regardless of COMPUTATIONAL COMPLEXITY or format 
+processing through any COMPUTATIONAL sequence, 
+1309 5 1309 
+of large data banks containing data in elementary form. 
+---------------------------------------------------------------
+CACM-3131
+number representation, logarithmic arithmetic, COMPUTATIONAL 
+speed with hardware arithmetic for many applications. ALGORITHMS 
+ALGORITHMS especially useful for microcomputer control AND other 
+focus is a number system AND supporting COMPUTATIONAL 
+speed, COMPUTATIONAL accuracy, microcomputer applications 
+---------------------------------------------------------------

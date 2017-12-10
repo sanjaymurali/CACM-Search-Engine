@@ -1,0 +1,61 @@
+CACM-3125
+GLOBAL OPTIMIZATION by suppression OF partial redundancies 
+computations out OF LOOPS are often done separately, WITH invariants 
+optimizer, OPTIMIZATION, compiler, compilation, 
+twice ON a given execution path. such computations are termed partially 
+---------------------------------------------------------------
+CACM-2701
+a new algorithm for GLOBAL flow analysis ON 
+number OF exits from program LOOPS. consequently 
+a fast AND usually linear algorithm for GLOBAL 
+GLOBAL flow analysis, data flow, code OPTIMIZATION, 
+---------------------------------------------------------------
+CACM-2195
+GLOBAL approach, greater flexibility AND adequacy 
+the complexity OF the OPTIMIZATION process is then discussed. 
+GLOBAL recognition, parallel processing, dynamic 
+programming, interaction graph, secondary OPTIMIZATION problem 
+---------------------------------------------------------------
+CACM-2835
+algorithm is given to further improve OPTIMIZATION. 
+recursion, compiler OPTIMIZATION 
+recursion analysis for compiler OPTIMIZATION 
+use in compiler OPTIMIZATION. implementation considerations 
+---------------------------------------------------------------
+CACM-1807
+fortran, OPTIMIZATION, expressions, compilers, 
+LOOPS, common subexpressions, invariant calculations 
+invariant calculations from do LOOPS, (3) to efficiently 
+OPTIMIZATION OF expressions in fortran 
+---------------------------------------------------------------
+CACM-2344
+algorithm, including the scheduling itself, require OPTIMIZATION, 
+ON the OPTIMIZATION OF performance OF time-sharing systems by simulation 
+time-sharing, simulation studies, OPTIMIZATION, 
+manner AND would not benefit from OPTIMIZATION. features 
+features would benefit from OPTIMIZATION whereas 
+---------------------------------------------------------------
+CACM-2944
+requires GLOBAL flow analysis to be performed ON the 
+OPTIMIZATION, reference counts, storage 
+used to FIND actions that cancel when the code is executed 
+garbage collection, GLOBAL flow analysis, list processing, 
+---------------------------------------------------------------
+CACM-2877
+the GLOBAL data relationships in a program 
+program OPTIMIZATION, data flow analysis, 
+cacm march, 1976 
+which determines ALL the definitions which can 
+---------------------------------------------------------------
+CACM-2923
+AND derives new GLOBAL information helpful in solving 
+many familiar GLOBAL flow analysis problems. an 
+advanced methods OF program certification AND OPTIMIZATION. 
+2923 4 2923 
+---------------------------------------------------------------
+CACM-2716
+GLOBAL query OPTIMIZATION, (2) exploiting disjoint 
+relational database, database OPTIMIZATION, inverted 
+2710 4 2716 
+2901 4 2716 
+---------------------------------------------------------------

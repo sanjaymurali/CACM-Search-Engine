@@ -1,0 +1,66 @@
+CACM-2695
+a GRAPH THEORETIC algorithm which examines an arbitrary 
+eigenvalues, GRAPH, bandwidth, SPARSE matrix 
+in numerical linear algebra. consider the class of SPARSE 
+MATRICES which can be tridiagonalized using 
+---------------------------------------------------------------
+CACM-2769
+although it executes faster for SPARSE MATRICES 
+matrix, directed GRAPH, digraph, boolean 
+the transitive closure of binary relations 
+2769 4 2769 
+---------------------------------------------------------------
+CACM-2986
+an expression whose operands are SPARSE relations and 
+various computations on relations, boolean MATRICES, 
+a grammer. the heart of the ALGORITHMS is a general 
+matrix, directed GRAPH, wirth-weber precedence 
+computational complexity, SPARSE relation, boolean 
+---------------------------------------------------------------
+CACM-2490
+graphs,analysis of ALGORITHMS, GRAPH manipulation 
+efficient ALGORITHMS for GRAPH manipulation [h] (algorithm a447) 
+of a GRAPH into simple paths is iterative 
+efficient ALGORITHMS are presented for partitioning 
+a GRAPH into connected components, biconnected 
+---------------------------------------------------------------
+CACM-2368
+GRAPH ALGORITHMS, GRAPH processing, shannon switching 
+games, game playing, GRAPH theory, positional 
+ALGORITHMS. the two players in a shannon switching game, 
+an implemented GRAPH algorithm for winning shannon switching games 
+is a good example of the implementation of GRAPH 
+---------------------------------------------------------------
+CACM-2780
+SPARSE MATRICES, triangular factorization, elements 
+on computing certain elements of the inverse of a SPARSE matrix 
+algorithm are given; the dependency relationships 
+cacm march, 1975 
+---------------------------------------------------------------
+CACM-2630
+in a directed GRAPH. these ALGORITHMS generalize the floyd 
+two ALGORITHMS are presented that construct 
+GRAPH, network, shortest path, algorithm 
+the shortest path between every pair of vertices in a directed GRAPH. 
+on computing sets of shortest paths in a GRAPH 
+---------------------------------------------------------------
+CACM-2289
+where n is the number of nodes in the GRAPH. straightforward 
+GRAPH theory, cellular logic-in-memory arrays, 
+of many GRAPH problems. for example, the adjacency 
+ALGORITHMS are presented for the solution of certain 
+these ALGORITHMS exhibit a computation time that in 
+---------------------------------------------------------------
+CACM-2484
+storage allocation, tree, GRAPH 
+a general method for constructing such a tree or a GRAPH 
+base as that of constructing a tree or a GRAPH. 
+and formulating ALGORITHMS under a given set of constraints. 
+different relations and ALGORITHMS results in different 
+---------------------------------------------------------------
+CACM-3139
+methods TO color the vertices of a GRAPH which rely 
+np-complete, GRAPH structure, balancing, GRAPH 
+upon the comparison of the degrees and structure of a GRAPH. a method 
+new methods TO color the vertices of a GRAPH 
+---------------------------------------------------------------

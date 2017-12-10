@@ -1,0 +1,66 @@
+CACM-2634
+STATISTICAL computation, STATISTICAL software, 
+correlation, REGRESSION, factor analysis, one-way analysis OF variance 
+AND use, TESTS were made FOR each OF these systems, 
+PACKAGES FOR general use. among those most widely available 
+installations now offer various types OF STATISTICAL 
+---------------------------------------------------------------
+CACM-1709
+formulas, correlation, LINEAR STATISTICAL MODELS, 
+multiple LINEAR REGRESSION, STATISTICAL recurrence 
+FOR stepwise multiple LINEAR REGRESSION requires 
+STATISTICAL computer programs, curve fitting 
+a modification OF efroymson's technique FOR stepwise REGRESSION analysis 
+---------------------------------------------------------------
+CACM-1344
+method OF performing calculations FOR STATISTICAL MODELS 
+based upon a machine-readable STATISTICAL model 
+fixes, mixed, AND random analysis OF variance MODELS 
+STATISTICAL computations based upon algebraically specified MODELS 
+COMPONENTS AND calculated f statistics FOR the model terms is INCLUDED. 
+---------------------------------------------------------------
+CACM-2395
+nonlinear REGRESSION with LINEAR constraints. the 
+REGRESSION method is published in jacm, july 1970. 
+SQUARES, inequality, constraints, iteration 
+nonlinear equations, nonlinear REGRESSION, nonlinear 
+quadratic programming FOR nonlinear REGRESSION 
+---------------------------------------------------------------
+CACM-1816
+GENERALIZED LEAST SQUARES fit by orthogonal 
+watson, w. T. 
+three-term recurrence, polynomial REGRESSION, 
+LEAST SQUARES, curve fitting, orthogonal polynomials, 
+---------------------------------------------------------------
+CACM-1171
+ALGORITHMS FOR LINEAR programming 
+between the ALGORITHMS is not only the number 
+a STATISTICAL comparison OF the primal-dual 
+a REGRESSION analysis, that the relevant parameters 
+FOR solving LINEAR programming problems has been made under 
+---------------------------------------------------------------
+CACM-1474
+TESTS OF probabilistic MODELS FOR propagation OF roundoff errors 
+errors is in some sense STATISTICAL. the purpose OF this 
+hull, T. e. 
+probabilistic MODELS FOR roundoff error, AND then to 
+both rare AND mild. the TEST techniques CAN also BE 
+---------------------------------------------------------------
+CACM-1398
+sterling, T. 
+rather than a "STATISTICAL" criterion by which variables 
+OF the type OF MULTIVARIATE problem that is 
+robot data screening: a solution to MULTIVARIATE 
+---------------------------------------------------------------
+CACM-2825
+the bmd AND bmdp series OF STATISTICAL computer programs 
+factor analysis, graphics, outliers, REGRESSION, time series, transformations 
+2825 5 2825 
+2825 4 2825 
+---------------------------------------------------------------
+CACM-1631
+TESTS. the TESTS ARE described AND the results 
+systems simulator (gpss) were subjected to STATISTICAL 
+recommended that suitable TESTS BE applied to all 
+OF the TESTS ARE presented. these particular TESTS indicate 
+---------------------------------------------------------------

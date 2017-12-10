@@ -1,0 +1,69 @@
+CACM-3139
+upon THE comparison OF THE degrees AND structure OF a GRAPH. a METHOD 
+methods TO color THE vertices OF a GRAPH which rely 
+np-complete, GRAPH structure, balancing, GRAPH 
+COLORING, scheduling, comparison OF THE methods 
+THIS paper describes efficient new HEURISTIC 
+---------------------------------------------------------------
+CACM-2883
+can be solved USING well-known GRAPH search ALGORITHMS. 
+time. moreover, if HEURISTIC search methods 
+an application OF HEURISTIC search methods TO edge AND contour detection 
+path, HEURISTIC search methods, problem solving 
+THIS paper presents a METHOD FOR detecting edges 
+---------------------------------------------------------------
+CACM-3018
+between THIS edge-clique-cover problem AND THE GRAPH COLORING 
+ALGORITHMS which always produce solutions 
+keyword conflicts AND described a HEURISTIC 
+problem IN connection with THIS METHOD. 
+problem is established which allows ALGORITHMS 
+---------------------------------------------------------------
+CACM-2177
+GRAPH. THE GRAPH may be represented either (i) as an 
+cycle set, GRAPH, lobe, lobe DECOMPOSITION 
+MATRIX. if w denotes THE word length OF THE machine 
+GRAPH, separable, spanning tree, web grammar 
+an efficient METHOD is presented FOR finding 
+---------------------------------------------------------------
+CACM-2289
+where n is THE number OF nodes IN THE GRAPH. straightforward 
+each MATRIX element is stored IN one cell OF THE array, 
+GRAPH theory, cellular logic-in-memory arrays, 
+ESPECIALLY FOR problems whose solutions appear TO be inherently 
+OF many GRAPH problems. FOR example, THE adjacency 
+---------------------------------------------------------------
+CACM-2484
+storage allocation, tree, GRAPH 
+base as THAT OF constructing a tree OR a GRAPH. 
+AND formulating ALGORITHMS under a given set OF constraints. 
+IN THIS general construction METHOD; namely, a set OF 
+different relations AND ALGORITHMS results IN different 
+---------------------------------------------------------------
+CACM-2368
+GRAPH ALGORITHMS, GRAPH processing, shannon switching 
+games, game playing, GRAPH theory, positional 
+ALGORITHMS. THE two players IN a shannon switching game, 
+an implemented GRAPH algorithm FOR winning shannon switching games 
+is a good example OF THE implementation OF GRAPH 
+---------------------------------------------------------------
+CACM-2619
+GRAPH COLORING conditions FOR THE existence 
+OF a coloration OF a GRAPH is THE required necessary 
+OF a GRAPH. THE preconditions correspond TO THE unavailability 
+cacm august, 1974 
+---------------------------------------------------------------
+CACM-1145
+ISOMORPHISM, OR TO demonstrate THAT none exists. no one 
+FOR. THE situation is similar TO THAT prevailing 
+git-a HEURISTIC program FOR testing pairs 
+ISOMORPHISM tester-incorporates a variety OF processes 
+practical ALGORITHMS ARE unknown (FOR THE interesting 
+---------------------------------------------------------------
+CACM-3156
+THE algorithm can be used TO FIND THE transitive closure 
+we present a parallel algorithm which uses n2 processors TO FIND THE connected 
+OF a symmetric boolean MATRIX. we assume THAT THE processors have 
+components OF an undirected GRAPH with n vertices IN time o(log2n). an 
+GRAPH theory, parallel processing, ALGORITHMS, 
+---------------------------------------------------------------
