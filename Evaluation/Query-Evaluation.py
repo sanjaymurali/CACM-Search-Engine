@@ -2,9 +2,9 @@ import os
 
 import operator
 
-MODEL = "Extra_Credit_Stopped"
+MODEL = "BM25_Proximity_Enabled"
 
-INPUT_SCORES_DIR = "../Extra Credit/BM25/BM25 Stopped Scores"
+INPUT_SCORES_DIR = "../Extra Credit/BM25/BM25 Scores"
 OUTPUT_TEXT = MODEL+"_Precision_and_Recall.txt"
 OUTPUT_PRECISION_20 = MODEL+"_Precision_at_20.txt"
 OUTPUT_PRECISION_5 = MODEL+"_Precision_at_5.txt"

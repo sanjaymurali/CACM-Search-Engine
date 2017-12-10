@@ -4,10 +4,10 @@ import os
 
 
 EXCEL_FILE_NAME = "BM_25_PSEUDO_RESULTS"
-RESULTS_FOLDER_NAME = "BM25 Psuedo Scores"
+RESULTS_FOLDER_NAME = "BM25 Pseudo Scores"
 
 if not os.path.isdir(RESULTS_FOLDER_NAME):
-    print("The Directory with BM25 Psuedo Scores doesnt exist!")
+    print("The Directory with BM25 Pseudo Scores doesnt exist!")
 
 
 book = xlwt.Workbook()
