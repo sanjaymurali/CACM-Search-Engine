@@ -5430,5 +5430,5 @@ Reciprocal Rank of Query 63: 1
 Average Precision of Query 64: 0.5
 Reciprocal Rank of Query 64: 2
 
-Mean Average Precision: 0.278843406804
+Mean Average Precision: 0.343191885297
 Mean Reciprocal Rank: 0.591723544943

@@ -112,9 +112,13 @@ def average_precision(query_id):
 
 def mean_average_precision():
     sum = 0
+    counter = 0
     for ap in AVERAGE_PRECISIONS:
-        sum += ap
-    map = float(sum)/float(64)
+        counter += 1
+        if ap != 0:
+            sum += ap
+    print counter
+    map = float(sum)/float(counter)
     return map
 
 def write_precision_recall():
@@ -182,6 +186,7 @@ def write_precision_at_20():
 
 def mean_reciprocal_ranks():
     sum = 0
+    print len(RECIPROCAL_RANKS)
     for rank in RECIPROCAL_RANKS:
         sum += float(1.0/float(rank))
     mrr = float(sum)/float(len(RECIPROCAL_RANKS))
