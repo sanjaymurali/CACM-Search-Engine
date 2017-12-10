@@ -2,9 +2,9 @@ import os
 
 import operator
 
-MODEL = "TF_IDF_Stopped_Run"
+MODEL = "Extra_Credit_Stopped"
 
-INPUT_SCORES_DIR = "../Task 3/Three_baseline_runs_for_Stopping/tf-idf/TF-IDF Scores"
+INPUT_SCORES_DIR = "../Extra Credit/BM25/BM25 Stopped Scores"
 OUTPUT_TEXT = MODEL+"_Precision_and_Recall.txt"
 OUTPUT_PRECISION_20 = MODEL+"_Precision_at_20.txt"
 OUTPUT_PRECISION_5 = MODEL+"_Precision_at_5.txt"

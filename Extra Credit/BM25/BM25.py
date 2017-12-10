@@ -8,7 +8,7 @@ import itertools
 
 CORPUS_DIR = "../Processed_stopped_corpus"
 QUERY_FILE = "../queriesRedefined.txt"
-BM25_SCORE_DIR = "BM25 Scores Stopped"
+BM25_SCORE_DIR = "BM25 Stopped Scores"
 CACM_REL = "cacm.rel.txt"
 
 # for creating inverted index
@@ -96,17 +96,16 @@ def calculate_BM25(query_words, query_id):
     TPSRV = dict()
 
     for doc_id in doc_score:
+        TPSRV_intermediate = 0
         for each_pair in query_pairs:
             first_part_tpsrv = calculate_wdi(doc_id, each_pair, qwi)
             if qwi.has_key(each_pair[0]) and qwi.has_key(each_pair[1]):
                 second_part_tpsrv = min(qwi[each_pair[0]], qwi[each_pair[1]])
-            else:
-                second_part_tpsrv = 0
-            TPSRV_intermediate += float(first_part_tpsrv) * float(second_part_tpsrv)
-            if TPSRV.has_key(doc_id):
-                TPSRV.update({doc_id: TPSRV_intermediate})
-            else:
-                TPSRV[doc_id] = TPSRV_intermediate
+                TPSRV_intermediate += float(first_part_tpsrv) * float(second_part_tpsrv)
+                if TPSRV.has_key(doc_id):
+                    TPSRV.update({doc_id: TPSRV_intermediate})
+                else:
+                    TPSRV[doc_id] = TPSRV_intermediate
 
     for doc_id in doc_score:
         value = doc_score[doc_id]
@@ -139,7 +138,6 @@ def allowed_query_pair(term1, term2):
 
 
 def calculate_wdi(doc_id, pair, qwi):
-    TPSRV = dict()
     try:
         term1 = INVERTED_INDEX[pair[0]].get(doc_id)
         term2 = INVERTED_INDEX[pair[1]].get(doc_id)
@@ -155,7 +153,6 @@ def calculate_wdi(doc_id, pair, qwi):
         else:
             tpi = 0
             k1 = 1.2
-            k2 = 100
             b = 0.75
             K = k1 * ((1 - b) + b * (float(LENGTH_OF_DOC[doc_id]) / float(AVERAGE_LENGTH_OF_DOC)))
             for each_pair in pairs_to_consider:
@@ -165,7 +162,6 @@ def calculate_wdi(doc_id, pair, qwi):
             second_part_denominator = float(K + tpi)
             wd = float(first_part) * float(second_part_numerator/second_part_denominator)
             return wd
-        # print doc_id + " " + pair[0] + " " + str(term1['position']) + " " + pair[1] + " " + str(term2['position'])
 
 def calculate_qwi(term, term_frequency_in_query):
     first_part = float(term_frequency_in_query)/float(100.0 + term_frequency_in_query)
@@ -323,8 +319,6 @@ def start():
     get_average_length_of_doc() # this function helps in calculating "AVDL", average document length in the corpus
     relevance_info()
     BM25()
-    #print "BM25 Scores Generated!"
-    # query = "list all articles on el1 and ecl el1 may be given as el1 i dont remember how they did it"
-    # calculate_BM25(query.split(),"64")
+
 
 start()
