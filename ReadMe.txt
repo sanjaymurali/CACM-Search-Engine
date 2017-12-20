@@ -1,12 +1,6 @@
-Final Project:
+Final Project for CS6200:
 Goal-> To design and build a CACM based information retrieval system based on different ranking algorithms and then
 evaluate their performance
-------------------------------------------------------------------------------------------------------------------------
-Members:
-
-Sanjay Murali
-Chaitanya Kaul
-Akshay Singh
 ------------------------------------------------------------------------------------------------------------------------
 
 Environment: Mac/Windows
